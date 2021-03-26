@@ -1,0 +1,891 @@
+---
+title: Bee foraging distances dependent on body mass and level of eusociality - a
+  meta-analysis
+author: Kendall, L.K.^1^, Mola, J. ^2^, Bartomeus, I.^3^,Cariveau, D. ^4^, Portman, Z.^4^ (TBC)
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+html_document: default
+editor_options: null
+chunk_output_type: console
+---
+
+*Affiliations:*
+
+^1^ Centre for Environmental and Climate Science, Lunds Universitet, Lund, Sweden 
+^2^ U.S.D.A. Geological Survey? 
+^3^ Estación Biológica de Doñana (EBD-CSIC), Avda. Américo Vespucio 26, Isla de la Cartuja, E-41092 Sevilla, Spain   
+^4^ University of Minnesota
+
+*Correspondence: liam.k.kendall@gmail.com   
+
+```{r setup dataframes, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#libraries
+library(brms)
+library(plyr)
+library(tidyverse)
+library(glmmTMB)
+library(DHARMa)
+library(ggplot2)
+library(pollimetry)
+library(phytools)
+library(ape)
+library(performance)
+
+##dataframes
+distances <- read.csv("data/species_distances_final.csv",
+                      sep=";",dec=",",
+                      stringsAsFactors = FALSE)
+colnames(distances)[1] = "Authors"
+
+distances$spp<-distances$Genus_species
+distances$obs<-1:nrow(distances)
+
+#merge with traits
+traits <- read.csv("data/species_traits.csv",
+                   sep=";",dec=",",
+                   stringsAsFactors = FALSE)
+
+data("pollimetry_dataset")
+traits[traits$Genus_species%in%"Megachile_femorata","ITD"] = mean(pollimetry_dataset[pollimetry_dataset$Genus%in%"Megachile" & pollimetry_dataset$Sex%in%"Female","IT"])
+
+#M. femorata = itd = average of other Megachile from pollimetry dataset
+
+#log distance and ITD
+distances$log.dist<-log(distances$Distance)
+traits$log.it<-log(traits$ITD)
+
+
+distances$Genus<-word(distances$Genus_species,1,sep="_")
+
+distances$limits <- ifelse(distances$Metric2%in%c("feeder","homing"),"physio","funct")
+#join
+forage.traits <- distances%>%
+  left_join(traits[,-1],by=c("Genus_species"))%>%
+  filter(!is.na(ITD)==T)%>%#minus 3 
+  filter(!Sex_Imp%in%c("Male"))%>%#minus 3 
+  filter(!Notes1%in%c("dispersal distance"))%>%
+  filter(!Metric2%in%c(NA))%>%
+  filter(!distance_type2%in%c("Observed"))%>%
+  mutate(Sex_Imp=revalue(Sex_Imp,c("Female_Queen" = "Female")))#%>%
+  #filter(!distance_type%in% 
+  #c("Minimum"))%>%
+  #filter(!is.na(Metric2)==T)
+
+#observed distances
+forage.traits.obs <- distances%>%
+  left_join(traits[,-1],by=c("Genus_species"))%>%
+  filter(!is.na(ITD)==T)%>%#minus 3 
+  filter(!Sex_Imp%in%c("Male"))%>%#minus 3 
+  filter(!Notes1%in%c("dispersal distance"))%>%
+  filter(!Metric2%in%c(NA))%>%
+  filter(distance_type2%in%c("Observed"))
+
+#Removed males, queens
+#Minimum is pollen mapping study with "minimum distance to a given pollen source" = incompatible
+
+#Aggregate all mean / median / mode / typical estimates
+#forage.traits$distance_type2 <- 
+#  revalue(forage.traits$distance_type,
+#          c("max_50" = "Central", #homing 50% 
+##            "Mode" = "Central",
+##            "Mean" = "Central",
+#            "Median" = "Central",
+#            "Typical" = "Central",
+##            "max_90" = "Max", #90% 
+#            "max_95" = "Max")) #95% homing 
+
+#max dataframe 158
+forage.traits.max <- forage.traits%>%
+  filter(distance_type2%in%"Max")
+
+#mean dataframe 111
+forage.traits.mean <- forage.traits%>%
+  filter(distance_type2%in%"Typical")
+
+#max and mean solitary
+forage.traits.max.sol<-forage.traits.max%>%
+  filter(social_tree%in%"Solitary")%>%
+  filter(!Lecty%in%c("unclear",NA))
+
+forage.traits.mean.sol<-forage.traits.mean%>%
+  filter(social_tree%in%"Solitary")%>%
+  filter(!Lecty%in%c("unclear",NA))
+
+##phylo setup (same as pollimetry)
+
+#tree
+bee.trees=read.tree(file="data/hedtke_genera_tree.txt")
+
+##Use tree 1 (376 genera) #Genera-level phylogney
+bee.mcmc=bee.trees[[1]]%>%
+  root(outgroup="Tachysphex")%>%
+  as.phylo
+
+bee.cal<-makeChronosCalib(bee.mcmc)
+bee.mcmc=chronos(bee.mcmc,calibration = bee.cal)
+
+bee.max.tree=drop.tip(bee.mcmc, setdiff(bee.mcmc$tip.label,
+                                        unique(forage.traits.max$Genus)))
+
+bee.mean.tree=drop.tip(bee.mcmc, setdiff(bee.mcmc$tip.label,
+                                         unique(forage.traits.mean$Genus)))
+
+bee.max.tree$node.label=NULL
+bee.mean.tree$node.label=NULL
+
+#load models
+setwd("./model_outputs/")
+file_names=as.list(dir(pattern=".rdata"))
+for(i in 1:length(file_names)) load(file_names[[i]])
+
+#list model objects
+mod.list <- list(max.IT.brm,
+max.euc.phylo.full.brm,
+max.euc.phylo.reduced.brm,
+max.func.phylo.brm,
+max.func.euc.full.phylo.brm,
+max.func.euc.red.phylo.brm,
+max.lecty.phylo.brm.1,
+max.lecty.phylo.brm.2,
+mean.IT.brm,
+mean.euc.phylo.full.brm,
+mean.euc.phylo.reduced.brm,
+mean.func.phylo.brm,
+mean.func.euc.full.phylo.brm,
+mean.func.euc.red.phylo.brm,
+mean.metric.phylo.brm,
+mean.lecty.phylo.brm.1,
+mean.lecty.phylo.brm.2)
+
+names(mod.list) <- c("maxIT","maxEUF","maxEUR","maxFUNCsimple","maxFUNCeusFULL","maxFUNCeusRED","maxLEF","maxLER",
+                     "meanIT","meanEUF","meanEUR","meanFUNCsimple","meanFUNCeusFULL","meanFUNCeusRED",
+                         "meanMET","meanLEF","meanLER")
+
+model.r2s <- do.call("rbind", lapply(mod.list,function(x) r2(x)))
+
+```
+
+##THOUGHTS - while writing and reading
+
+* Is distance the right word? I cant decide between distance or range, range seems more synonymous with resource use and therefore maybe better i.e. they will forage within this range, rather than less than this distance
+
+* I think the physiological ~ functional split in estimates (feeder and homing vs. all others) is very interesting. I am open to ideas regarding the names - maybe behavioural is better than functional? 
+
+* I didn't find an effect of polylecty for either maximum or typical distances - i thought there was one but there were a few estimates which were incorrectly coded- and after fixing these, we lost the effect.
+Two options: we focus just on eusociality, as the result is strong, or add the lecty does not have an effect in solitary species?
+Lecty results are not here at present, but model objects are - have lecty in the name i.e. (max.lecty.phylo.brm.1 etc)
+
+* Not enough coverage to use Family as a predictor (see table(forage.traits$Family,forage.traits$distance_type2))
+
+* Henrik had an interesting idea - use colony size instead of categorical eusociality
+
+
+##IDEAS
+Include measure of variance in intraspecific ITD into models as measurement error
+
+# Abstract
+
+# Introduction
+
+Paragraph One: Ecological significance of foraging in terms of ecosystem function.
+Effects on foraging - landscape context etc
+-links to body size
+
+Types of measurements
+Structure that feeder and homing as physiological measures - others as functional
+
+Why should this be revisited? 
+-Many more studies
+-new analytical methods
+-need to incorporate things like phylogeny etc
+
+##Research questions 
+
+1) How accurate is body size in predicting foraging distance in bees?
+
+2) Do bees differ in terms of their physiological and functional constraints in foraging distance/range?
+
+2) i) Does level of eusociality nfluence foraging distance?
+  ii) Do the functional and physiological constraints on foraging distance differ between eusocial and solitary bee species?
+
+3) Does floral specialisation structure species-level foraging distance in solitary bee species?
+
+# Materials and Methods
+
+To identify relevant publications for our meta-analysis, we compiled foraging distance estimates from a previous meta-analysis by Greenleaf et al. 2007 and a litearture review by Zurbuchen et al. 2010. We then undertook a systematic Scopus database search with the following search terms: TITLE-ABS-KEY ( ( bee  OR  apoid* )  AND  ( forag*  AND  distanc* )  OR  "flight range"). As of 12 March 2021, this returned 643 articles. We then subsetted this database to articles published post-2006 (to coincide with Greenleaf et al. 2007) and screened all articles for foraging distance estimates (n = 180 articles). For each estimate, we delimited estimate by type of distances measured (maximum, typical or observed) and methodology used to measure foraging distance (see Table 1 for definitions), following Greenleaf et al. 2007. We focussed on female bees, excluding all species that focussed on males or specifically dispersal patterns.
+
+```{r definition table, echo=FALSE}
+text_tbl <- data.frame(
+  Group = c("Type of distance","","",
+            "Method","","","","","",""),
+  Type = c("Typical","Maximum","Observed","Functional","",
+            "","","","Physiological",""),
+  Type2 = c("","","","Associative","Mark-recapture",
+            "Molecular","Tracking","Waggle dance","Feeder","Homing"),
+  Definition = c(
+    "Typical foraging distance was defined as the mean (or median or mode) foraging distance by a species within a study.",
+    "Maximum foraging distance was defined asthe maximum distance observed within a experiment (if multiple trials were conducted) or a study",
+    "Observed foraging distances were those estaimtes that could not be definied as either typical or maximum distances i.e....","Associative studies were those that measured foraging distance by associating known nests / hives and floral resources..",
+    "Mark-recapture...",
+        "Molecular...",
+        "Tracking...",
+    "Dancing...",
+    "Feeder studies involved...",
+    "Homing studies..."))
+library(kableExtra)
+kbl(text_tbl) %>%
+  kable_paper(full_width = F) %>%
+  column_spec(1, bold = T, border_right = T) %>%
+  column_spec(2, bold = T, border_right = T) %>%
+  column_spec(3, bold = T, border_right = T) %>%
+  column_spec(4, width = "30em")
+```
+**Table 1.** Types of bee foraging estimates and methodologies..
+
+##Species taxonomy and functional traits
+
+We checked the validity of species' names using X, Y, and Z. We then collected the following traits for each species: female body size (measured as the intertegular distance, Cane et al. 1987), level of eusociality and floral specialisation. 
+We obtained body size from literature sources (i.e. pollimetry, brazilian trait dataset, traitbase) and by directly contacting researchers. 
+Where multiple ITD measurements for a given species were found, we took the mean value. 
+For eusocial species with castes, we obtained ITD measurements for the caste used within the study (i.e. workers or queens).
+
+We delimited species into three levels of sociality: *obligate solitary*, *primitively eusocial* or *highly eusocial*. Obligate solitary species were those bees species that provision their own nest cells. This group includes species that live communally or in aggregations. 
+Primitively eusocial species were those species that have non-permanent colonies and that are founded by a single female. This group included bumblebees *Bombus* species, as well as socially flexible *Lasioglossum* species, and those with overlapping generations e.g. *Xylocopa* species.
+Highly eusocial species were those species that had permanent colonies, which reproduce by budding. This group included all honeybees *Apis* species, and the stingless bees (Meliponini).
+
+Lastly, we grouped species,based on their level of floral specialisation, as either *oligolectic* or *polylectic*.
+Oligolectic speies were defined as those species who consistently collect pollen from a single plant species or group of similar or related plant species, even the presene of other pollen sources. 
+Polylectic species were defined as those that use multiple, unrelated species for pollen.
+
+Nesting? I have not done any analysis on this (yet). 
+
+##Statistical analysis
+
+All statistical analyses were undertaken in *R* (citation).
+
+We used Bayesian generalized linear mixed effect models to analyze the effect of body size, functional traits and study design on bee foraging distances.
+We modeled typical and maximum foraging distance separately.
+Observed foraging distances were not analysed. Furhter, we excluded all estimates within unknown metholodogy.
+As is typical in allometric studies, we log-transformed foraging distance prior to analyses. However, as intertegular distance is logarithmically related to body size (Cane et al. 1987; Kendall et al. 2019), we compared the predictive accuracy (R^2) of models with and without log-transformed ITD. We present models with the raw ITD, as these were significantly more predictive than ln(ITD). 
+
+For these purposes we specified the following models:
+1) Foraging distance as a function of ITD, 2) foraging distance as a function of ITD * eusociality (categorical, three levels), using the complete dataset, 3) foraging distance as a function of ITD * Lecty in solitary bees species, as oligolecty is only found within solitary species and 4) foraging distance as a function of ITD * Metric type (physiological or functional) * eusociality. Floral specialisation was not tested in conjunction with metric type due to small sample sizes.
+
+For models 1, 2 and 3), the random effect structure consisted of intercepts for publication and bee species, a phylogenetic effect, which consisted of a phylogenetic relatedness correlation matrix between bee genera, and a random intercept and slope for metric. Model (4) had the same random structure but without the metric effect as this was modelled as a fixed effect. For the phylogenetic effect, we constructed a bee phylogeny using an available bee genera tree (Hedtke, Patiny, & Danforth, 2013). We removed non-represented genera and then fitted a chronogram from this phylogeny by penalized likelihood, and a correlated rate model (Paradis et al. 2004). We then converted this to a phylogenetic correlation matrix using *ape* package.
+
+We assessed the significance of the main- and interactive effects in each models by assessing whether 95% credible intervals bracketed zero. We then removed unsignificant interactions.  In model (i), the interaction between ITD and eusociality was non-significant for both typical and maximum foraging distance, so we fitted and present the reduced models. 
+
+We parameterised each model with a *Gaussian* distribution, which was run for 2000 iterations, and a burn-in of 1000 iterations. We set weakly informative priors and manipulated DELTA and maximum tree depth to avoid divergent transitions. We visualised posterior predictive checks using bayesplot (v1.6.0, Gabry & Mahr 2017) and assessed chain convergence for each sub-model separately. We considered effects were considered significant when 95% credible intervals did not bracket zero. 
+
+# Results
+```{r All max models, eval = FALSE, echo=FALSE,include=FALSE}
+#DOES NOT RUN 
+#here to see model formulations
+
+#run models
+max.priors <- prior(normal(5,2),class="Intercept")+
+  prior(normal(-1,1),class="b")+
+  prior(normal(0,1),class="b",coef="ITD")+
+  prior(normal(0,1.25),class="sd")+
+  prior(normal(0,1),class="sigma")
+
+max.IT.brm <- brm(log.dist~ITD+
+                             (1|Authors)+
+                             (ITD|Metric2)+
+                             (1|spp)+
+                             (1|gr(Genus, cov = Ag)),
+                           data2 = list(Ag = Ag),
+                           cores=4,
+                           iter = 2000,
+                           prior = max.priors,
+                           family="gaussian",
+                           control = list(adapt_delta=0.999,
+                                          max_treedepth=15),
+                           data=forage.traits.max)
+
+max.euc.phylo.full.brm <- brm(log.dist~ITD*social_tree+
+                             (1|Authors)+
+                             (ITD|Metric2)+
+                             (1|spp)+
+                             (1|gr(Genus, cov = Ag)),
+                           data2 = list(Ag = Ag),
+                           cores=4,
+                           iter = 2000,
+                           prior = max.priors,
+                           family="gaussian",
+                           control = list(adapt_delta=0.999,
+                                          max_treedepth=15),
+                           data=forage.traits.max)
+
+max.euc.phylo.reduced.brm <- brm(log.dist~ITD+social_tree+
+                               (1|Authors)+
+                               (ITD|Metric2)+
+                            (1|spp)+
+                            (1|gr(Genus, cov = Ag)),
+                          iter = 2000,
+                          prior = max.priors,
+                          data2 = list(Ag = Ag),
+                          cores=4,
+                          family="gaussian",
+                          control = list(adapt_delta=0.999,
+                                         max_treedepth=15),
+                          data=forage.traits.max)
+
+#func vs physio models
+
+max.func.priors <- prior(normal(5,2),class="Intercept")+
+  prior(normal(-1,1),class="b")+
+  prior(normal(0,1),class="b",coef="ITD")+
+  prior(normal(0,1),class="b",coef="ITD:limitsphysio")+
+  prior(normal(0,1.25),class="sd")+
+  prior(normal(0,1),class="sigma")
+
+#physio vs functional model
+max.func.phylo.brm<- brm(log.dist~ITD*limits+
+                             (1|Authors)+
+                             (ITD|Metric2)+
+                             (1|spp)+
+                             (1|gr(Genus, cov = Ag)),
+                           data2 = list(Ag = Ag),
+                           cores=4,
+                           iter = 2000,
+                           prior = max.func.priors,
+                           family="gaussian",
+                           control = list(adapt_delta=0.999,
+                                          max_treedepth=15),
+                           data=forage.traits.max)
+
+max.func.euc.full.phylo.brm<- brm(log.dist~ITD*limits*social_tree+
+                           (1|Authors)+
+                           (ITD|Metric2)+
+                           (1|spp)+
+                           (1|gr(Genus, cov = Ag)),
+                         data2 = list(Ag = Ag),
+                         cores=4,
+                         iter = 2000,
+                         prior = max.func.priors,
+                         family="gaussian",
+                         control = list(adapt_delta=0.999,
+                                        max_treedepth=15),
+                         data=forage.traits.max)
+
+max.func.euc.red.phylo.brm<- brm(log.dist~ITD*limits+social_tree+
+                             (1|Authors)+
+                             (ITD|Metric2)+
+                             (1|spp)+
+                             (1|gr(Genus, cov = Ag)),
+                           data2 = list(Ag = Ag),
+                           cores=4,
+                           iter = 2000,
+                           prior = max.func.priors,
+                           family="gaussian",
+                           control = list(adapt_delta=0.999,
+                                          max_treedepth=15),
+                           data=forage.traits.max)
+
+
+#metric model
+max.metric.phylo.brm<- brm(log.dist~ITD*Metric2+
+                            (1|Authors)+
+                            (1|spp)+
+                            (1|gr(Genus, cov = Ag)),
+                          data2 = list(Ag = Ag),
+                          cores=4,
+                          iter = 2000,
+                          prior = max.priors,
+                          family="gaussian",
+                          control = list(adapt_delta=0.999,
+                                         max_treedepth=15),
+                          data=forage.traits.max)
+
+#lecty models
+bee.max.sol.tree<-drop.tip(bee.max.tree,setdiff(bee.max.tree$tip.label,
+                                                forage.traits.max.sol$Genus))
+bee.max.sol.tree$node.label=NULL
+
+Mlg <- ape::vcv.phylo(bee.max.sol.tree)
+
+forage.traits.max.sol$Lecty <- relevel(factor(forage.traits.max.sol$Lecty),ref="Polylectic")
+
+
+max.lecty.priors <- prior(normal(5,2),class="Intercept")+
+  prior(normal(0,2),class="b")+
+  prior(normal(0,1),class="b",coef="ITD")+
+  prior(normal(0,1),class="sd")+
+  prior(normal(0,1),class="sigma")
+
+max.lecty.phylo.brm.1<- brm(log.dist~ITD*Lecty+
+                              (ITD|Metric2)+
+                              (1|Authors)+
+                              (1|spp)+
+                              (1|gr(Genus, cov = Mlg)),
+                            prior = max.lecty.priors,
+                            iter = 4000,
+                            data2 = list(Mlg = Mlg),
+                            cores=4,
+                            family="gaussian",
+                            control = list(adapt_delta=0.999,
+                                           max_treedepth=15),
+                            data=forage.traits.max.sol)
+
+max.lecty.phylo.brm.2<- brm(log.dist~ITD+Lecty+
+                              (ITD|Metric2)+
+                              (1|Authors)+
+                              (1|spp)+
+                              (1|gr(Genus, cov = Mlg)),
+                            prior = max.lecty.priors,
+                            iter = 4000,
+                            data2 = list(Mlg = Mlg),
+                            cores=4,
+                            family="gaussian",
+                            control = list(adapt_delta=0.999,
+                                           max_treedepth=15),
+                            data=forage.traits.max.sol)
+
+#save all mdoel objects
+save(max.IT.brm,file="model_outputs/max.IT.brm.rdata")
+save(max.euc.phylo.full.brm,file="model_outputs/max.euc.phylo.full.brm.rdata")
+save(max.euc.phylo.reduced.brm,file="model_outputs/max.euc.phylo.reduced.brm.rdata")
+save(max.metric.phylo.brm,file="model_outputs/max.metric.phylo.brm.rdata")
+save(max.lecty.phylo.brm.1,file="model_outputs/max.lecty.phylo.brm.1.rdata")
+save(max.lecty.phylo.brm.2,file="model_outputs/max.lecty.phylo.brm.2.rdata")
+save(max.func.phylo.brm,file="model_outputs/max.func.phylo.brm.rdata")
+save(max.func.euc.full.phylo.brm,file="model_outputs/max.func.euc.full.phylo.brm.rdata")
+save(max.func.euc.red.phylo.brm,file="model_outputs/max.func.euc.red.phylo.brm.rdata")
+
+
+```
+
+```{r All mean typical models, eval = FALSE, echo=FALSE,include=FALSE}
+
+#####
+mean.priors <- prior(normal(5,2),class="Intercept")+
+  prior(normal(-1,1),class="b")+
+  prior(normal(0,1),class="b",coef="ITD")+
+  prior(normal(0,1),class="sd")+
+  prior(normal(0,1),class="sigma")
+
+
+mean.IT.brm<- brm(log.dist~ITD+
+                            (1|Authors)+
+                            (ITD|Metric2)+
+                            (1|spp)+
+                            (1|gr(Genus, cov = Bg)),
+                          iter = 2000,
+                          prior = mean.priors,
+                          data2 = list(Bg = Bg),
+                          cores=4,
+                          family="gaussian",
+                          control = list(adapt_delta=0.999,
+                                         max_treedepth=15),
+                          data=forage.traits.mean)
+
+mean.euc.phylo.full.brm <- brm(log.dist~ITD*social_tree+
+                            (1|Authors)+
+                            (ITD|Metric2)+
+                            (1|spp)+
+                            (1|gr(Genus, cov = Bg)),
+                          iter = 2000,
+                          prior = mean.priors,
+                          data2 = list(Bg = Bg),
+                          cores=4,
+                          family="gaussian",
+                          control = list(adapt_delta=0.999,
+                                         max_treedepth=15),
+                          data=forage.traits.mean)
+
+mean.euc.phylo.reduced.brm <- brm(log.dist~ITD+social_tree+
+                            (1|Authors)+
+                            (ITD|Metric2)+
+                            (1|spp)+
+                            (1|gr(Genus, cov = Bg)),
+                          iter = 2000,
+                          prior = mean.priors,
+                          data2 = list(Bg = Bg),
+                          cores=4,
+                          family="gaussian",
+                          control = list(adapt_delta=0.999,
+                                         max_treedepth=15),
+                          data=forage.traits.mean)
+
+##func vs physio models
+
+#func model
+mean.func.priors <- prior(normal(5,2),class="Intercept")+
+  prior(normal(-1,1),class="b")+
+  prior(normal(0,1),class="b",coef="ITD:limitsphysio")+
+  prior(normal(0,1),class="b",coef="ITD")+
+  prior(normal(0,1),class="sd")+
+  prior(normal(0,1),class="sigma")
+#physio vs functional model
+mean.func.phylo.brm<- brm(log.dist~ITD*limits+
+                           (1|Authors)+
+                           (ITD|Metric2)+
+                           (1|spp)+
+                           (1|gr(Genus, cov = Ag)),
+                         data2 = list(Ag = Ag),
+                         cores=4,
+                         iter = 2000,
+                         prior = mean.func.priors,
+                         family="gaussian",
+                         control = list(adapt_delta=0.999,
+                                        max_treedepth=15),
+                         data=forage.traits.mean)
+
+mean.func.euc.full.phylo.brm<- brm(log.dist~ITD*limits*social_tree+
+                                    (1|Authors)+
+                                    (ITD|Metric2)+
+                                    (1|spp)+
+                                    (1|gr(Genus, cov = Ag)),
+                                  data2 = list(Ag = Ag),
+                                  cores=4,
+                                  iter = 2000,
+                                  prior = mean.func.priors,
+                                  family="gaussian",
+                                  control = list(adapt_delta=0.999,
+                                                 max_treedepth=15),
+                                  data=forage.traits.mean)
+
+mean.func.euc.red.phylo.brm<- brm(log.dist~ITD*limits+social_tree+
+                                   (1|Authors)+
+                                   (ITD|Metric2)+
+                                   (1|spp)+
+                                   (1|gr(Genus, cov = Ag)),
+                                 data2 = list(Ag = Ag),
+                                 cores=4,
+                                 iter = 2000,
+                                 prior = mean.func.priors,
+                                 family="gaussian",
+                                 control = list(adapt_delta=0.999,
+                                                max_treedepth=15),
+                                 data=forage.traits.mean)
+
+
+#metric model
+mean.metric.phylo.brm<- brm(log.dist~ITD*Metric2+
+                             (1|Authors)+
+                             (1|spp)+
+                             (1|gr(Genus, cov = Bg)),
+                           data2 = list(Bg = Bg),
+                           cores=4,
+                           iter = 2000,
+                           prior = mean.priors,
+                           family="gaussian",
+                           control = list(adapt_delta=0.999,
+                                          max_treedepth=15),
+                           data=forage.traits.mean)
+
+mean.metric.phylo.brm.2<- brm(log.dist~ITD+Metric2+
+                               (1|Authors)+
+                               (1|spp)+
+                               (1|gr(Genus, cov = Bg)),
+                             data2 = list(Bg = Bg),
+                             cores=4,
+                             iter = 2000,
+                             prior = mean.priors,
+                             family="gaussian",
+                             control = list(adapt_delta=0.999,
+                                            max_treedepth=15),
+                             data=forage.traits.mean)
+
+#mean
+
+bee.mean.sol.tree<-drop.tip(bee.mean.tree,setdiff(bee.mean.tree$tip.label,
+                                                forage.traits.mean.sol$Genus))
+bee.mean.sol.tree$node.label=NULL
+plot(bee.mean.sol.tree)
+
+Melg <- ape::vcv.phylo(bee.mean.sol.tree)
+
+forage.traits.mean.sol$Lecty <- relevel(factor(forage.traits.mean.sol$Lecty),ref="Polylectic")
+
+mean.lecty.priors <- prior(normal(0,5),class="Intercept")+
+  prior(normal(0,2),class="b")+
+  #prior(normal(0,1),class="b",coef="ITD")+
+  prior(normal(0,1),class="sd")+
+  prior(normal(0,1),class="sigma")
+
+mean.lecty.phylo.brm.1<- brm(log.dist~ITD*Lecty+
+                              (ITD|Metric2)+
+                              (1|Authors)+
+                              (1|spp)+
+                              (1|gr(Genus, cov = Melg)),
+                            prior = mean.lecty.priors,
+                            iter = 4000,
+                            data2 = list(Melg = Melg),
+                            cores=4,
+                            family="gaussian",
+                            control = list(adapt_delta=0.999,
+                                           max_treedepth=15),
+                            data=forage.traits.mean.sol)
+
+mean.lecty.phylo.brm.2<- brm(log.dist~ITD+Lecty+
+                              (ITD|Metric2)+
+                              (1|Authors)+
+                              (1|spp)+
+                              (1|gr(Genus, cov = Melg)),
+                            prior = mean.lecty.priors,
+                            iter = 4000,
+                            data2 = list(Melg = Melg),
+                            cores=4,
+                            family="gaussian",
+                            control = list(adapt_delta=0.999,
+                                           max_treedepth=15),
+                            data=forage.traits.mean.sol)
+
+##save all model objects
+save(mean.IT.brm,file="model_outputs/mean.IT.brm.rdata")
+save(mean.euc.phylo.full.brm,file="model_outputs/mean.euc.phylo.full.brm.rdata")
+save(mean.euc.phylo.reduced.brm,file="model_outputs/mean.euc.phylo.reduced.brm.rdata")
+save(mean.metric.phylo.brm,file="model_outputs/mean.metric.phylo.brm.rdata")
+save(mean.lecty.phylo.brm.1,file="model_outputs/mean.lecty.phylo.brm.1.rdata")
+save(mean.lecty.phylo.brm.2,file="model_outputs/mean.lecty.phylo.brm.2.rdata")
+save(mean.func.phylo.brm,file="model_outputs/mean.func.phylo.brm.rdata")
+save(mean.func.euc.full.phylo.brm,file="model_outputs/mean.func.euc.full.phylo.brm.rdata")
+save(mean.func.euc.red.phylo.brm,file="model_outputs/mean.func.euc.red.phylo.brm.rdata")
+
+```
+
+##Summary
+
+In total, we included `r (nrow(forage.traits.max)+nrow(forage.traits.mean))` estimates of foraging distance (typical, n = `r nrow(forage.traits.mean)`) & maximum, n = `r nrow(forage.traits.max)`) in our analyses. These included estimates from `r length(levels(factor(forage.traits$Genus_species)))` species, `r length(levels(factor(forage.traits$Genus)))` genera and `r length(levels(factor(forage.traits$Family)))` families. Honeybees *Apis* spp. (`r nrow(forage.traits[forage.traits$Genus%in%c("Apis"),])` estimates) and bumblebees *Bombus* spp. (`r nrow(forage.traits[forage.traits$Genus%in%c("Bombus"),])` estimates) were the most commonly studied taxa. Maximum foraging distance estimates ranged from `r min(forage.traits.max$Distance)` metres (*`r gsub("_"," ",forage.traits.max[forage.traits.max$Distance%in%min(forage.traits.max$Distance),"Genus_species"])`*) to `r max(forage.traits.max$Distance)/1000` kilometres (*`r gsub("_"," ",forage.traits.max[forage.traits.max$Distance%in%max(forage.traits.max$Distance),"Genus_species"])`*). Typical foraging distance estimates ranged from `r min(forage.traits.mean$Distance)` metres (*`r gsub("_"," ",forage.traits.mean[forage.traits.mean$Distance%in%min(forage.traits.mean$Distance),"Genus_species"])`*) to `r max(forage.traits.mean$Distance)/1000` kilometres (*`r gsub("_"," ",forage.traits.mean[forage.traits.mean$Distance%in%max(forage.traits.mean$Distance),"Genus_species"])`*).
+
+ADD TABLE OF ESTIMATES -species summary
+
+In addition, we compiled `r nrow(distances%>%filter(distance_type2%in%"Observed"))` 'observed' foraging distance estimates that were not analysed. 
+
+```{r figure 1, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE}
+library(patchwork)
+library(ggplot2)
+#library(Manu) NZ native bird palettes
+
+col.palette <- c("#325756","#7d9fc2","#C582B2","#51806a","#4d5f8e","#A092B7")
+
+#Fitted points from models 
+#overall
+overall.pred <- rbind(cbind(fitted(max.IT.brm,re_formula = NA),forage.traits.max),
+                      cbind(fitted(mean.IT.brm,re_formula = NA),forage.traits.mean))
+
+#eusocial
+eusocial.preds <- rbind(cbind(fitted(max.euc.phylo.reduced.brm,re_formula = NA),forage.traits.max),
+                        cbind(fitted(mean.euc.phylo.reduced.brm,re_formula = NA),forage.traits.mean))
+
+#physio vs functional
+func.preds <- rbind(cbind(fitted(max.func.phylo.brm,re_formula = NA),forage.traits.max),
+                        cbind(fitted(mean.func.phylo.brm,re_formula = NA),forage.traits.mean))
+
+#overall trend
+overall.plot <- ggplot(overall.pred,aes(y=(Estimate),x=ITD,fill="black")) +  
+  xlab(NULL) + 
+  ylab("ln Distance (m)") + 
+  geom_ribbon(aes(ymin=(Q2.5),
+                  ymax=(Q97.5)),
+              alpha = 0.5,show.legend = FALSE,colour = NA)+
+  geom_point(aes(y=log.dist),size=2.5,shape=21,
+             show.legend = FALSE,alpha=0.6)+
+  geom_line(size=1,show.legend = FALSE)+
+  theme_bw() + 
+  theme(plot.title = element_text(hjust = 0,face="bold",size=14),
+        legend.box.background = element_rect(colour = "black"),
+        legend.title = element_text(size=14),
+        legend.text = element_text(size=11),
+        aspect.ratio = 1,
+        strip.background = element_blank(),
+        text=element_text(),
+        axis.ticks.length = unit(0,"mm"),
+        legend.title.align=0.5,
+        axis.text.y = element_text(size=11),
+        axis.text.x = element_text(size=11),
+        axis.title.y = element_text(size=14),
+        axis.title.x = element_text(size=14),
+        strip.text = element_text(size=14,face = "bold"),
+        panel.spacing = unit(0.5,"lines"),
+        legend.background = element_blank(),
+        panel.border = element_rect(color = "black",
+                                    fill = NA, size = 0.4))+
+  scale_fill_manual(values=col.palette) + 
+  scale_colour_manual(values=col.palette) + 
+  guides(linetype = FALSE)+
+facet_wrap(~distance_type2)
+
+func.preds$limits <- revalue(func.preds$limits,c("funct" = "Functional",
+                                                 "physio" = "Physiological"))
+#functional trend
+func.plot <- ggplot(func.preds,aes(y=Estimate,x=ITD)) +  
+  xlab("Body size (ITD, mm)") + 
+  ylab("ln Distance (m)") + 
+  geom_ribbon(aes(ymin=Q2.5,
+                  ymax=Q97.5,col=limits,fill=limits),
+              alpha = 0.5,show.legend = FALSE,colour = NA)+
+  geom_point(aes(y=log.dist,fill=limits),col="black",size=2.5,shape=21,
+             show.legend = TRUE,alpha=0.6)+
+  geom_line(aes(col=limits,fill=limits),size=1,show.legend = TRUE)+
+  theme_bw() + 
+  theme(plot.title = element_text(hjust = 0,face="bold",size=14),
+        legend.box.background = element_rect(colour = "black"),
+        legend.title = element_text(size=12,face="bold"),
+        legend.text = element_text(size=11),
+        aspect.ratio = 1,
+        strip.background = element_blank(),
+        text=element_text(),
+        axis.ticks.length = unit(0,"mm"),
+        legend.title.align=0.5,
+        axis.text.y = element_text(size=11),
+        axis.text.x = element_text(size=11),
+        axis.title.y = element_text(size=14),
+        axis.title.x = element_text(size=14),
+        strip.text = element_blank(),
+        panel.spacing = unit(0.5,"lines"),
+        legend.background = element_blank(),
+        panel.border = element_rect(color = "black",
+                                    fill = NA, size = 0.4))+
+  scale_fill_manual(values=col.palette[5:6]) + 
+  scale_colour_manual(values=col.palette[5:6]) + 
+  guides(linetype = FALSE)+
+  labs(name="Foraging constraint",
+       fill="Foraging constraint",
+       col="Foraging constraint")+
+  facet_wrap(~distance_type2)
+
+two_plot <- overall.plot/func.plot
+two_plot
+```
+**Figure 1:** Relationship between maximum (left) and typical (right) bee foraging distance (log-transformed metres) and foraging distances. Top: Overall trend, bottom: type of measurement used to estimate foraging distance: physiological (feeder or homing experiments), functional (other methods, see **Table 1**). Bold lines and ribbons indicate lines of best fit and corresponding 95% credible intervals. Circles denote raw data.
+
+```{r Figure 2, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE}
+
+#func eusocial
+func.euc.preds <- rbind(cbind(fitted(max.func.euc.red.phylo.brm,re_formula = NA),forage.traits.max),
+                    cbind(fitted(mean.func.euc.red.phylo.brm,re_formula = NA),forage.traits.mean))
+
+
+col.palette <- c("#325756","#7d9fc2","#C582B2","#51806a","#4d5f8e","#A092B7")
+
+
+#functional and eusocial trend
+labels <- data.frame(limits=c("physio","physio","funct","funct"),
+           distance_type2=c("Max","Typical","Max","Typical"),
+           label=c("Max - Physiological","Typical - Physiological","Max - Functional","Max - Functional"),
+           ITD=c(1,1,1,1),
+           Estimate=c(11,11,11,11))
+
+func.euc.preds$grp <- paste(func.euc.preds$distance_type2,func.euc.preds$social_tree)
+
+func2.plot <- ggplot(func.euc.preds,aes(y=Estimate,x=ITD,col=social_tree,fill=social_tree)) +  
+  xlab("Body size (ITD, mm)") + 
+  ylab("ln Distance (m)") + 
+  geom_ribbon(aes(ymin=Q2.5,
+                  ymax=Q97.5),
+              alpha = 0.5,show.legend = FALSE,colour = NA)+
+  geom_point(aes(y=log.dist),col="black",size=2.5,shape=21,
+             show.legend = TRUE,alpha=0.6)+
+  geom_text(data=labels,aes(label = label,y=Estimate,x=ITD),inherit.aes = FALSE,hjust = 0,fontface="bold")+
+  geom_line(aes(),size=1,show.legend = TRUE)+
+  theme_bw() + 
+  theme(plot.title = element_text(hjust = 0,face="bold",size=14),
+        legend.box.background = element_rect(colour = "black"),
+        legend.title = element_text(size=12,face="bold"),
+        legend.text = element_text(size=11),
+        aspect.ratio = 1,
+        strip.background = element_blank(),
+        text=element_text(),
+        axis.ticks.length = unit(0,"mm"),
+        legend.title.align=0.5,
+        axis.text.y = element_text(size=11),
+        axis.text.x = element_text(size=11),
+        axis.title.y = element_text(size=14),
+        axis.title.x = element_text(size=14),
+        strip.text = element_blank(),
+        panel.spacing = unit(0.5,"lines"),
+        legend.background = element_blank(),
+        panel.border = element_rect(color = "black",
+                                    fill = NA, size = 0.4))+
+  scale_fill_manual(values=col.palette) + 
+  scale_colour_manual(values=col.palette) + 
+  guides(linetype = FALSE)+
+  labs(name="Eusociality",
+       fill="Eusociality",
+       col="Eusociality")+
+  facet_wrap(~limits+distance_type2)
+func2.plot
+
+```
+
+**Figure 2:** Relationship between eusociality and phyisiological or functional bee foraging distances (log-transformed metres) and maximum (left) and typical (right) foraging distances. Top: Overall trend, bottom: type of measurement used to estimate foraging distance: physiological (feeder or homing experiments), functional (other methods, see **Table 1**). Bold lines and ribbons indicate lines of best fit and corresponding 95% credible intervals. Circles denote raw data.
+
+##Q1 Overall trends - predicting maximum and typical foraging distances
+
+```{r examples, echo=FALSE}
+#standardised examples
+#2mm 4mm bees
+max.IT.fitted <- fitted(max.IT.brm,newdata=data.frame(ITD=c(2,4)),re_formula=NA)
+
+max.IT.fitted[,1] <- exp(max.IT.fitted[,1])
+
+mean.IT.fitted <- fitted(mean.IT.brm,newdata=data.frame(ITD=c(2,4)),re_formula=NA)
+
+mean.IT.fitted[,1] <- exp(mean.IT.fitted[,1])
+
+
+phys.preds <- data.frame(ITD=c(2,4,2,4),
+           limits=c("physio","physio","funct","funct"))
+
+max.IT.func.fitted <- cbind(phys.preds,fitted(max.func.phylo.brm,
+                             newdata=phys.preds,
+                             re_formula=NA))
+
+mean.IT.func.fitted <- cbind(phys.preds,fitted(mean.func.phylo.brm,
+                              newdata=phys.preds,
+                              re_formula=NA))
+
+
+max.IT.func.fitted[,3] <- exp(max.IT.func.fitted[,3])
+mean.IT.func.fitted[,3] <- exp(mean.IT.func.fitted[,3])
+
+#eusocial trends with physiological and functional
+#3.30 (honeybee size)
+euc.phys.preds <- data.frame(ITD=c(3.3,3.3,3.3,3.3,3.3,3.3),
+                         limits=c("physio","physio","physio","funct","funct","funct"),
+                         social_tree=c("Highly Eusocial","Primitively Eusocial","Solitary",
+                                       "Highly Eusocial","Primitively Eusocial","Solitary"))
+max.IT.euc.func.fitted <- cbind(euc.phys.preds,fitted(max.func.euc.red.phylo.brm,
+                             newdata=euc.phys.preds,
+                             re_formula=NA))
+mean.IT.euc.func.fitted <- cbind(euc.phys.preds,fitted(mean.func.euc.red.phylo.brm,
+                             newdata=euc.phys.preds,
+                              re_formula=NA))
+
+max.IT.euc.func.fitted[,4] <- exp(max.IT.euc.func.fitted[,4])
+mean.IT.euc.func.fitted[,4] <- exp(mean.IT.euc.func.fitted[,4])
+```
+Overall, body size was positively related to both maximum (*Marginal R^2* = `r round(model.r2s[1,2][[1]],2)`) and typical (*Marginal R^2* = `r round(model.r2s[7,2][[1]],2)`) foraging distances (Figure 1). For example, the typical and maximum foraging distances of a middle sized bee (ITD: 4mm) are predicted to be `r max.IT.fitted[2,1]`m and `r mean.IT.fitted[2,1]`m, which are `r max.IT.fitted[2,1]-max.IT.fitted[1,1]`m and `r mean.IT.fitted[2,1]-mean.IT.fitted[1,1]`m longer than a small sized bee (ITD: 2mm, Max: `r max.IT.fitted[1,1]`m, Typ: `r mean.IT.fitted[1,1]`).
+
+#Q2 Differences in constraints on foraging distances
+
+We found that physiological and functional constraints/measurements upon foraging distances differ in their relationship (slope) with body size (Model table, Figure 2). Specifically, physiological measurements of foraging distances increased at a greater rate per unit ITD than functional constraints/measurements (significant interaction with ITD, steeper slope). For example,  in small bees (e.g. ITD of 2mm), physiological and functional measurements of foraging distance are similar (e.g. Typical: *functional*  `r mean.IT.func.fitted[3,3]`,*physiological* `r mean.IT.func.fitted[3,1]`;Maximum: *functional*  `r max.IT.func.fitted[3,3]`,*physiological* `r max.IT.func.fitted[3,1]`). However, in larger bees (ITD: 4mm), whereas physiological limits upon forging distance increase considerably, typical - `r mean.IT.func.fitted[3,2]`m, maximum - `r max.IT.func.fitted[3,2]`m, functional limits do not: typical, `r mean.IT.func.fitted[3,4]`m; maximum, `r max.IT.func.fitted[3,4]`m.
+
+##Q2A) Effect of eusociality on physiological and functional bee foraging distances
+
+Eusociality was highly important in structuring species differences in bee foraging distances (*Marginal R^2*: Typical distance: `r model.r2s[14,2]`, Maximum distance: `r model.r2s[6,2]`. In particular, highly eusocial bees (*Apis* species and stingless bees (Tribe: Meliponini)) exhibited significantly higher physiological and functional foraging distances than either primitively eusocial or solitary species (MODEL TABLE of "max.euc.phylo.reduced.brm"). Primitively eusocial and soitary species exhibited near-identical estimates of foraging distance. For example, a European honeybee *Apis mellifera* (ITD: `r print(traits[traits$Genus_species%in%"Apis_mellifera",]$ITD)`) is expected to have a physiological foraging distances of between  `r mean.IT.euc.func.fitted[1,4]` and `r max.IT.euc.func.fitted[1,4]`m. In contrast, a primitively eusocial or solitary bee of the same size, such as *Osmia pedicornis*, is expected to have a physiological foraging distances of between `r mean.IT.euc.func.fitted[3,4]` and `r max.IT.euc.func.fitted[3,4]`m.
+
+**Table SX-XX. Model tables**
+```{r, model tables, echo=FALSE}
+summary(mean.IT.brm) #weak effect
+summary(max.IT.brm)
+
+summary(mean.func.phylo.brm)
+summary(max.func.phylo.brm)
+
+summary(mean.func.euc.red.phylo.brm) 
+summary(max.func.euc.red.phylo.brm)
+
+```
+
+
+
+# Discussion
