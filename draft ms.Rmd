@@ -220,7 +220,7 @@ model.r2s <- do.call("rbind", lapply(mod.list,function(x) r2(x)))
 
 ```
 
-##THOUGHTS and IDEAS- while writing and reading
+## Thoughts and ideas
 
 ##lets try get it in the functional ecology special issue~
 https://besjournals.onlinelibrary.wiley.com/page/journal/13652435/homepage/call_for_papers:animal_functional_traits
