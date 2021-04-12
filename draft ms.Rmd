@@ -1,5 +1,5 @@
 ---
-title: Bee foraging distances are dependent on body mass and level of eusociality
+title: Bee foraging distances can be predicted using body mass and level of eusociality
 author: Kendall, L.K.^1^, Mola, J. ^2^, Portman, Z.^3^, Cariveau, D. ^3^, Smith, H. ^1^, Bartomeus, I.^4^ (TBC)
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
@@ -228,11 +228,14 @@ https://besjournals.onlinelibrary.wiley.com/page/journal/13652435/homepage/call_
 150 word abstract - due by April 30
 Paper - due by 31 July
 
-* Is distance the right word? I cant decide between distance or range, range seems more synonymous with resource use and therefore maybe better i.e. they will forage within this range, rather than at this distance
+* Is distance the right word? I cant decide between distance or range, range seems more synonymous with resource use and therefore maybe better i.e. they will forage within this range, rather than at this distance  
+IB: I like range
 
-* I think the physiological ~ functional split in estimates (feeder and homing vs. all others) is very interesting. I am open to ideas regarding the names - maybe behavioural is better than functional? 
+* I think the physiological ~ functional split in estimates (feeder and homing vs. all others) is very interesting. I am open to ideas regarding the names - maybe behavioural is better than functional?  
+IB: Yes, names are important. Functional may be too ambigous. Potential vs realized can be an option.
 
-* I didn't find an effect of polylecty for either maximum or typical distances - i thought there was one but there were a few estimates which were incorrectly coded - and after fixing these,there was no effect. Do we keep lecty stuff in paper?
+* I didn't find an effect of polylecty for either maximum or typical distances - i thought there was one but there were a few estimates which were incorrectly coded - and after fixing these,there was no effect. Do we keep lecty stuff in paper?  
+IB: Yes, a negative result is still a very imteresting result!
 
 * Not enough coverage to use Family as a predictor #see table(forage.traits$Family,forage.traits$distance_type2)
 
@@ -242,12 +245,12 @@ Paper - due by 31 July
 
 # Abstract
 
-1. The foraging distance of bees structures the scale at which bee ~ plant interactions, pollination and other associated ecosystem functions occur. Previous studies have demonstrated that foraging distance is positively allometric (i.e larger bees can forage at greater distances than smaller bees), yet how foraging distance is related to other functional traits important to foraging behavior, such as eusociality and floral specialisation remains unknown.
-2. We conducted a systematic review of known bee foraging distances, compiling `r nrow(distances)` estimates for `r length(levels(factor(distances$Genus_species)))` species. We divided estimates firstly into *typical* or *maximum* foraging distances and then into physiological (i.e. homing ability) and functional estimates (e.g. molecular methods, nest- plant association studies). For each bee species, we collected information on their body size (intertegular distance), level of eusociality (highly eusocial, primitively eusocial or solitary) and floral specialization (oligolectic vs. polylectic).
-3. We then conducted a phylogenetic un-weighted meta-analysis of typical and amximum bee foraging distances in relation to body size and functional traits.
+1. Bee foraging ranges structure the scale at which bee ~ plant interactions, pollination and other associated ecosystem functions occur. Previous studies have demonstrated that foraging distance scales with body size allometrically (i.e larger bees can forage at greater distances than smaller bees). Yet, how foraging range is related to other important functional traits involved in foraging behavior, such as eusociality and floral specialisation remains unknown.
+2. We conducted a systematic review of known bee foraging distances, compiling `r nrow(distances)` estimates for `r length(levels(factor(distances$Genus_species)))` species. We divided estimates firstly into *typical* or *maximum* foraging distances and then into physiological[potential?]() (i.e. homing ability) and functional[realized?]() estimates (e.g. molecular methods, nest- plant association studies). For each bee species, we collected information on their body size (intertegular distance), level of eusociality (highly eusocial, primitively eusocial or solitary) and floral specialization (oligolectic vs. polylectic).
+3. We then conducted a phylogenetic un-weighted meta-analysis of typical and maximum bee foraging distances in relation to body size and functional traits.
 4. We found that body size was only weakly predictive of both typical and maximum foraging distances: *R^2^*:`r round(model.r2s[rownames(model.r2s)%in%"meanIT",]$R2_Bayes_marginal,2)` & `r round(model.r2s[rownames(model.r2s)%in%"maxIT",]$R2_Bayes_marginal,2)`).
 5. However, models that included distance type (i.e. physiological and functional foraging distances), in conjunction with eusociality greatly improved predictions of foraging distances (*R^2^s*:`r round(model.r2s[rownames(model.r2s)%in%"meanFUNCeusRED",]$R2_Bayes_marginal,2)` & `r round(model.r2s[rownames(model.r2s)%in%"maxFUNCeusRED",]$R2_Bayes_marginal,2)`). 
-6. Physiological estimates of foraging distances increased more steeply than functional estimates in relation to body size. Further, highly eusocial species can forage at greater distances per unit body mass (ITD) than primitively eusocial or solitary bee species. In contrast, we found no relationship between floral specialisation and foraging distances in solitary species.
+6. Physiological estimates of foraging distances increased more steeply than functional estimates in relation to body size. Further, highly eusocial species can forage at greater distances per unit of body mass (ITD) than primitively eusocial or solitary bee species. In contrast, we found no relationship between floral specialisation and foraging distances in solitary species.
 7. The greater foraging distances in highly eusocial species suggests...   
 Physiological estimates are likely to overestimate foraging range...   
 In contrast, the shallow slope of functional estimates means that the majority of bee species forage within `r exp(6) # ` ...  
@@ -255,17 +258,17 @@ Functional ranges/distances rather physiological esimates should be used in cons
 
 # Introduction
 
-Paragraph One: Ecological significance of foraging in terms of ecosystem function.
+Paragraph One: Ecological significance of foraging in terms of i) bee ecology and conservation, ii) ecosystem function and plant pollination.
 Effects on foraging - landscape context etc
 -links to body size
 
 Types of measurements
-Structure that feeder and homing as physiological measures - others as functional
+Structure that feeder and homing as physiological measures - others as functional. Yes, this needs carefull wording to appeal a brad readership. I thnik I vote potential vs realized.
 
 Why should this be revisited? 
--Many more studies
+-Many more studies (retrieve a true distribution of foraging ranges across species)
 -new analytical methods
--need to incorporate things like phylogeny etc
+-need to incorporate things like phylogeny, traits, etc which explain the distribution of foraginhg ranges observed.
 
 ## Research questions 
 
@@ -275,7 +278,9 @@ Why should this be revisited?
 
 3) Do the functional and physiological measurements of foraging distance differ between eusocial and solitary bee species?
 
-4) Does floral specialisation affect foraging distances in solitary bee species?
+4) Does floral specialisation affect foraging distances in solitary bee species?  
+IB: 3 and 4 can be merged.
+
 
 # Materials and Methods
 
@@ -315,39 +320,39 @@ kbl(text_tbl) %>%
 
 ## Species taxonomy and functional traits
 
-We checked the validity of species' names using (Zach to fill X, Y, and Z). We then collected the following traits for each species: female body size (measured as the intertegular distance, Cane et al. 1987), level of eusociality and floral specialisation. 
+We checked the validity of species' names using (Zach to fill X, Y, and Z). We then collected the following traits for each species: female body size (measured as the intertegular distance, Cane et al. 1987, Kendall et al 2019), level of eusociality and floral specialisation. [IB: I think a statement on why this traits are selected is needed]()
 We obtained body size from literature sources (i.e. pollimetry, brazilian trait dataset, traitbase) and by directly contacting researchers. 
 Where multiple ITD measurements for a given species were found, we took the mean value. 
-For eusocial species, where applicable, we obtained ITD measurements for the caste used within the study (i.e. workers or queens).
+For eusocial species, where applicable, we obtained ITD measurements for the caste used within the study (i.e. workers or queens[we mention queens were excluded above]()).
 
 We delimited species into three levels of sociality: *obligate solitary*, *primitively eusocial* or *highly eusocial*. Obligate solitary species were those bee species that provision their own nest cells. This group includes species that live communally or in aggregations. 
 Primitively eusocial species were those species that have non-permanent colonies and that are founded by a single female. This group included bumblebees *Bombus* species, as well as socially flexible *Lasioglossum* species, and those with overlapping generations e.g. *Xylocopa* species.
 Highly eusocial species were those species that had permanent colonies, which reproduce by budding. This group included all honeybees *Apis* species, and stingless bees (Meliponini).
 
 Lastly, we grouped species, based on their level of floral specialisation, as either *oligolectic* or *polylectic*.
-Oligolectic speies were defined as those species who consistently collect pollen from a single plant species or group of similar or related plant species, even the presene of other pollen sources. 
+Oligolectic speies were defined as those species who consistently collect pollen from a single plant species or group of similar or related plant species, even in the presene of other pollen sources. 
 Polylectic species were defined as those that use multiple, unrelated species for pollen.
 
 ## Statistical analysis
 
 All statistical analyses were undertaken in *R* (citation).
 
-We used Bayesian generalized linear mixed effect models to analyze bee foraging distances as a function of body size and functional traits. We chose to use an un-weighted model as the vast majority of studies did not provide variance components for typical foraging distances. Further, the nature of maximum foraging distance (i.e. the largest distance observed within a species) is incompatible with a meta-analytical model as it lacks a definable variance.
-We modeled typical and maximum foraging distance separately. Observed foraging distances were excluded from analyses, as were all estimates with unknown metholodogy.
-As is typical in allometric studies, we log-transformed foraging distance prior to analyses. However, as intertegular distance is logarithmically related to body size (Cane et al. 1987; Kendall et al. 2019), we compared the predictive accuracy (R^2^) of models with and without log-transformed ITD. The raw ITD was considerably more predictive than ln(LTD), thus we present those models.
+We used Bayesian generalized linear mixed effect models to analyze bee foraging distances as a function of body size and functional traits. We chose to use an un-weighted model as the vast majority of studies did not provide variance components for typical foraging distances. Further, the nature of maximum foraging distance (i.e. the largest distance observed within a species) is incompatible with a meta-analytical model as it lacks a definable variance. [IB: I would be clear we are doing synthesis, not meta-analysis, those are different approaches]()
+We modeled typical and maximum foraging distance separately. Observed foraging distances were excluded from analyses, as were all estimates with unknown metholodogy.[IB: ok, but then we need to use them for something, like e.g show the variation in foraging distances across species. I envision people would like to cite bees typically forage between X and X m from home]()
+As is recommended in allometric studies, we log-transformed foraging distance prior to analyses. However, as intertegular distance is logarithmically related to body size (Cane et al. 1987; Kendall et al. 2019), we compared the predictive accuracy (R^2^) of models with and without log-transformed ITD. The raw ITD was considerably more predictive than ln(LTD), thus we present those models.[IB: I would go directly with untransformed ITD on the basis that is log related to body size]()
 
 For these purposes we specified the following models (for both typical and maximum foraging distance):
 * 1) Distance ~ ITD
 * 2) Distance ~ ITD * Metric type (categorical, physiological or functional)
 * 3) Distance ~ ITD * Metric type * eusociality (categorical, three levels)
 
-In addition, we also modelled distance ~ ITD * Lecty for solitary bees species.
+In addition, we also modelled distance ~ ITD * Lecty for solitary bees species. [IB: I would test Distance ~ ITD:Metric type + ITD:eusociality + ITD:lecticity in a single model]()
 
 For all models, the random effect structure consisted of random effects for i) publication, ii)  a random intercept and slope for metric, iii) a phylogenetic effect, which consisted of a phylogenetic relatedness correlation matrix between bee genera and iv) a non-phylogenetic species level effect. For the phylogenetic effect, we constructed a bee phylogeny using an available bee genera tree (Hedtke, Patiny, & Danforth, 2013). We removed non-represented genera and then fitted a chronogram from this phylogeny by penalized likelihood, and a correlated rate model (Paradis et al. 2004). We then converted this to a phylogenetic correlation matrix.
 
-We assessed the significance of the main- and interactive effects in each models by assessing whether 95% credible intervals bracketed zero. In the case of insignificant interactive effects in *Model 3*, we removed  the interactions including eusociality (i.e. ITD * eusociality and Metric type * eusociality) and refitted a reduced model with eusociality as an addictive effect.
+We assessed the significance of the main- and interactive effects in each models by assessing whether 95% credible intervals bracketed zero. In the case of insignificant interactive effects in *Model 3*, we removed  the interactions including eusociality (i.e. ITD * eusociality and Metric type * eusociality) and refitted a reduced model with eusociality as an addictive effect.[IB: Do we expect an interaction? If so, the test should be done keeping the interaction (even is ns), BUT if we want the most predictive model, simplifying is fine (and then do not test significance anymore and look for R2, for example)]()
 
-We parameterised each model with a *Gaussian* distribution, which was run for 2000 iterations, and a burn-in of 1000 iterations. We set weakly informative priors and manipulated $\Delta$ and maximum tree depth to avoid divergent transitions. We visualised posterior predictive checks using bayesplot (v1.6.0, Gabry & Mahr 2017) and assessed chain convergence for each sub-model separately. We considered effects were considered significant when 95% credible intervals did not bracket zero. 
+We parameterised each model with a *Gaussian* distribution, which was run for 2000 iterations, and a burn-in of 1000 iterations. We set weakly informative priors and manipulated $\Delta$ and maximum tree depth to avoid divergent transitions. We visualised posterior predictive checks using bayesplot (v1.6.0, Gabry & Mahr 2017) and assessed chain convergence for each sub-model separately. We considered effects were considered significant when 95% credible intervals did not bracket zero. [IB: this is said above]() 
 
 # Results
 ```{r All max models, eval = FALSE, echo=FALSE,include=FALSE}
@@ -720,7 +725,8 @@ save(mean.func.euc.red.phylo.brm,file="model_outputs/mean.func.euc.red.phylo.brm
 
 ## Summary
 
-In total, we included `r (nrow(forage.traits.max)+nrow(forage.traits.mean))` estimates of foraging distance (typical, n = `r nrow(forage.traits.mean)`) & maximum, n = `r nrow(forage.traits.max)`) in our analyses. We excluded `r nrow(distances%>%filter(distance_type2%in%"Observed"))` 'observed' foraging distance estimates from analyses. Typical and maxmium foraging distance estimates included `r length(levels(factor(forage.traits$Genus_species)))` species, `r length(levels(factor(forage.traits$Genus)))` genera and `r length(levels(factor(forage.traits$Family)))` families. Honeybees *Apis* spp. (`r nrow(forage.traits[forage.traits$Genus%in%c("Apis"),])` estimates) and bumblebees *Bombus* spp. (`r nrow(forage.traits[forage.traits$Genus%in%c("Bombus"),])` estimates) were the most commonly studied taxa. Maximum foraging distance estimates ranged from `r min(forage.traits.max$Distance)` metres (*`r gsub("_"," ",forage.traits.max[forage.traits.max$Distance%in%min(forage.traits.max$Distance),"Genus_species"])`*) to `r max(forage.traits.max$Distance)/1000` kilometres (*`r gsub("_"," ",forage.traits.max[forage.traits.max$Distance%in%max(forage.traits.max$Distance),"Genus_species"])`*). Typical foraging distance estimates ranged from `r min(forage.traits.mean$Distance)` metres (*`r gsub("_"," ",forage.traits.mean[forage.traits.mean$Distance%in%min(forage.traits.mean$Distance),"Genus_species"])`*) to `r max(forage.traits.mean$Distance)/1000` kilometres (*`r gsub("_"," ",forage.traits.mean[forage.traits.mean$Distance%in%max(forage.traits.mean$Distance),"Genus_species"])`*). 
+[Start with a descriptive histogram? Or three colored by type of metric?]()
+In total, we included `r (nrow(forage.traits.max)+nrow(forage.traits.mean))` estimates of foraging distance (typical, n = `r nrow(forage.traits.mean)` & maximum, n = `r nrow(forage.traits.max)`) in our analyses. We excluded `r nrow(distances%>%filter(distance_type2%in%"Observed"))` 'observed' foraging distance estimates from analyses. Typical and maxmium foraging distance estimates included `r length(levels(factor(forage.traits$Genus_species)))` species, `r length(levels(factor(forage.traits$Genus)))` genera and `r length(levels(factor(forage.traits$Family)))` families. Honeybees *Apis* spp. (`r nrow(forage.traits[forage.traits$Genus%in%c("Apis"),])` estimates) and bumblebees *Bombus* spp. (`r nrow(forage.traits[forage.traits$Genus%in%c("Bombus"),])` estimates) were the most commonly studied taxa. Maximum foraging distance estimates ranged from `r min(forage.traits.max$Distance)` metres (*`r gsub("_"," ",forage.traits.max[forage.traits.max$Distance%in%min(forage.traits.max$Distance),"Genus_species"])`*) to `r max(forage.traits.max$Distance)/1000` kilometres (*`r gsub("_"," ",forage.traits.max[forage.traits.max$Distance%in%max(forage.traits.max$Distance),"Genus_species"])`*). Typical foraging distance estimates ranged from `r min(forage.traits.mean$Distance)` metres (*`r gsub("_"," ",forage.traits.mean[forage.traits.mean$Distance%in%min(forage.traits.mean$Distance),"Genus_species"])`*) to `r max(forage.traits.mean$Distance)/1000` kilometres (*`r gsub("_"," ",forage.traits.mean[forage.traits.mean$Distance%in%max(forage.traits.mean$Distance),"Genus_species"])`*). 
 
 ADD TABLE OF ESTIMATES -species summary
 
@@ -929,7 +935,7 @@ mean.IT.euc.func.fitted <- cbind(euc.phys.preds,fitted(mean.func.euc.red.phylo.b
 max.IT.euc.func.fitted[,4] <- exp(max.IT.euc.func.fitted[,4])
 mean.IT.euc.func.fitted[,4] <- exp(mean.IT.euc.func.fitted[,4])
 ```
-Overall, body size was positively related to both maximum (*Marginal R^2^* = `r round(model.r2s[1,2][[1]],2)`) and typical (*Marginal R^2^* = `r round(model.r2s[9,2][[1]],2)`) foraging distances (Figure 1).  
+Overall, body size was positively related to both maximum (*Marginal R^2^* = `r round(model.r2s[1,2][[1]],2)`) and typical (*Marginal R^2^* = `r round(model.r2s[9,2][[1]],2)`) foraging distances (Figure 1).  [IB: I wonder if marginal R2 is doing us here a bad favour, taking into account conditional effects include things like specie and phylo geny, for which we do have the data and can be used to predict. Estimates looks low]()
 
 We found that physiological and functional constraints/measurements upon foraging distances differ in their relationship (slope) with body size (Model table, Figure 2). Specifically, physiological measurements of foraging distances increased at a greater rate per unit ITD than functional constraints/measurements (significant interaction with ITD, steeper slope). For example, in small bees (e.g. ITD of 2mm), physiological and functional measurements of foraging distance are similar (e.g. Typical: *functional*  `r round(mean.IT.func.fitted[3,3],2)`,*physiological* `r round(mean.IT.func.fitted[1,3],2)`;Maximum: *functional*  `r round(max.IT.func.fitted[3,3],2)`,*physiological* `r round(max.IT.func.fitted[1,3],2)`). However, in larger bees (ITD: 4mm), whereas physiological limits upon forging distance increase considerably, typical - `r round(mean.IT.func.fitted[2,3],2)`m, maximum - `r round(max.IT.func.fitted[2,3],2)`m, functional limits do not: typical, `r round(mean.IT.func.fitted[4,3],2)`m; maximum, `r round(max.IT.func.fitted[4,3],2)`m.
 
