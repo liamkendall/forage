@@ -2,11 +2,11 @@ This is the code and data from the article:
 
 **Title** 
 
-"Accurate predictions of bee foraging range need to account for both body size and sociality".
+"Accurate predictions of bee foraging range need to account for both body size and sociality"
 
 **Authors** 
 
-Liam K. Kendall $^1$, John M. Mola $^2$, Zachary M. Portman $^3$, Daniel Cariveau $^3$, Henrik G. Smith $^1$,$^4$, Ignasi Bartomeus $^5$
+Liam K. Kendall <sup>1</sup>, John M. Mola <sup>2</sup>, Zachary M. Portman <sup>3</sup>, Daniel Cariveau <sup>3</sup>, Henrik G. Smith <sup>1,4</sup>, Ignasi Bartomeus <sup>5</sup>
 
 **Affiliations**
 
