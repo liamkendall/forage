@@ -1,0 +1,103 @@
+Family;Genus_species;ITD;social_tree;Nesting;Lecty;colony_size_min;colony_size_max;Average;Second_Est;Source
+Apidae;Apis_cerana;2,34;Highly Eusocial;Hive;Polylectic;2000;20000;11000;midpoint;https://www.researchgate.net/profile/Kaspar-Bienefeld/publication/314267445_The_Asian_Honey_Bee_Apis_cerana_is_Significantly_in_Decline/links/5a3775590f7e9b10d848b58b/The-Asian-Honey-Bee-Apis-cerana-is-Significantly-in-Decline.pdf
+Apidae;Apis_dorsata;3,1;Highly Eusocial;Hive;Polylectic;50000;50000;50000;midpoint;https://sci-hub.st/10.1080/00218839.1979.11099952
+Apidae;Apis_florea;2;Highly Eusocial;Hive;Polylectic;6000;10000;8000;midpoint;https://sci-hub.st/10.1080/00218839.1979.11099952
+Apidae;Apis_mellifera;2,95;Highly Eusocial;Hive;Polylectic;30000;50000;40000;midpoint;https://www.researchgate.net/profile/Kaspar-Bienefeld/publication/314267445_The_Asian_Honey_Bee_Apis_cerana_is_Significantly_in_Decline/links/5a3775590f7e9b10d848b58b/The-Asian-Honey-Bee-Apis-cerana-is-Significantly-in-Decline.pdf
+Apidae;Cephalotrigona_capitata;2,3;Highly Eusocial;Hive;Polylectic;6561;21600;13315;;https://www.proquest.com/docview/2249209827?pq-origsite=gscholar&fromopenview=true
+Apidae;Heterotrigona_erythrogastra;1,6;Highly Eusocial;Hive;Polylectic;NA;NA;5000;imputed;https://link.springer.com/content/pdf/10.1007/BF02515474.pdf
+Apidae;Tetragonula_iridipennis;1,2;Highly Eusocial;Hive;Polylectic;NA;NA;2500;;Gruter2020
+Apidae;Melipona_fasciata;2,9;Highly Eusocial;Hive;Polylectic;200;3000;1000;;Gruter2020
+Apidae;Melipona_fasciculata;3,32;Highly Eusocial;Hive;Polylectic;300;1000;600;;Gruter2020
+Apidae;Melipona_fuligonosa;1,5;Highly Eusocial;Hive;Polylectic;250;600;383;;Gruter2020
+Apidae;Melipona_grandis;3,21;Highly Eusocial;Hive;Polylectic;NA;NA;818,9;imputed;
+Apidae;Melipona_mandacaia;2,9;Highly Eusocial;Hive;Polylectic;NA;NA;818,9;imputed;
+Apidae;Melipona_marginata;2,3;Highly Eusocial;Hive;Polylectic;160;2500;1330;;Gruter2020
+Apidae;Melipona_panamica;2,9;Highly Eusocial;Hive;Polylectic;NA;NA;818,9;imputed;
+Apidae;Melipona_quadrifasciata;3;Highly Eusocial;Hive;Polylectic;300;1500;900;;Gruter2020
+Apidae;Melipona_seminigra;2,9;Highly Eusocial;Hive;Polylectic;1000;3000;2000;;Gruter2020
+Apidae;Melipona_subnitida;2,24;Highly Eusocial;Hive;Polylectic;NA;NA;818,9;imputed;
+Apidae;Nannotrigona_perilampoides;1,4;Highly Eusocial;Hive;Polylectic;700;1200;950;;Gruter2020
+Apidae;Partamona_cupira;1,8;Highly Eusocial;Hive;Polylectic;280;6457;2084;;Gruter2020
+Apidae;Plebeia_droryana;1,2;Highly Eusocial;Hive;Polylectic;1070;3000;2400;;Gruter2020
+Apidae;Plebeia_mosquito;1;Highly Eusocial;Hive;Polylectic;NA;NA;1175;;Gruter2020
+Apidae;Scaptotrigona_luteipennis;2;Highly Eusocial;Hive;Polylectic;3000;10000;5600;;Gruter2020
+Apidae;Scaptotrigona_postica;1,82;Highly Eusocial;Hive;Polylectic;6000;10000;7400;;Gruter2020
+Apidae;Tetragonisca_angustula;1;Highly Eusocial;Hive;Polylectic;2000;8000;5000;;Gruter2020
+Apidae;Tetragonula_carbonaria;1,23;Highly Eusocial;Hive;Polylectic;2500;11000;7000;;Gruter2020
+Apidae;Trigona_amalthea;2,3;Highly Eusocial;Hive;Polylectic;9000;12000;10500;midpoint;The use of field–based social information in eusocial foragers: local enhancement among nestmates and heterospecifics in stingless bees
+Apidae;Trigona_corvina;1,5;Highly Eusocial;Hive;Polylectic;7000;25000;16000;;The use of field–based social information in eusocial foragers: local enhancement among nestmates and heterospecifics in stingless bees
+Apidae;Trigona_spinipes;1,8;Highly Eusocial;Hive;Polylectic;5000;180000;92500;;NA
+Apidae;Trigona_trinidadensis;2,22;Highly Eusocial;Hive;Polylectic;NA;NA;7617,615385;imputed;NA
+Apidae;Xylocopa_rufa;5,8;Solitary;Wood;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_balteatus;3,7;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_bifarius;2,94;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_distinguendus;5,36;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_diversus;3,85;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_flavifrons;3,39;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_hortorum;4,56;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_humilis;4,77;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_hypnorum;4,02;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_hypocrita;5,4;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_impatiens;3,38;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_lapidarius;4,21;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_lucorum;4,12;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_muscorum;3,1;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_pascuorum;4,41;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_pratorum;3,855;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_ruderatus;5,58;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_sylvarum;3,18;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_sylvicola;3,18;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_terrestris;4,54;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_vancouverensis;3,85;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_vosnesenskii;3,64;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Apidae;Xylocopa_virginica;5,6;Primitively Eusocial;Wood;Polylectic;NA;NA;NA;NA;NA
+Halictidae;Lasioglossum_calceatum;1,76;Primitively Eusocial;Ground;Polylectic;NA;NA;NA;NA;NA
+Halictidae;Lasioglossum_malachurum;1,7;Primitively Eusocial;Ground;Polylectic;NA;NA;NA;NA;NA
+Halictidae;Lasioglossum_pauxillum;1,1;Primitively Eusocial;Ground;Polylectic;NA;NA;NA;NA;NA
+Halictidae;Lasioglossum_umbripenne;1,2;Primitively Eusocial;Ground;Polylectic;NA;NA;NA;NA;NA
+Apidae;Bombus_pauloensis;4,06;Primitively Eusocial;Hive;Polylectic;NA;NA;NA;NA;NA
+Andrenidae;Andrena_barbilabris;2,1;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Andrenidae;Andrena_pilipes;4,33;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Andrenidae;Andrena_cineraria;3;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Andrenidae;Andrena_clarkella;3,1;Solitary;Ground;Oligolectic;NA;NA;NA;NA;NA
+Andrenidae;Andrena_dorsata;2,16;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Andrenidae;Andrena_flavipes;2,2;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Andrenidae;Andrena_hattorfiana;4,26;Solitary;Ground;Oligolectic;NA;NA;NA;NA;NA
+Andrenidae;Andrena_vaga;2,8;Solitary;Ground;Oligolectic;NA;NA;NA;NA;NA
+Andrenidae;Macrotera_texana;2,3;Solitary;Ground;Oligolectic;NA;NA;NA;NA;NA
+Andrenidae;Panurgus_banksianus;2,2;Solitary;Ground;Oligolectic;NA;NA;NA;NA;NA
+Apidae;Anthophora_abrupta;3,9;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Apidae;Anthophora_fulvitarsis;4,9;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Apidae;Anthophora_linsleyi;3,6;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Apidae;Eufriesea_surinamensis;5,6;Solitary;aboveground cells constructed from resin;Polylectic;NA;NA;NA;NA;NA
+Apidae;Eucera_salicariae;2,1;Solitary;Ground;Oligolectic;NA;NA;NA;NA;NA
+Apidae;Xylocopa_flavorufa;7,68;Solitary;Wood;Polylectic;NA;NA;NA;NA;NA
+Apidae;Xylocopa_violacea;7,8;Solitary;Wood;Polylectic;NA;NA;NA;NA;NA
+Colletidae;Colletes_cunicularius;4;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Colletidae;Colletes_daviesanus;3,76;Solitary;Ground;Oligolectic;NA;NA;NA;NA;NA
+Colletidae;Colletes_hederae;3,2;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Colletidae;Hylaeus_punctulatissimus;1,47;Solitary;Hole;Oligolectic;NA;NA;NA;NA;NA
+Halictidae;Lasioglossum_fulvicorne;1,34;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Halictidae;Lasioglossum_sordidum;1,29;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Halictidae;Nomia_melanderi;2,7;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Megachilidae;Rhodanthidium_septemdentatum;3,28;Solitary;Snail shells;Polylectic;NA;NA;NA;NA;NA
+Megachilidae;Chelostoma_florisomne;1,5;Solitary;Hole;Oligolectic;NA;NA;NA;NA;NA
+Megachilidae;Chelostoma_rapunculi;1,5;Solitary;Hole;Oligolectic;NA;NA;NA;NA;NA
+Megachilidae;Heriades_truncorum;1,48;Solitary;Hole;Oligolectic;NA;NA;NA;NA;NA
+Megachilidae;Hoplitis_adunca;2,46;Solitary;Hole;Oligolectic;NA;NA;NA;NA;NA
+Megachilidae;Hoplitis_anthocopoides;2,4;Solitary;Hole;Oligolectic;NA;NA;NA;NA;NA
+Megachilidae;Megachile_femorata;NA;Solitary;NA;NA;NA;NA;NA;NA;NA
+Megachilidae;Megachile_flavipes;2,9;Solitary;Hole;Oligolectic;NA;NA;NA;NA;NA
+Megachilidae;Megachile_lapponica;2,8;Solitary;Hole;Oligolectic;NA;NA;NA;NA;NA
+Megachilidae;Megachile_nana;1,9;Solitary;Hole;unclear;NA;NA;NA;NA;NA
+Megachilidae;Megachile_parietina;4,5;Solitary;"""This species builds exposed nests made of hard mud in rock crevices, more rarely on twigs""";Oligolectic;NA;NA;NA;NA;NA
+Megachilidae;Megachile_rotundata;2,4;Solitary;Hole;Polylectic;NA;NA;NA;NA;NA
+Megachilidae;Megachile_sicula;4,3;Solitary;Constructs aboveground nests of sand shaped into a ball and attached to twigs or rocks;Oligolectic;NA;NA;NA;NA;NA
+Megachilidae;Osmia_bicornis;3,04;Solitary;Hole, also excavastes burrows in crumbling or soft mortar;Polylectic;NA;NA;NA;NA;NA
+Megachilidae;Osmia_cornifrons;2,9;Solitary;Hole;Polylectic;NA;NA;NA;NA;NA
+Megachilidae;Osmia_cornuta;3,36;Solitary;Hole;Polylectic;NA;NA;NA;NA;NA
+Megachilidae;Osmia_lignaria;2,9;Solitary;Hole;Polylectic;NA;NA;NA;NA;NA
+Megachilidae;Osmia_maritima;2,9;Solitary;Ground;Polylectic;NA;NA;NA;NA;NA
+Megachilidae;Osmia_mustelina;3,5;Solitary;Hole;Polylectic;NA;NA;NA;NA;NA
+Megachilidae;Osmia_pedicornis;3,3;Solitary;NA;Polylectic;NA;NA;NA;NA;NA
+Melittidae;Dasypoda_hirtipes;2,9;Solitary;Ground;Oligolectic;NA;NA;NA;NA;NA
