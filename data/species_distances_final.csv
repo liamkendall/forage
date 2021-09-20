@@ -154,6 +154,7 @@ Geib J.C., Strange J.P., Galen A.;Y;2015;North America;USA;subalpine;Apidae;Bomb
 Geib J.C., Strange J.P., Galen A.;Y;2015;North America;USA;subalpine;Apidae;Bombus_sylvicola;Female;Female;molecular;molecular;5;Max;Max;340,5;;;;;sister distance divided by 2;
 Geib J.C., Strange J.P., Galen A.;Y;2015;North America;USA;subalpine;Apidae;Bombus_sylvicola;Female;Female;molecular;molecular;5;Typical;Mean;74,7;;56,3;;;;
 Goulson and Stout (2001);Y;2001;Europe;UK;urban;Apidae;Bombus_terrestris;Female;Female;homing;homing;56;Max;Max;9800;;;;n = recapture number;yes_pdf;
+Goulson and Stout (2001);Y;2001;Europe;UK;urban;Apidae;Bombus_terrestris;Female;Female;homing;homing;56;Typical;Mean;1250;;;;;yes_pdf;
 Guedot C., Bosch J., Kemp W.P.;Y;2009;North America;USA;Agriculture;Megachilidae;Osmia_lignaria;Female;Female;homing;homing;30;Max;Max;1200;;;;;;
 Haeseler (1982) in Gathmann and Tscharntke (2002);N;1982;;;;Megachilidae;Osmia_maritima;NA;NA;NA;NA;;Max;Max;150;;;;n.a. - german;no_access_LK;
 Hagen M., Wikelski M., Kissling W.D.;Y;2011;Europe;Germany;mixed rural;Apidae;Bombus_hortorum;Female_Queen;Female_Queen;tracking;tracking;3;Max;Max;1316;;;;;;
@@ -247,7 +248,7 @@ Michener (1974);Y_GSM;1974;;;;Apidae;Apis_cerana;Female;Female;feeder;feeder;;Ma
 Michener (1974);Y_GSM;1974;;;;Apidae;Apis_mellifera;Female;Female;feeder;feeder;;Max;Max;12000;;;;;no_access_LK;
 Michener (1974);Y_GSM;1974;;;;Apidae;Apis_mellifera;Female;Female;feeder;feeder;;Max;Max;2800;;;;;no_access_LK;ss adansonii
 Michener (1974);Y_GSM;1974;;;;Apidae;Apis_mellifera;Female;Female;feeder;feeder;;Max;Max;2500;;;;;no_access_LK;ss  mellifera
-Michener (1974);Y_GSM;1974;;;;Apidae;Heterotrigona_iridipennis;Female;Female;feeder;feeder;;Max;Max;100;;;;;no_access_LK;
+Michener (1974);Y_GSM;1974;;;;Apidae;Tetragonula_iridipennis;Female;Female;feeder;feeder;;Max;Max;100;;;;;no_access_LK;
 Michener (1974);Y_GSM;1974;;;;Apidae;Plebeia_mosquito;Female;Female;feeder;feeder;;Max;Max;500;;;;;no_access_LK;
 Michener (1974);Y_GSM;1974;;;;Apidae;Trigona_amalthea;Female;Female;feeder;feeder;;Max;Max;1000;;;;;no_access_LK;
 Michener (1974);Y_GSM;1974;;;;Apidae;Trigona_spinipes;Female;Female;feeder;feeder;;Max;Max;800;;;;;no_access_LK;
@@ -392,7 +393,7 @@ Westphal C., Steffan-Dewenter I., Tscharntke T.;Y;2006;Europe;Germany;mixed agri
 Wikelski M., Moxley J., Eaton-Mordas A., LÃ³pez-Uribe M.M., Holland R., Moskowitz D., Roubik D.W., Kays R.;N;2010;Central America;Panama;;Apidae;Exaerete frontalis;Male;Male;tracking;tracking;7;Typical;Mean;1516;340;;;;;
 Wille (1976);Y_GSM;1976;;;;Apidae;Melipona_fuligonosa;Female;Female;homing;homing;;Max;Max;2000;;;;Spanish;checked_IB;
 Wille (1976);Y;1976;;;;Apidae;Trigona_corvina;Female;Female;NA;NA;;Observed;NA;600;;;;From Kerr 1959;no_access_LK;
-Wille (1976);Y;1976;;;;Apidae;Trigona_trinidadensis;Female;Female;NA;NA;;Observed;NA;800;;;;From Kerr 1959;no_access_LK;
+Wille (1976);Y;1976;;;;Apidae;Trigona_amalthea;Female;Female;NA;NA;;Observed;NA;800;;;;From Kerr 1959;no_access_LK;
 Wille & Orozco 1970;Y;1984;Central America;Costa Rica;pasture/rainforest;Halictidae;Lasioglossum_umbripenne;Female;Female;homing;homing;;Max;Max;200;;;;Source is wrong: corrected - was listed as Batra 1984;yes_pdf;
 Wille & Orozco 1970;Y;1984;Central America;Costa Rica;pasture/rainforest;Halictidae;Lasioglossum_umbripenne;Female;Female;homing;homing;;Typical;Typical;100;;;;Source is wrong: corrected - was listed as Batra 1984;yes_pdf;
 Witt (1992) in Gathmann and Tscharntke (2002);N;1996;Europe;Germany;NA;Andrenidae;Andrena_barbilabris;NA;Female;NA;NA;;Max;Max;500;;;;;no_access_LK;
@@ -410,3 +411,11 @@ Zurbuchen 2010;Y;2010;Europe;Switzerland;Agriculture;Megachilidae;Chelostoma_rap
 Zurbuchen 2010;Y;2010;Europe;Switzerland;Agriculture;Megachilidae;Hoplitis_adunca;Female;Female;associative;nest plant association;39;Max;Max;1400;;;;Foraging distance;yes_pdf;
 Zurbuchen 2010;Y;2010;Europe;Switzerland;Agriculture;Colletidae;Hylaeus_punctulatissimus;Female;Female;associative;nest plant association;85;Max;Max;1100;;;;Foraging distance;yes_pdf;
 Zurbuchen 2010b;Y;2010;Europe;Switzerland;Agriculture;Megachilidae;Chelostoma_florisomne;Female;Female;mark recapture;mark recapture;18;Max;Max;650;;;;Foraging distance;yes_pdf;
+Inoue 1985;Y;1985;Asia;Indonesia;NA;Apidae;Tetragonula_minangkabau;Female;Female;associative;nest plant association;NA;Max;Max;434;;;;;yes_pdf;
+Inoue 1985;Y;1985;Asia;Indonesia;NA;Apidae;Tetragonula_minangkabau;Female;Female;associative;nest plant association;NA;Typical;Typical;258;;;;;yes_pdf;
+Nagamitsu 2012;Y;2012;Asia;Japan;Agriculture;Apidae;Bombus_diversus;Female;Female;molecular;molecular;;Max;Max;723;;;;;yes_pdf;
+Nagamitsu 2012;Y;2012;Asia;Japan;Agriculture;Apidae;Bombus_hypocrita;Female;Female;molecular;molecular;;Max;Max;848;;;;;yes_pdf;
+Nagamitsu 2012;Y;2012;Asia;Japan;Agriculture;Apidae;Bombus_diversus;Female;Female;molecular;molecular;;Typical;Typical;175,5;;;;mean;yes_pdf;
+Nagamitsu 2012;Y;2012;Asia;Japan;Agriculture;Apidae;Bombus_hypocrita;Female;Female;molecular;molecular;;Typical;Typical;293;;;;mean;yes_pdf;
+Nagamitsu 2009;Y;2009;Asia;Japan;Mixed use;Apidae;Bombus_terrestris;Female;Female;molecular;molecular;;Max;Max;782;;;;;yes_pdf;
+Nagamitsu 2009;Y;2009;Asia;Japan;Mixed use;Apidae;Bombus_terrestris;Female;Female;molecular;molecular;;Typical;Typical;264,5;;;;mean;yes_pdf;
