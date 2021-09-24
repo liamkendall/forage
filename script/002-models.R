@@ -6,16 +6,16 @@ options(brms.backend="cmdstanr")
 ####Maximum models
 
 #Phylo VCV matrix
-Agen <- ape::vcv.phylo(bee.max.tree)
+Agen <- ape::vcv.phylo(bee.max_tree)
 
 ####Priors
 
-max.priors <- prior(normal(5,2),class="Intercept")+
+max_priors <- prior(normal(5,2),class="Intercept")+
   prior(normal(0,1),class="b")+
   prior(normal(0,1),class="sd")
 
 ####Model 1
-max.IT.brm <- brm(log.dist~itd+
+max_IT_mod <- brm(log.dist~itd+
                     (1|publication)+
                     (1|metric)+
                     (1|species)+
@@ -23,14 +23,14 @@ max.IT.brm <- brm(log.dist~itd+
                   data2 = list(Agen = Agen),
                   cores=4,
                   iter = 2000,
-                  prior = max.priors,
+                  prior = max_priors,
                   family="gaussian",
                   control = list(adapt_delta=0.999,
                                  max_treedepth=15),
                   data=forage.traits.max)
 
 ##Model 2
-max.measure.brm<- brm(log.dist~itd*measure.type+
+max_measure_mod<- brm(log.dist~itd*measure.type+
                            (1|publication)+
                            (1|metric)+
                            (1|species)+
@@ -38,14 +38,14 @@ max.measure.brm<- brm(log.dist~itd*measure.type+
                          data2 = list(Agen = Agen),
                          cores=4,
                          iter = 2000,
-                         prior = max.priors,
+                         prior = max_priors,
                          family="gaussian",
                          control = list(adapt_delta=0.999,
                                         max_treedepth=15),
                          data=forage.traits.max)
 
 #Model 3
-max.social.brm<- brm(log.dist~itd*measure.type*sociality+
+max_social_mod<- brm(log.dist~itd*measure.type*sociality+
                                     (1|publication)+
                                     (1|metric)+
                                     (1|species)+
@@ -53,7 +53,7 @@ max.social.brm<- brm(log.dist~itd*measure.type*sociality+
                                   data2 = list(Agen = Agen),
                                   cores=4,
                                   iter = 2000,
-                                  prior = max.priors,
+                                  prior = max_priors,
                                   family="gaussian",
                                   control = list(adapt_delta=0.999,
                                                  max_treedepth=15),
@@ -67,18 +67,18 @@ max.social.brm<- brm(log.dist~itd*measure.type*sociality+
 Bg <- ape::vcv.phylo(bee.mean.tree)
 
 #pirors
-typ.priors <- prior(normal(5,2),class="Intercept")+
+typ_priors <- prior(normal(5,2),class="Intercept")+
   prior(normal(0,1),class="b")+
   prior(normal(0,1),class="sd")
 
 #model 1
-typ.IT.brm<- brm(log.dist~itd+
+typ_IT_mod<- brm(log.dist~itd+
                     (1|publication)+
                     (1|metric)+
                     (1|species)+
                     (1|gr(genus, cov = Bg)),
                   iter = 2000,
-                  prior = typ.priors,
+                  prior = typ_priors,
                   data2 = list(Bg = Bg),
                   cores=4,
                   family="gaussian",
@@ -87,7 +87,7 @@ typ.IT.brm<- brm(log.dist~itd+
                   data=forage.traits.mean)
 
 #model 2
-typ.measure.brm<- brm(log.dist~itd*measure.type+
+typ_measure_mod<- brm(log.dist~itd*measure.type+
                          (1|publication)+
                          (1|metric)+
                          (1|species)+
@@ -95,14 +95,14 @@ typ.measure.brm<- brm(log.dist~itd*measure.type+
                        data2 = list(Bg = Bg),
                        cores=4,
                        iter = 2000,
-                       prior = typ.priors,
+                       prior = typ_priors,
                        family="gaussian",
                        control = list(adapt_delta=0.999,
                                       max_treedepth=15),
                        data=forage.traits.mean)
 
 #model 3
-typ.social.brm<- brm(log.dist~itd*measure.type*sociality+
+typ_social_mod<- brm(log.dist~itd*measure.type*sociality+
                         (1|publication)+
                         (1|metric)+
                         (1|species)+
@@ -110,51 +110,51 @@ typ.social.brm<- brm(log.dist~itd*measure.type*sociality+
                       data2 = list(Bg = Bg),
                       cores=4,
                       iter = 2000,
-                      prior = typ.priors,
+                      prior = typ_priors,
                       family="gaussian",
                       control = list(adapt_delta=0.999,
                                      max_treedepth=15),
                       data=forage.traits.mean)
                                    
 ###posterior predictive checks
-pp_check(typ.IT.brm)
-pp_check(typ.measure.brm)
-pp_check(typ.social.brm)
+pp_check(typ_IT_mod)
+pp_check(typ_measure_mod)
+pp_check(typ_social_mod)
 
-pp_check(max.IT.brm)
-pp_check(max.measure.brm)
-pp_check(max.social.brm)
+pp_check(max_IT_mod)
+pp_check(max_measure_mod)
+pp_check(max_social_mod)
 
 ##ICC
-icc(typ.IT.brm,by_group=T)
-icc(typ.measure.brm,by_group=T)
-icc(typ.social.brm,by_group=T)
+icc(typ_IT_mod,by_group=T)
+icc(typ_measure_mod,by_group=T)
+icc(typ_social_mod,by_group=T)
 
-icc(max.IT.brm,by_group=T)
-icc(max.measure.brm,by_group=T)
-icc(max.social.brm,by_group=T)
+icc(max_IT_mod,by_group=T)
+icc(max_measure_mod,by_group=T)
+icc(max_social_mod,by_group=T)
 
 #r2
-r2(typ.IT.brm)
-r2(typ.measure.brm)
-r2(typ.social.brm)
+r2(typ_IT_mod)
+r2(typ_measure_mod)
+r2(typ_social_mod)
 
-r2(max.IT.brm)
-r2(max.measure.brm)
-r2(max.social.brm)
+r2(max_IT_mod)
+r2(max_measure_mod)
+r2(max_social_mod)
 
 ####model performance
-model.list <- list(max.IT.brm,
-                   max.measure.brm,
-                   max.social.brm,
-                   typ.IT.brm,
-                   typ.measure.brm,
-                   typ.social.brm)
+model.list <- list(max_IT_mod,
+                   max_measure_mod,
+                   max_social_mod,
+                   typ_IT_mod,
+                   typ_measure_mod,
+                   typ_social_mod)
 
 model.r2s <- do.call("rbind", lapply(model.list,function(x) r2(x)))
 
 model.r2s
-#save model 3 objects
-save(max.social.brm,file="model_outputs/max.social.model.rdata")
-save(typ.social.brm,file="model_outputs/typ.social.model.rdata")
 
+#save model 3 objects
+save(max_social_mod,file="model_outputs/max_social.mod.rdata",compress="xz")
+save(typ_social_mod,file="model_outputs/typ_social_mod.rdata",compress="xz")

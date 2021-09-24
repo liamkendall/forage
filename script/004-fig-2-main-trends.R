@@ -1,9 +1,9 @@
 ###Main plot
 
-func.euc.preds.1 <- rbind(cbind(fitted(max.social.brm,re_formula = NA),
+func.euc.preds.1 <- rbind(cbind(fitted(max_social_mod,re_formula = NA),
                                 forage.traits.max,
                                 gl=foragedist(forage.traits.max$itd,type="GrMhd")),
-                        cbind(fitted(typ.social.brm,re_formula = NA),
+                        cbind(fitted(typ_social_mod,re_formula = NA),
                               forage.traits.mean,
                               gl=foragedist(forage.traits.mean$itd,type="GrThd")))
 

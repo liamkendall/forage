@@ -21,17 +21,17 @@ example.preds.1 <- data.frame(species=c("Apis_mellifera","Apis_mellifera",
                               metric=c(NA,NA,NA,NA,NA,NA),
                               itd=c(2.9,2.9,2.9,2.9,2.9,2.9))
 
-pred.draws.max.1.r <- max.social.brm%>%
+pred.draws.max.1.r <- max_social_mod%>%
   add_predicted_draws(newdata = example.preds.1,
                       re_formula = ~(1|species)+(1|genus),
                       transform=exp)
 
-pred.draws.max.2.r <- max.social.brm%>%
+pred.draws.max.2.r <- max_social_mod%>%
   add_predicted_draws(newdata = example.preds.1,
                       re_formula = ~(1|genus),
                   transform=exp)
 
-pred.draws.max.3.r <- max.social.brm%>%
+pred.draws.max.3.r <- max_social_mod%>%
   add_predicted_draws(newdata = example.preds.1,
                       re_formula = NA,
                       transform=exp)
@@ -49,17 +49,17 @@ max.2.qi <- median_hdci(pred.draws.max.2.r,.value=.prediction)%>%
 max.3.qi <- median_hdci(pred.draws.max.3.r,.value=.prediction)%>%
   select(sociality,measure.type,.value,.lower,.upper)
 
-pred.draws.mean.1.r <- typ.social.brm%>%
+pred.draws.mean.1.r <- typ_social_mod%>%
   add_predicted_draws(newdata = example.preds.1,
                       re_formula = ~(1|species)+(1|genus),
                       transform=exp)
 
-pred.draws.mean.2.r <- typ.social.brm%>%
+pred.draws.mean.2.r <- typ_social_mod%>%
   add_predicted_draws(newdata = example.preds.1,
                       re_formula = ~(1|genus),
                       transform=exp)
 
-pred.draws.mean.3.r <- typ.social.brm%>%
+pred.draws.mean.3.r <- typ_social_mod%>%
   add_predicted_draws(newdata = example.preds.1,
                       re_formula = NA,
                       transform=exp)
@@ -303,7 +303,7 @@ species.plot.typ <- ggplot(samples.cast.typ,aes(x=Potential,
         axis.text.x = element_text(size=11),
         axis.title.x = element_text(size=12),
         axis.title.y = element_blank(),
-        strip.text =  element_text(size=14,face="bold"),
+        strip.text =  element_text(size=16,face="bold"),
         legend.position = "none",
         plot.margin = unit(c(0.5,0.5,0.5,2), "lines"),
         panel.spacing = unit(0.5,"lines"),
@@ -342,7 +342,6 @@ samples.cast.max$model <- factor(samples.cast.max$model,
                                             "Max_1"))
 
 samples.cast.max$Title <- "Maximum"
-
 species.plot.max <- ggplot(samples.cast.max,aes(x=Potential,
                                                 y=species,
                                                 col=model,
@@ -405,8 +404,8 @@ species.plot.max <- ggplot(samples.cast.max,aes(x=Potential,
   theme_bw() + 
   theme(plot.title = element_text(hjust = 0,face="bold",size=14),
         legend.box.background = element_rect(colour = "black"),
-        legend.title = element_text(size=12,face="bold"),
-        legend.text = element_text(size=11),
+        legend.title = element_text(size=10,face="bold"),
+        legend.text = element_text(size=8),
         aspect.ratio = 1,
         strip.background = element_blank(),
         text=element_text(),
@@ -416,9 +415,9 @@ species.plot.max <- ggplot(samples.cast.max,aes(x=Potential,
         axis.text.x = element_text(size=11),
         axis.title.x = element_text(size=12),
         axis.title.y = element_blank(),
-        strip.text =  element_text(size=14,face="bold"),
+        strip.text =  element_text(size=16,face="bold"),
         legend.position = c(0.75, 0.15),
-        plot.margin = unit(c(0.5,0.5,0.5,2), "lines"),
+        plot.margin = unit(c(0.5,2,0.5,0.5), "lines"),
         panel.spacing = unit(0.5,"lines"),
         legend.box = "vertical",
         legend.background = element_blank(),
@@ -432,16 +431,16 @@ sp.typ.p <- ggplotGrob(species.plot.typ)
 ggsave(cbind(sp.typ.p,
              sp.max.p),file="plots/Figure 3.pdf",
        device="pdf",
-       width=12,
-       height=8,
+       width=10,
+       height=6,
        units = "in",
        dpi = 300)
 
 ggsave(cbind(sp.typ.p,
              sp.max.p),file="plots/Figure 3.jpg",
        device="jpg",
-       width=12,
-       height=8,
+       width=10,
+       height=6,
        units = "in",
        dpi = 300)
 
