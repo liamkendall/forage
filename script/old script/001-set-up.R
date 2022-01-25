@@ -1,7 +1,6 @@
 ###set-up
 
 #run once
-
 library(plyr)
 library(dplyr)
 library(data.table)
@@ -95,6 +94,5 @@ bee.mean.tree=drop.tip(bee.mcmc, setdiff(bee.mcmc$tip.label,
 
 bee.max.tree$node.label=NULL
 bee.mean.tree$node.label=NULL
-
 
 ###READY!
