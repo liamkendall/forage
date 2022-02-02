@@ -28,7 +28,7 @@ library(gtable)
 library(ggh4x)
 
 ##dataframe
-forage.ranges <- read.csv("data/range-traits-df-rev-final.csv",
+forage.ranges <- read.csv("data/ranges-df.csv",
                       sep=";",dec=",",
                       stringsAsFactors = FALSE)
 
@@ -55,7 +55,6 @@ forage.traits <- forage.ranges%>%
 
 #observed distances
 forage.traits.obs <- forage.ranges%>%
-  filter(!is.na(itd)==T)%>%
   filter(range.type%in%c("Unclassifiable"))
 
 ####
@@ -76,30 +75,6 @@ forage.traits$range.4 <- factor(forage.traits$range.4,
                                          "Typ-Potential",
                                          "Max-Realised",
                                          "Max-Potential"))
-
-
-###body mass estimates
-library(pollimetry)
-
-bm.estimates.1 <- bodysize2(x=data.frame(IT=forage.traits$itd,
-                                      Sex="Female",
-                                      Family=forage.traits$family,
-                                      Species=forage.traits$species),
-                         taxa="bee",
-                         type="taxo")
-
-bm.estimates.2 <- bodysize(x=data.frame(IT=forage.traits$itd,
-                                         Sex="Female",
-                                         Family=forage.traits$family,
-                                         Species=forage.traits$species),
-                            taxa="bee",
-                            type="taxo")
-
-forage.traits$bm <- bm.estimates.1$Est.Weight
-forage.traits$bm.se <- bm.estimates.1$SE
-
-forage.traits$e.bm <- bm.estimates.2$Est.Weight
-forage.traits$e.bm.se <- bm.estimates.2$SE
 
 ##Phylogeny setup
 

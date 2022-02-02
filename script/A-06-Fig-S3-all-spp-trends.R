@@ -1,7 +1,8 @@
 ###FIGURE S1A-B
+library(dplyr)
 
 max.species <- forage.traits%>%
-  select(genus,species,itd,sociality)%>%
+  dplyr::select(genus,species,itd,sociality)%>%
   filter(!duplicated(species))
 
 max.species.l <- data.frame(rbind(max.species,max.species),range.4=
@@ -13,25 +14,25 @@ max.species.l <- data.frame(rbind(max.species,max.species),range.4=
 
 max.species.l$max_set_p <- ifelse(max.species.l$species%in%c(forage.traits%>%
                                                              filter(range.4%in%"Max-Potential")%>%
-                                                             select(species))$species,
+                                                             dplyr::select(species))$species,
                               "IN",
                               "OUT")
 
 max.species.l$max_set_r <- ifelse(max.species.l$species%in%c(forage.traits%>%
                                                              filter(range.4%in%"Max-Realised")%>%
-                                                             select(species))$species,
+                                                               dplyr::select(species))$species,
                               "IN",
                               "OUT")
 
 max.species.l$typ_set_p <- ifelse(max.species.l$species%in%c(forage.traits%>%
                                                              filter(range.4%in%"Typ-Potential")%>%
-                                                             select(species))$species,
+                                                               dplyr::select(species))$species,
                               "IN",
                               "OUT")
 
 max.species.l$typ_set_r <- ifelse(max.species.l$species%in%c(forage.traits%>%
                                                              filter(range.4%in%"Typ-Realised")%>%
-                                                             select(species))$species,
+                                                               dplyr::select(species))$species,
                               "IN",
                               "OUT")
 
@@ -57,10 +58,10 @@ species.1.qi <- median_hdci(species.draws.1.r,.value=exp(.epred))%>%
   dplyr::select(max_set_p,max_set_r,typ_set_r,typ_set_p,
          species,sociality,range.4,.value,.lower,.upper,itd,typ.set,max.set)
 species.2.qi <- median_hdci(species.draws.2.r,.value=exp(.epred))%>%
-  select(max_set_p,max_set_r,typ_set_r,typ_set_p,
+  dplyr::select(max_set_p,max_set_r,typ_set_r,typ_set_p,
          species,sociality,range.4,.value,.lower,.upper,itd,typ.set,max.set)
 species.3.qi <- median_hdci(species.draws.3.r,.value=exp(.epred))%>%
-  select(max_set_p,max_set_r,typ_set_r,typ_set_p,
+  dplyr::select(max_set_p,max_set_r,typ_set_r,typ_set_p,
          species,sociality,range.4,.value,.lower,.upper,itd,typ.set,max.set)
 
 species.1.qi$model <- "Model_1"
@@ -70,7 +71,7 @@ species.3.qi$model <- "Model_3"
 species.mean.values <- rbind.fill(species.1.qi,
                           species.2.qi,
                           species.3.qi)%>%
-  select(max_set_r,max_set_p,typ_set_r,typ_set_p,species,sociality,range.4,
+  dplyr::select(max_set_r,max_set_p,typ_set_r,typ_set_p,species,sociality,range.4,
          .value,.lower,.upper,itd,model,typ.set,max.set)
 
 species.mean.values$species <- gsub("_"," ",species.mean.values$species)

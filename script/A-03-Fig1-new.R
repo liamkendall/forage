@@ -170,6 +170,36 @@ point.theme <- theme(plot.title = element_text(hjust = 0,face="bold",size=14),
         panel.border = element_rect(color = "black",
                                     fill = NA, size = 0.4))
 
+func.euc.preds.1$sociality <- factor(func.euc.preds.1$sociality,
+                                     levels=c("Highly Eusocial",
+                                              "Primitively Eusocial",
+                                              "Solitary"))
+
+func.euc.preds.1$social2 <- factor(func.euc.preds.1$social2,
+                                     levels=c("Highl",
+                                              "Primi",
+                                              "Solit"))
+
+forage.stats$sociality <- factor(forage.stats$sociality,
+                                 levels=c("Highly Eusocial",
+                                          "Primitively Eusocial",
+                                          "Solitary"))
+
+forage.stats$social2 <- factor(forage.stats$social2,
+                               levels=c("Highl",
+                                        "Primi",
+                                        "Solit"))
+
+forage.plot$sociality <- factor(forage.plot$sociality,
+                                levels=c("Highly Eusocial",
+                                         "Primitively Eusocial",
+                                         "Solitary"))
+
+forage.plot$social2 <- factor(forage.plot$social2,
+                              levels=c("Highl",
+                                       "Primi",
+                                       "Solit"))
+
 #######
 #Potential typical
 range.tl
@@ -481,9 +511,13 @@ range.bl.point.plot <- ggplot(forage.stats %>%
 #realised maximum
 range.br
 ######
+plot.br <- func.euc.preds.1 %>% 
+  filter(range.4%in%range.br)
 
-range.br.line.plot <- ggplot(func.euc.preds.1 %>% 
-                               filter(range.4%in%range.br),
+plot.br$sociality <- factor(plot.br$sociality,
+                            levels=c("Highly Eusocial","Solitary","Primitively Eusocial"))
+
+range.br.line.plot <- ggplot(plot.br,
                              aes(y=Estimate,x=itd,
                                  col=sociality,
                                  fill=sociality)) +  
@@ -581,9 +615,9 @@ range.br.point.plot <- ggplot(forage.stats %>%
                    # guide = guide_legend(override.aes = list(labels = c("Primitively Eusocial",
                    #                                                     "Solitary","Highly eusocial")) ) ) + 
   scale_fill_manual(values=soc.pal2,
-                      breaks=c("Primitively Eusocial",
-                               "Solitary",
-                               "Highly Eusocial"))+
+                      breaks=c("Highly Eusocial",
+                               "Primitively Eusocial",
+                               "Solitary"))+
               #        guide = guide_legend(override.aes = list(labels = c("Primitively Eusocial",
               #                                                            "Solitary","Highly eusocial")) ) ) + 
   labs(name="Eusociality",

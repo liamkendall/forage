@@ -1,11 +1,5 @@
 #Figure 1 - Summary of all measurements we have
 
-#removed "observed" line 9
-
-max.cols=c("Maximum"="#A7473A",
-           "Typical"="#4B5F6C")#, #dark blue
-           #"Observed"="#A8B9CB")
-
 forage.traits.plot <- forage.traits #rbind.fill(,forage.traits.obs)
 forage.traits.plot$range.type <- revalue(forage.traits.plot$range.type,
                                              c("Max" = "Maximum"))
@@ -41,10 +35,11 @@ forage.traits.plot2$range.4 <- ifelse((forage.traits.plot2$range.type%in%"Maximu
                                       ifelse((forage.traits.plot2$range.type%in%"Typical"
                                                      &forage.traits.plot2$measure.type%in%"Potential"),
                                              "Potential typical","Realized typical")))
-four.pal <- c("Potential typical" = "#4F651D",
-              "Potential maximum" = "#798C8B", 
-              "Realized typical"= "#2F638F", 
-              "Realized maximum" = "#490B0A")
+
+four.pal <- c("Potential typical" = "#CABEE9",
+              "Potential maximum" = "#FAE093", 
+              "Realized typical"= "#D04E59", 
+              "Realized maximum" = "#2F3D70")
 
 forage.traits.plot2$range.4 <- factor(forage.traits.plot2$range.4,
                                       levels=c("Potential typical",

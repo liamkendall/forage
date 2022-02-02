@@ -56,12 +56,12 @@ r2(all_IT_mod)
 r2(all_social_mod)
 
 #slope contrasts
-slope.cons <- emtrends(all_social_mod, ~sociality:range.4, var = "itd")
-
-slope.cons.df <- data.frame(slope.cons)
-
-ggplot(slope.cons.df,aes(x=sociality,y=itd.trend,col=range.4))+
-  geom_point()
+#slope.cons <- emtrends(all_social_mod, ~sociality:range.4, var = "itd")
+#
+#slope.cons.df <- data.frame(slope.cons)#
+#
+#ggplot(slope.cons.df,aes(x=sociality,y=itd.trend,col=range.4))+
+#  geom_point()
 
 #save model objects
 save(all_IT_mod,

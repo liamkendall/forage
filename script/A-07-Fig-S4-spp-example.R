@@ -49,13 +49,13 @@ pred.draws.2.r$model <- "All_2"
 pred.draws.3.r$model <- "All_3"
 
 all.1.qi <- median_hdci(pred.draws.1.r,.value=.prediction)%>%
-  select(sociality,range.4,.value,.lower,.upper)
+  dplyr::select(sociality,range.4,.value,.lower,.upper)
 
 all.2.qi <- median_hdci(pred.draws.2.r,.value=.prediction)%>%
-  select(sociality,range.4,.value,.lower,.upper)
+  dplyr::select(sociality,range.4,.value,.lower,.upper)
 
 all.3.qi <- median_hdci(pred.draws.3.r,.value=.prediction)%>%
-  select(sociality,range.4,.value,.lower,.upper)
+  dplyr::select(sociality,range.4,.value,.lower,.upper)
 
 all.1.qi$model <- "All_1"
 all.2.qi$model <- "All_2"
@@ -156,7 +156,7 @@ range((mean.1.qi[4,3]-mean.1.qi[6,3])/mean.1.qi[6,3],
 mean.values <- rbind.fill(all.1.qi,
                           all.2.qi,
                           all.3.qi) %>%
-  select(sociality,range.4,.value,.lower,.upper,model)
+  dplyr::select(sociality,range.4,.value,.lower,.upper,model)
 
 mean.values[,3:5] <- mean.values[,3:5]/1000
 
