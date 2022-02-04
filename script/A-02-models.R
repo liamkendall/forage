@@ -47,21 +47,9 @@ all_social_mod<- brm(log.dist~range.4*itd*sociality+
 pp_check(all_IT_mod)
 pp_check(all_social_mod)
 
-##ICC
-icc(all_IT_mod,by_group=T)
-icc(all_social_mod,by_group=T)
-
 #r2
 r2(all_IT_mod)
 r2(all_social_mod)
-
-#slope contrasts
-#slope.cons <- emtrends(all_social_mod, ~sociality:range.4, var = "itd")
-#
-#slope.cons.df <- data.frame(slope.cons)#
-#
-#ggplot(slope.cons.df,aes(x=sociality,y=itd.trend,col=range.4))+
-#  geom_point()
 
 #save model objects
 save(all_IT_mod,
