@@ -2,7 +2,7 @@ This is the code and data from the article:
 
 **Title** 
 
-"Accurate predictions of bee foraging range need to account for both body size and sociality"
+"Sociality and body size determine potential and realized bee foraging ranges"
 
 **Authors** 
 
