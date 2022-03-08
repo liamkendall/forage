@@ -5,21 +5,14 @@ options(brms.backend="cmdstanr")
 
 ####All model
 
-#Phylo VCV matrix
 phy.vcv <- ape::vcv.phylo(bee.tree)
 #Phylo VCV matrix
 phy.g.vcv <- ape::vcv.phylo(bee.gen.tree)
 
 ####Priors
-all_priors <- prior(normal(4,2),class="Intercept")+
-  prior(normal(0,1),class="b")+
-  prior(normal(0,1),class="sd")
-
 all_10_priors <- prior(normal(-2, 2),class="Intercept")+
   prior(normal(0,2),class="b")+
-#  prior(normal(0,1),class="sd",group="species")+
   prior(normal(0,0.5),class="sd")
-#forage.traits.bm$spp <- forage.traits.bm$species
 
 ####Model 1
 all_IT_bm_mod <- brm(dist10~range.4*wgt10+
@@ -59,10 +52,7 @@ pp_check(all_social_bm_mod)
 r2(all_IT_bm_mod)
 r2(all_social_bm_mod)
 
-library(emmeans)
-emtrends(all_social_bm_mod, pairwise ~ range.4*sociality, var = "wgt10")
-
-#save model objects
+#save model objectsa
 save(all_IT_bm_mod,
      file="model_outputs/all_IT_bm_mod.rdata",
      compress="xz")
