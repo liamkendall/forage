@@ -124,29 +124,6 @@ LD90.6
 #90%
 0.56 - 0.048 *(9.58)
 
-
-#################
-## Janzen 1971 ##
-#################
-
-janzen=data.frame(
-dist=c(1,2,3,4,5,6,
-      14,17,20,23),
-ntotal=c(2,2,2,2,2,2,
-         3,3,3,3),
-return=c(2,2,2,2,2,2,
-         2,1,3,1))
-
-janzen.glm1 <- glm(cbind(return,ntotal-return)~dist,
-                  family="binomial",
-                  data=janzen)
-
-LD50.7 <- dose.p(janzen.glm1, p = 0.5)
-LD90.7 <- dose.p(janzen.glm1, p = 0.1)
-
-LD50.7
-LD90.7
-
 #####################
 ## Pahl & Zhu 2011 ##
 #####################

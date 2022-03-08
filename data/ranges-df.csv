@@ -1,91 +1,91 @@
 ﻿publication;year;region;country;habitat;family;genus;species;sex;range.type;measure.type;metric;N;distance;sd;se;ci95;itd;sociality;notes
-Abrol (1986);1986;NA;NA;NA;Megachilidae;Megachile;Megachile_femorata;Female;Max;Potential;homing;10;500,00;NA;NA;NA;2,76;Solitary;Observed homing distance - From Zurbuchen et al. (2010)
-Abrol (1988);1988;Asia;India;Agriculture;Megachilidae;Megachile;Megachile_flavipes;Female;Max;Potential;homing;20;800,00;NA;NA;NA;2,9;Solitary;Return rate 90% From Greenleaf et al. (2007) Table S1
-Abrol (1988);1988;NA;NA;NA;Megachilidae;Megachile;Megachile_flavipes;Female;Unclassifiable;Realised;associative;NA;700,00;NA;NA;NA;2,9;Solitary;From Greenleaf et al. (2007)
-Abrol (1988);1988;NA;NA;NA;Megachilidae;Megachile;Megachile_nana;Female;Unclassifiable;Realised;associative;NA;800,00;NA;NA;NA;1,9;Solitary;From Greenleaf et al. (2007)
-Abrol (1988);1988;NA;NA;NA;Apidae;Apis;Apis_florea;Female;Max;Realised;mark recapture;NA;500,00;NA;NA;NA;2;Highly Eusocial;Foraging distance
-Abrol (1988);1988;Asia;India;Agriculture;Megachilidae;Megachile;Megachile_flavipes;Female;Typical;Potential;homing;NA;500,00;NA;NA;NA;2,9;Solitary;Return rate 50% From Greenleaf et al. (2007) Table S1
-Abrol (1988);1988;Asia;India;Agriculture;Megachilidae;Megachile;Megachile_nana;Female;Max;Potential;homing;NA;600,00;NA;NA;NA;1,9;Solitary;Return rate 90% From Greenleaf et al. (2007) Table S1
-Abrol (1988);1988;Asia;India;Agriculture;Megachilidae;Megachile;Megachile_nana;Female;Typical;Potential;homing;NA;400,00;NA;NA;NA;1,9;Solitary;Return rate 50% From Greenleaf et al. (2007) Table S1
-Amand et al. (2000);2000;North America;USA;Agriculture;Megachilidae;Megachile;Megachile_rotundata;Female;Max;Realised;associative;NA;1000,00;NA;NA;NA;2,4;Solitary;assumed rotundata as alfalfa'
-Appanah (1979) in Appanah (1982);1979;Asia;Malaysia;rainforest;Apidae;Heterotrigona;Heterotrigona_erythrogastra;Female;Max;Realised;associative;NA;1100,00;NA;NA;NA;1,6;Highly Eusocial;Although recent studies reveal T. eythrogastra to forage up to 1100 m to some Elaeis palms outside the forest (Appanah, 1979b)
-Araujo et al. (2004);2004;Central America;Panama;forest;Apidae;Cephalotrigona;Cephalotrigona_capitata;Female;Max;Realised;mark recapture;NA;1650,00;NA;NA;NA;2,3;Highly Eusocial;Source: Roubik & Aluja (1983) - Mean provided by Greenleaf
-Araujo et al. (2004);2004;South America;Brazil;NA;Apidae;Melipona;Melipona_fasciculata;Female;Max;Realised;mark recapture;NA;2470,00;NA;NA;NA;3,32;Highly Eusocial;Source: Kerr (1987)
-Araujo et al. (2004);2004;South America;NA;NA;Apidae;Melipona;Melipona_marginata;Female;Max;Realised;mark recapture;NA;800,00;NA;NA;NA;2,3;Highly Eusocial;Source: Wille (1983)
-Araujo et al. (2004);2004;South America;Brazil;NA;Apidae;Melipona;Melipona_quadrifasciata;Female;Max;Realised;mark recapture;NA;2000,00;NA;NA;NA;3;Highly Eusocial;Source: Kerr (1987)
-Araujo et al. (2004);2004;South America;Brazil;NA;Apidae;Plebeia;Plebeia_droryana;Female;Max;Realised;mark recapture;NA;540,00;NA;NA;NA;1,2;Highly Eusocial;Source: Kerr (1987)
-Araujo et al. (2004);2004;South America;Brazil;NA;Apidae;Trigona;Trigona_spinipes;Female;Max;Realised;mark recapture;NA;840,00;NA;NA;NA;1,8;Highly Eusocial;Source: Kerr (1987)
-Bacon et al. (1965);1965;NA;NA;NA;Megachilidae;Megachile;Megachile_rotundata;Female;Unclassifiable;Realised;mark recapture;NA;200,00;NA;NA;NA;2,4;Solitary;From Greenleaf et al. (2007)
-Bansch et al. (2020);2020;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;784;740,00;NA;26,00;NA;2,95;Highly Eusocial;
-Bansch et al. (2020);2020;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;784;7783,00;NA;NA;NA;2,95;Highly Eusocial;
-Beekman and Ratnieks (2000);2000;Europe;UK;moor;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;444;14500,00;NA;NA;NA;2,95;Highly Eusocial;August_96
-Beekman and Ratnieks (2000);2000;Europe;UK;moor;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;444;5500,00;NA;NA;NA;2,95;Highly Eusocial;August_96
-Beekman and Ratnieks (2000);2000;Europe;UK;moor;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;456;8500,00;NA;NA;NA;2,95;Highly Eusocial;May_97
-Beekman and Ratnieks (2000);2000;Europe;UK;moor;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;456;1000,00;NA;NA;NA;2,95;Highly Eusocial;May_97
-Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;36;1020,00;NA;NA;NA;2,95;Highly Eusocial;S1 AUG
-Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;36;670,00;NA;NA;NA;2,95;Highly Eusocial;S1 JULY
-Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;40;1970,00;NA;NA;NA;2,95;Highly Eusocial;S2 AUG
-Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;40;680,00;NA;NA;NA;2,95;Highly Eusocial;S2 JULY
-Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;93;3010,00;NA;NA;NA;2,95;Highly Eusocial;L2 AUG
-Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;93;620,00;NA;NA;NA;2,95;Highly Eusocial;L2 JULY
-Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;119;2630,00;NA;NA;NA;2,95;Highly Eusocial;L1 AUG
-Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;119;620,00;NA;NA;NA;2,95;Highly Eusocial;L1 JULY
-Beil et al. (2008);2008;Europe;Germany;natural - nature reserve;Andrenidae;Andrena;Andrena_dorsata;Female;Minimum;Realised;associative;1;650,00;NA;NA;NA;2,16;Solitary;
-Beil et al. (2008);2008;Europe;Germany;natural - nature reserve;Andrenidae;Andrena;Andrena_pilipes;Female;Minimum;Realised;associative;1;1250,00;NA;NA;NA;4,33;Solitary;
-Beil et al. (2008);2008;Europe;Germany;natural - nature reserve;Halictidae;Lasioglossum;Lasioglossum_fulvicorne;Female;Minimum;Realised;associative;1;1250,00;NA;NA;NA;1,34;Solitary;
-Beil et al. (2008);2008;Europe;Germany;natural - nature reserve;Andrenidae;Andrena;Andrena_flavipes;Female;Minimum;Realised;associative;3;800,00;303,11;NA;NA;2,2;Solitary;
-Beil et al. (2008);2008;Europe;Germany;natural - nature reserve;Halictidae;Lasioglossum;Lasioglossum_calceatum;Female;Minimum;Realised;associative;4;545,00;383,54;NA;NA;1,76;Primitively Eusocial;
+Abrol (1986);1986;NA;NA;NA;Megachilidae;Megachile;Megachile_femorata;Female;Max;Potential;homing;10;500;NA;NA;NA;2,76;Solitary;Observed homing distance - From Zurbuchen et al. (2010)
+Abrol (1988);1988;Asia;India;Agriculture;Megachilidae;Megachile;Megachile_flavipes;Female;Max;Potential;homing;20;800;NA;NA;NA;2,9;Solitary;Return rate 90% From Greenleaf et al. (2007) Table S1
+Abrol (1988);1988;NA;NA;NA;Megachilidae;Megachile;Megachile_flavipes;Female;Unclassifiable;Realised;associative;NA;700;NA;NA;NA;2,9;Solitary;From Greenleaf et al. (2007)
+Abrol (1988);1988;NA;NA;NA;Megachilidae;Megachile;Megachile_nana;Female;Unclassifiable;Realised;associative;NA;800;NA;NA;NA;1,9;Solitary;From Greenleaf et al. (2007)
+Abrol (1988);1988;NA;NA;NA;Apidae;Apis;Apis_florea;Female;Max;Realised;mark recapture;NA;500;NA;NA;NA;2;Highly Eusocial;Foraging distance
+Abrol (1988);1988;Asia;India;Agriculture;Megachilidae;Megachile;Megachile_flavipes;Female;Typical;Potential;homing;NA;500;NA;NA;NA;2,9;Solitary;Return rate 50% From Greenleaf et al. (2007) Table S1
+Abrol (1988);1988;Asia;India;Agriculture;Megachilidae;Megachile;Megachile_nana;Female;Max;Potential;homing;NA;600;NA;NA;NA;1,9;Solitary;Return rate 90% From Greenleaf et al. (2007) Table S1
+Abrol (1988);1988;Asia;India;Agriculture;Megachilidae;Megachile;Megachile_nana;Female;Typical;Potential;homing;NA;400;NA;NA;NA;1,9;Solitary;Return rate 50% From Greenleaf et al. (2007) Table S1
+Amand et al. (2000);2000;North America;USA;Agriculture;Megachilidae;Megachile;Megachile_rotundata;Female;Max;Realised;associative;NA;1000;NA;NA;NA;2,4;Solitary;assumed rotundata as alfalfa'
+Appanah (1979) in Appanah (1982);1979;Asia;Malaysia;rainforest;Apidae;Heterotrigona;Heterotrigona_erythrogastra;Female;Max;Realised;associative;NA;1100;NA;NA;NA;1,6;Highly Eusocial;Although recent studies reveal T. eythrogastra to forage up to 1100 m to some Elaeis palms outside the forest (Appanah, 1979b)
+Araujo et al. (2004);2004;Central America;Panama;forest;Apidae;Cephalotrigona;Cephalotrigona_capitata;Female;Max;Realised;mark recapture;NA;1650;NA;NA;NA;2,3;Highly Eusocial;Source: Roubik & Aluja (1983) - Mean provided by Greenleaf
+Araujo et al. (2004);2004;South America;Brazil;NA;Apidae;Melipona;Melipona_fasciculata;Female;Max;Realised;mark recapture;NA;2470;NA;NA;NA;3,32;Highly Eusocial;Source: Kerr (1987)
+Araujo et al. (2004);2004;South America;NA;NA;Apidae;Melipona;Melipona_marginata;Female;Max;Realised;mark recapture;NA;800;NA;NA;NA;2,3;Highly Eusocial;Source: Wille (1983)
+Araujo et al. (2004);2004;South America;Brazil;NA;Apidae;Melipona;Melipona_quadrifasciata;Female;Max;Realised;mark recapture;NA;2000;NA;NA;NA;3;Highly Eusocial;Source: Kerr (1987)
+Araujo et al. (2004);2004;South America;Brazil;NA;Apidae;Plebeia;Plebeia_droryana;Female;Max;Realised;mark recapture;NA;540;NA;NA;NA;1,2;Highly Eusocial;Source: Kerr (1987)
+Araujo et al. (2004);2004;South America;Brazil;NA;Apidae;Trigona;Trigona_spinipes;Female;Max;Realised;mark recapture;NA;840;NA;NA;NA;1,8;Highly Eusocial;Source: Kerr (1987)
+Bacon et al. (1965);1965;NA;NA;NA;Megachilidae;Megachile;Megachile_rotundata;Female;Unclassifiable;Realised;mark recapture;NA;200;NA;NA;NA;2,4;Solitary;From Greenleaf et al. (2007)
+Bansch et al. (2020);2020;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;784;740;NA;26;NA;2,95;Highly Eusocial;
+Bansch et al. (2020);2020;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;784;7783;NA;NA;NA;2,95;Highly Eusocial;
+Beekman and Ratnieks (2000);2000;Europe;UK;moor;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;444;14500;NA;NA;NA;2,95;Highly Eusocial;August_96
+Beekman and Ratnieks (2000);2000;Europe;UK;moor;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;444;5500;NA;NA;NA;2,95;Highly Eusocial;August_96
+Beekman and Ratnieks (2000);2000;Europe;UK;moor;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;456;8500;NA;NA;NA;2,95;Highly Eusocial;May_97
+Beekman and Ratnieks (2000);2000;Europe;UK;moor;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;456;1000;NA;NA;NA;2,95;Highly Eusocial;May_97
+Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;36;1020;NA;NA;NA;2,95;Highly Eusocial;S1 AUG
+Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;36;670;NA;NA;NA;2,95;Highly Eusocial;S1 JULY
+Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;40;1970;NA;NA;NA;2,95;Highly Eusocial;S2 AUG
+Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;40;680;NA;NA;NA;2,95;Highly Eusocial;S2 JULY
+Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;93;3010;NA;NA;NA;2,95;Highly Eusocial;L2 AUG
+Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;93;620;NA;NA;NA;2,95;Highly Eusocial;L2 JULY
+Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;119;2630;NA;NA;NA;2,95;Highly Eusocial;L1 AUG
+Beekman et al. (2004);2004;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;119;620;NA;NA;NA;2,95;Highly Eusocial;L1 JULY
+Beil et al. (2008);2008;Europe;Germany;natural - nature reserve;Andrenidae;Andrena;Andrena_dorsata;Female;Minimum;Realised;associative;1;650;NA;NA;NA;2,16;Solitary;
+Beil et al. (2008);2008;Europe;Germany;natural - nature reserve;Andrenidae;Andrena;Andrena_pilipes;Female;Minimum;Realised;associative;1;1250;NA;NA;NA;4,33;Solitary;
+Beil et al. (2008);2008;Europe;Germany;natural - nature reserve;Halictidae;Lasioglossum;Lasioglossum_fulvicorne;Female;Minimum;Realised;associative;1;1250;NA;NA;NA;1,34;Solitary;
+Beil et al. (2008);2008;Europe;Germany;natural - nature reserve;Andrenidae;Andrena;Andrena_flavipes;Female;Minimum;Realised;associative;3;800;303,11;NA;NA;2,2;Solitary;
+Beil et al. (2008);2008;Europe;Germany;natural - nature reserve;Halictidae;Lasioglossum;Lasioglossum_calceatum;Female;Minimum;Realised;associative;4;545;383,54;NA;NA;1,76;Primitively Eusocial;
 Bennet et al. (2018);2018;Australasia;New Zealand;urban;Halictidae;Lasioglossum;Lasioglossum_sordidum;Female;Minimum;Realised;associative;NA;156,81;NA;NA;NA;1,29;Solitary;Site 2 - Mean minimum to host plants
-Bennet et al. (2018);2018;Australasia;New Zealand;urban;Halictidae;Lasioglossum;Lasioglossum_sordidum;Female;Minimum;Realised;associative;NA;115,50;NA;NA;NA;1,29;Solitary;Site 1 - Mean minimum to host plants
-Bohart and Nye (1956);1956;NA;NA;NA;Halictidae;Nomia;Nomia_melanderi;Female;Max;NA;NA;NA;11265,00;NA;NA;NA;2,7;Solitary;"""forage as far as seven miles"""
-C. OToole (pers. comm);2004;NA;NA;NA;Andrenidae;Andrena;Andrena_flavipes;Female;Unclassifiable;Realised;associative;NA;500,00;NA;NA;NA;2,2;Solitary;Greenleaf et al. (2007) pers.comm.
-C. OToole (pers. comm);2004;NA;NA;NA;Apidae;Anthophora;Anthophora_fulvitarsis;Female;Unclassifiable;Realised;associative;NA;1000,00;NA;NA;NA;4,9;Solitary;Greenleaf et al. (2007) pers.comm.
-C. OToole (pers. comm);2004;NA;NA;NA;Apidae;Bombus;Bombus_terrestris;Female;Unclassifiable;Realised;associative;NA;2800,00;NA;NA;NA;4,54;Primitively Eusocial;Greenleaf et al. (2007) pers.comm.
-C. OToole (pers. comm);2004;NA;NA;NA;Halictidae;Lasioglossum;Lasioglossum_malachurum;Female;Unclassifiable;Realised;associative;NA;500,00;NA;NA;NA;1,7;Primitively Eusocial;Greenleaf et al. (2007) pers.comm.
-C. OToole (pers. comm);2004;NA;NA;NA;Halictidae;Lasioglossum;Lasioglossum_pauxillum;Female;Unclassifiable;Realised;associative;NA;480,00;NA;NA;NA;1,1;Primitively Eusocial;Greenleaf et al. (2007) pers.comm.
-C. OToole (pers. comm);2004;NA;NA;NA;Apidae;Xylocopa;Xylocopa_rufa;Female;Unclassifiable;Realised;associative;NA;1000,00;NA;NA;NA;5,8;Solitary;Greenleaf et al. (2007) pers.comm.
-Campbell et al. (2019);2019;South America;Brazil;tropical rainforest/urban;Apidae;Scaptotrigona;Scaptotrigona_postica;Female;Max;Potential;homing;1407;860,00;NA;NA;27;1,82;Highly Eusocial;Return rate 90%
-Campbell et al. (2019);2019;South America;Brazil;tropical rainforest/urban;Apidae;Scaptotrigona;Scaptotrigona_postica;Female;Mean;Potential;homing;1407;392,00;NA;NA;17;1,82;Highly Eusocial;Return rate 50%
-Carvell et al. (2012);2012;Europe;England;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Mean;Realised;molecular;66;755,00;NA;44,20;NA;4,21;Primitively Eusocial;centroid
-Carvell et al. (2012);2012;Europe;England;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Mean;Realised;molecular;45;775,00;NA;65,60;NA;4,41;Primitively Eusocial;centroid
-Carvell et al. (2012);2012;Europe;England;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;45;1597,00;NA;NA;NA;4,41;Primitively Eusocial;centroid
-Carvell et al. (2012);2012;Europe;England;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;molecular;66;1579,00;NA;NA;NA;4,21;Primitively Eusocial;centroid
+Bennet et al. (2018);2018;Australasia;New Zealand;urban;Halictidae;Lasioglossum;Lasioglossum_sordidum;Female;Minimum;Realised;associative;NA;115,5;NA;NA;NA;1,29;Solitary;Site 1 - Mean minimum to host plants
+Bohart and Nye (1956);1956;NA;NA;NA;Halictidae;Nomia;Nomia_melanderi;Female;Max;NA;NA;NA;11265;NA;NA;NA;2,7;Solitary;"""forage as far as seven miles"""
+C. OToole (pers. comm);2004;NA;NA;NA;Andrenidae;Andrena;Andrena_flavipes;Female;Unclassifiable;Realised;associative;NA;500;NA;NA;NA;2,2;Solitary;Greenleaf et al. (2007) pers.comm.
+C. OToole (pers. comm);2004;NA;NA;NA;Apidae;Anthophora;Anthophora_fulvitarsis;Female;Unclassifiable;Realised;associative;NA;1000;NA;NA;NA;4,9;Solitary;Greenleaf et al. (2007) pers.comm.
+C. OToole (pers. comm);2004;NA;NA;NA;Apidae;Bombus;Bombus_terrestris;Female;Unclassifiable;Realised;associative;NA;2800;NA;NA;NA;4,54;Primitively Eusocial;Greenleaf et al. (2007) pers.comm.
+C. OToole (pers. comm);2004;NA;NA;NA;Halictidae;Lasioglossum;Lasioglossum_malachurum;Female;Unclassifiable;Realised;associative;NA;500;NA;NA;NA;1,7;Primitively Eusocial;Greenleaf et al. (2007) pers.comm.
+C. OToole (pers. comm);2004;NA;NA;NA;Halictidae;Lasioglossum;Lasioglossum_pauxillum;Female;Unclassifiable;Realised;associative;NA;480;NA;NA;NA;1,1;Primitively Eusocial;Greenleaf et al. (2007) pers.comm.
+C. OToole (pers. comm);2004;NA;NA;NA;Apidae;Xylocopa;Xylocopa_rufa;Female;Unclassifiable;Realised;associative;NA;1000;NA;NA;NA;5,8;Solitary;Greenleaf et al. (2007) pers.comm.
+Campbell et al. (2019);2019;South America;Brazil;tropical rainforest/urban;Apidae;Scaptotrigona;Scaptotrigona_postica;Female;Max;Potential;homing;1407;860;NA;NA;27;1,82;Highly Eusocial;Return rate 90%
+Campbell et al. (2019);2019;South America;Brazil;tropical rainforest/urban;Apidae;Scaptotrigona;Scaptotrigona_postica;Female;Mean;Potential;homing;1407;392;NA;NA;17;1,82;Highly Eusocial;Return rate 50%
+Carvell et al. (2012);2012;Europe;England;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Mean;Realised;molecular;66;755;NA;44,2;NA;4,21;Primitively Eusocial;centroid
+Carvell et al. (2012);2012;Europe;England;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Mean;Realised;molecular;45;775;NA;65,6;NA;4,41;Primitively Eusocial;centroid
+Carvell et al. (2012);2012;Europe;England;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;45;1597;NA;NA;NA;4,41;Primitively Eusocial;centroid
+Carvell et al. (2012);2012;Europe;England;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;molecular;66;1579;NA;NA;NA;4,21;Primitively Eusocial;centroid
 Cavigliasso et al. (2020);2020;South America;Argentina;Agriculture;Apidae;Bombus;Bombus_pauloensis;Female_Queen;Max;Realised;tracking;10;522,71;350,25;110,76;NA;4,06;Primitively Eusocial;after_nest_establishment
 Cavigliasso et al. (2020);2020;South America;Argentina;Agriculture;Apidae;Bombus;Bombus_pauloensis;Female_Queen;Max;Realised;tracking;7;813,82;421,77;159,41;NA;4,06;Primitively Eusocial;before_nest_establishment
-Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;66;3900,00;NA;NA;NA;4,54;Primitively Eusocial;Max max
-Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_terrestris;Female;Median;Realised;molecular;66;2800,00;NA;NA;NA;4,54;Primitively Eusocial;Max median
-Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;66;870,00;NA;NA;NA;4,54;Primitively Eusocial;Min max
-Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_terrestris;Female;Median;Realised;molecular;66;620,00;NA;NA;NA;4,54;Primitively Eusocial;Min median
-Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;96;3200,00;NA;NA;NA;4,41;Primitively Eusocial;Max max
-Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_pascuorum;Female;Median;Realised;molecular;96;2300,00;NA;NA;NA;4,41;Primitively Eusocial;Max median
-Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;96;720,00;NA;NA;NA;4,41;Primitively Eusocial;Min max
-Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_pascuorum;Female;Median;Realised;molecular;96;510,00;NA;NA;NA;4,41;Primitively Eusocial;Min median - only range provided
-Charman et al. (2010);2010;Europe;Scotland;natural;Apidae;Bombus;Bombus_distinguendus;Female;Max;Realised;mark recapture;NA;770,00;NA;NA;NA;5,36;Primitively Eusocial;
-Charman et al. (2010);2010;Europe;Scotland;natural;Apidae;Bombus;Bombus_distinguendus;Female;Max;Realised;molecular;NA;955,00;NA;NA;NA;5,36;Primitively Eusocial;max_95
-Charman et al. (2010);2010;Europe;Scotland;natural;Apidae;Bombus;Bombus_distinguendus;Female;Mode;Realised;molecular;NA;391,00;NA;NA;NA;5,36;Primitively Eusocial;
-Chmurzynski et al. (1998);1998;Europe;Poland;forest;Melittidae;Dasypoda;Dasypoda_hirtipes;Female;Max;Potential;homing;30;4000,00;NA;NA;NA;2,9;Solitary;Return rate 90% From Greenleaf et al. (2007) Table S1
-Chmurzynski et al. (1998);1998;Europe;Poland;forest;Melittidae;Dasypoda;Dasypoda_hirtipes;Female;Mean;Potential;homing;30;1700,00;NA;NA;NA;2,9;Solitary;Return rate 50% From Greenleaf et al. (2007) Table S1
-Connop et al. (2011);2011;Europe;England;Seminatural;Apidae;Bombus;Bombus_humilis;Female;Max;Realised;molecular;55;2530,00;NA;NA;NA;4,77;Primitively Eusocial;centroid
-Connop et al. (2011);2011;Europe;England;Seminatural;Apidae;Bombus;Bombus_humilis;Female;Mean;Realised;molecular;55;475,00;NA;NA;NA;4,77;Primitively Eusocial;centroid
-Connop et al. (2011);2011;Europe;England;Seminatural;Apidae;Bombus;Bombus_sylvarum;Female;Max;Realised;molecular;94;2280,00;NA;NA;NA;3,18;Primitively Eusocial;centroid
-Connop et al. (2011);2011;Europe;England;Seminatural;Apidae;Bombus;Bombus_sylvarum;Female;Mean;Realised;molecular;94;231,00;NA;NA;NA;3,18;Primitively Eusocial;centroid
-Costa et al. (2021);2021;South America;Brazil;Forest;Apidae;Melipona;Melipona_seminigra;Female;Mean;Potential;homing;810;1287,00;NA;99,00;NA;2,9;Highly Eusocial;Return rate 50% - Exp3 Colony 2
-Costa et al. (2021);2021;South America;Brazil;Forest;Apidae;Melipona;Melipona_seminigra;Female;Mean;Potential;homing;810;1339,00;NA;127,00;NA;2,9;Highly Eusocial;Return rate 50% - Exp3 Colony 1
-Costa et al. (2021);2021;South America;Brazil;Forest;Apidae;Melipona;Melipona_seminigra;Female;Max;Potential;homing;810;2489,00;NA;171,00;NA;2,9;Highly Eusocial;Return rate 90% - Exp3 Colony 2
-Costa et al. (2021);2021;South America;Brazil;Forest;Apidae;Melipona;Melipona_seminigra;Female;Max;Potential;homing;810;1651,00;NA;218,00;NA;2,9;Highly Eusocial;Return rate 90% - Exp3 Colony 3
-Costa et al. (2021);2021;South America;Brazil;Forest;Apidae;Melipona;Melipona_seminigra;Female;Max;Potential;homing;810;3071,00;NA;236,00;NA;2,9;Highly Eusocial;Return rate 90% - Exp3 Colony 1
-Couvillon et al. (2015);2015;Europe;England;mixed use;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;922;1074,00;NA;NA;NA;2,95;Highly Eusocial;pollen foragers
-Couvillon et al. (2015);2015;Europe;England;mixed use;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;4562;1408,00;NA;NA;NA;2,95;Highly Eusocial;nectar foragers
-Crowther et al. (2019);2019;Europe;England;mixed use;Apidae;Bombus;Bombus_hypnorum;Female;Max;Realised;molecular;62;601,00;NA;NA;NA;4,02;Primitively Eusocial;centroid
-Crowther et al. (2019);2019;Europe;England;mixed use;Apidae;Bombus;Bombus_hypnorum;Female;Mean;Realised;molecular;62;103,60;NA;NA;NA;4,02;Primitively Eusocial;centroid
-da Silva Correia et al. (2020);2020;South America;Brazil;Mixed;Apidae;Melipona;Melipona_grandis;Female;Max;Potential;homing;390;2730,00;NA;NA;NA;3,21;Highly Eusocial;Observed homing distance
-Danner et al. (2016);2016;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;1347;1015,00;NA;26,00;NA;2,95;Highly Eusocial;
+Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;66;3900;NA;NA;NA;4,54;Primitively Eusocial;Max max
+Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_terrestris;Female;Median;Realised;molecular;66;2800;NA;NA;NA;4,54;Primitively Eusocial;Max median
+Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;66;870;NA;NA;NA;4,54;Primitively Eusocial;Min max
+Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_terrestris;Female;Median;Realised;molecular;66;620;NA;NA;NA;4,54;Primitively Eusocial;Min median
+Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;96;3200;NA;NA;NA;4,41;Primitively Eusocial;Max max
+Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_pascuorum;Female;Median;Realised;molecular;96;2300;NA;NA;NA;4,41;Primitively Eusocial;Max median
+Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;96;720;NA;NA;NA;4,41;Primitively Eusocial;Min max
+Chapman et al. (2003);2003;Europe;UK;urban;Apidae;Bombus;Bombus_pascuorum;Female;Median;Realised;molecular;96;510;NA;NA;NA;4,41;Primitively Eusocial;Min median - only range provided
+Charman et al. (2010);2010;Europe;Scotland;natural;Apidae;Bombus;Bombus_distinguendus;Female;Max;Realised;mark recapture;NA;770;NA;NA;NA;5,36;Primitively Eusocial;
+Charman et al. (2010);2010;Europe;Scotland;natural;Apidae;Bombus;Bombus_distinguendus;Female;Max;Realised;molecular;NA;955;NA;NA;NA;5,36;Primitively Eusocial;max_95
+Charman et al. (2010);2010;Europe;Scotland;natural;Apidae;Bombus;Bombus_distinguendus;Female;Mode;Realised;molecular;NA;391;NA;NA;NA;5,36;Primitively Eusocial;
+Chmurzynski et al. (1998);1998;Europe;Poland;forest;Melittidae;Dasypoda;Dasypoda_hirtipes;Female;Max;Potential;homing;30;4000;NA;NA;NA;2,9;Solitary;Return rate 90% From Greenleaf et al. (2007) Table S1
+Chmurzynski et al. (1998);1998;Europe;Poland;forest;Melittidae;Dasypoda;Dasypoda_hirtipes;Female;Mean;Potential;homing;30;1700;NA;NA;NA;2,9;Solitary;Return rate 50% From Greenleaf et al. (2007) Table S1
+Connop et al. (2011);2011;Europe;England;Seminatural;Apidae;Bombus;Bombus_humilis;Female;Max;Realised;molecular;55;2530;NA;NA;NA;4,77;Primitively Eusocial;centroid
+Connop et al. (2011);2011;Europe;England;Seminatural;Apidae;Bombus;Bombus_humilis;Female;Mean;Realised;molecular;55;475;NA;NA;NA;4,77;Primitively Eusocial;centroid
+Connop et al. (2011);2011;Europe;England;Seminatural;Apidae;Bombus;Bombus_sylvarum;Female;Max;Realised;molecular;94;2280;NA;NA;NA;3,18;Primitively Eusocial;centroid
+Connop et al. (2011);2011;Europe;England;Seminatural;Apidae;Bombus;Bombus_sylvarum;Female;Mean;Realised;molecular;94;231;NA;NA;NA;3,18;Primitively Eusocial;centroid
+Costa et al. (2021);2021;South America;Brazil;Forest;Apidae;Melipona;Melipona_seminigra;Female;Mean;Potential;homing;810;1287;NA;99;NA;2,9;Highly Eusocial;Return rate 50% - Exp3 Colony 2
+Costa et al. (2021);2021;South America;Brazil;Forest;Apidae;Melipona;Melipona_seminigra;Female;Mean;Potential;homing;810;1339;NA;127;NA;2,9;Highly Eusocial;Return rate 50% - Exp3 Colony 1
+Costa et al. (2021);2021;South America;Brazil;Forest;Apidae;Melipona;Melipona_seminigra;Female;Max;Potential;homing;810;2489;NA;171;NA;2,9;Highly Eusocial;Return rate 90% - Exp3 Colony 2
+Costa et al. (2021);2021;South America;Brazil;Forest;Apidae;Melipona;Melipona_seminigra;Female;Max;Potential;homing;810;1651;NA;218;NA;2,9;Highly Eusocial;Return rate 90% - Exp3 Colony 3
+Costa et al. (2021);2021;South America;Brazil;Forest;Apidae;Melipona;Melipona_seminigra;Female;Max;Potential;homing;810;3071;NA;236;NA;2,9;Highly Eusocial;Return rate 90% - Exp3 Colony 1
+Couvillon et al. (2015);2015;Europe;England;mixed use;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;922;1074;NA;NA;NA;2,95;Highly Eusocial;pollen foragers
+Couvillon et al. (2015);2015;Europe;England;mixed use;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;4562;1408;NA;NA;NA;2,95;Highly Eusocial;nectar foragers
+Crowther et al. (2019);2019;Europe;England;mixed use;Apidae;Bombus;Bombus_hypnorum;Female;Max;Realised;molecular;62;601;NA;NA;NA;4,02;Primitively Eusocial;centroid
+Crowther et al. (2019);2019;Europe;England;mixed use;Apidae;Bombus;Bombus_hypnorum;Female;Mean;Realised;molecular;62;103,6;NA;NA;NA;4,02;Primitively Eusocial;centroid
+da Silva Correia et al. (2020);2020;South America;Brazil;Mixed;Apidae;Melipona;Melipona_grandis;Female;Max;Potential;homing;390;2730;NA;NA;NA;3,21;Highly Eusocial;Observed homing distance
+Danner et al. (2016);2016;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;1347;1015;NA;26;NA;2,95;Highly Eusocial;
 Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;116;426,34;304,25;28,25;NA;2,95;Highly Eusocial;Waldbrunn
 Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;86;590,15;407,92;43,99;NA;2,95;Highly Eusocial;Birkenfeld
 Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;116;1482,65;662,97;61,56;NA;2,95;Highly Eusocial;Biebelried
-Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;115;773,23;768,90;71,70;NA;2,95;Highly Eusocial;Greussenheim
+Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;115;773,23;768,9;71,7;NA;2,95;Highly Eusocial;Greussenheim
 Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;81;1045,64;658,85;73,21;NA;2,95;Highly Eusocial;Euerfeld
-Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;72;827,60;733,75;86,47;NA;2,95;Highly Eusocial;Gerbrunn
+Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;72;827,6;733,75;86,47;NA;2,95;Highly Eusocial;Gerbrunn
 Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;101;995,04;876,86;87,25;NA;2,95;Highly Eusocial;Obersfeld
 Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;46;901,78;597,62;88,11;NA;2,95;Highly Eusocial;Duttenbrunn
 Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;95;1106,26;960,15;98,51;NA;2,95;Highly Eusocial;Gambach
@@ -96,132 +96,131 @@ Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;
 Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;82;1659,73;1258,27;138,95;NA;2,95;Highly Eusocial;Pleichfeld
 Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;61;1052,99;1112,56;142,45;NA;2,95;Highly Eusocial;Winterhausen
 Danner et al. (2017);2017;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;84;1347,97;1572,39;171,56;NA;2,95;Highly Eusocial;Retzstadt
-Darvill et al. (2004);2004;Europe;UK;agriculture woodland urban;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;97;3750,00;NA;NA;NA;4,54;Primitively Eusocial;Sister-pair at 7.5km - authors argue they forage at reduced distances - as above
-Darvill et al. (2004);2004;Europe;UK;agriculture woodland urban;Apidae;Bombus;Bombus_terrestris;Female;Mean;Realised;molecular;97;625,00;NA;NA;NA;4,54;Primitively Eusocial;
-Darvill et al. (2004);2004;Europe;UK;agriculture woodland urban;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;237;5000,00;NA;NA;NA;4,41;Primitively Eusocial;Sister-pair at 10km - max distance tested
-Darvill et al. (2004);2004;Europe;UK;agriculture woodland urban;Apidae;Bombus;Bombus_pascuorum;Female;Mean;Realised;molecular;237;312,50;NA;NA;NA;4,41;Primitively Eusocial;
-Desjardins and De Oliveir (2006);2006;North America;Canada;Agriculture;Apidae;Bombus;Bombus_impatiens;Female;Max;Realised;associative;NA;400,00;NA;NA;NA;3,38;Primitively Eusocial;
-Dhaliwal and Sharma (1973);1973;Asia;India;Agriculture;Apidae;Apis;Apis_cerana;Female;Max;Realised;associative;NA;1100,00;NA;NA;NA;2,34;Highly Eusocial;Barberry
-Dhaliwal and Sharma (1973);1973;Asia;India;Agriculture;Apidae;Apis;Apis_cerana;Female;Max;Realised;associative;NA;900,00;NA;NA;NA;2,34;Highly Eusocial;Cauliflower
-Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_cerana;Female;Max;Realised;waggle dance;NA;1900,00;400,00;NA;NA;2,34;Highly Eusocial;Max = mean maximum
-Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;NA;7900,00;900,00;NA;NA;2,95;Highly Eusocial;Max = mean maximum
-Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_florea;Female;Max;Realised;waggle dance;NA;11200,00;2500,00;NA;NA;2;Highly Eusocial;Max = mean maximum
-Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_dorsata;Female;Max;Realised;waggle dance;NA;12000,00;6100,00;NA;NA;3,1;Highly Eusocial;Max = mean maximum
-Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_cerana;Female;Mean;Realised;waggle dance;NA;195,00;NA;NA;NA;2,34;Highly Eusocial;50%
-Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_dorsata;Female;Mean;Realised;waggle dance;NA;863,00;NA;NA;NA;3,1;Highly Eusocial;50%
-Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_florea;Female;Mean;Realised;waggle dance;NA;268,00;NA;NA;NA;2;Highly Eusocial;Taken empirical data, not data from other sources (see additional references). Mean = 50%
-Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1650,00;NA;NA;NA;2,95;Highly Eusocial;50%
-Esser (2005);2005;Europe;Germany;NA;Colletidae;Colletes;Colletes_daviesanus;Female;Max;Realised;mark recapture;74;2225,00;NA;NA;NA;3,76;Solitary;From Zurbuchen et al. (2010)
-Fabre (1914);1914;Europe;France;NA;Megachilidae;Megachile;Megachile_parietina;Female;NA;Potential;homing;NA;4000,00;NA;NA;NA;4,5;Solitary;Observed homing distance
-Fabre (1914);1914;Europe;France;NA;Megachilidae;Megachile;Megachile_sicula;Female;NA;Potential;homing;NA;4000,00;NA;NA;NA;4,3;Solitary;Observed homing distance
-Franzen et al. (2009);2009;Europe;Sweden;Mixed agriculture/wild;Andrenidae;Andrena;Andrena_hattorfiana;Female;Max;Realised;mark recapture;80;83,00;NA;NA;NA;4,26;Solitary;Smaland
-Franzen et al. (2009);2009;Europe;Sweden;Mixed agriculture/wild;Andrenidae;Andrena;Andrena_hattorfiana;Female;Median;Realised;mark recapture;80;52,00;NA;NA;NA;4,26;Solitary;Smaland
-Franzen et al. (2009);2009;Europe;Sweden;Mixed agriculture/wild;Andrenidae;Andrena;Andrena_hattorfiana;Female;Max;Realised;mark recapture;171;130,00;NA;NA;NA;4,26;Solitary;Arontorp
-Franzen et al. (2009);2009;Europe;Sweden;Mixed agriculture/wild;Andrenidae;Andrena;Andrena_hattorfiana;Female;Median;Realised;mark recapture;171;76,00;NA;NA;NA;4,26;Solitary;Arontorp
-Franzen et al. (2009);2009;Europe;Sweden;Mixed agriculture/wild;Andrenidae;Andrena;Andrena_hattorfiana;Female;Median;Realised;mark recapture;NA;131,00;NA;NA;NA;4,26;Solitary;between patch
-Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;50;846,00;NA;NA;235;2,95;Highly Eusocial;October
-Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;61;518,00;NA;NA;86;2,95;Highly Eusocial;April
-Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;95;685,00;NA;NA;96;2,95;Highly Eusocial;September
-Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;116;670,00;NA;NA;110;2,95;Highly Eusocial;June
-Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;166;589,00;NA;NA;64;2,95;Highly Eusocial;August
-Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;209;1229,00;NA;NA;175;2,95;Highly Eusocial;July
-Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;234;461,00;NA;NA;41;2,95;Highly Eusocial;May
-Gary (1972);1972;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;mark recapture;37;1186,00;NA;NA;NA;2,95;Highly Eusocial;morning glory
-Gary (1972);1972;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;mark recapture;59;705,00;NA;NA;NA;2,95;Highly Eusocial;yellow star thistle
-Gary (1972);1972;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;mark recapture;559;1663,00;NA;NA;NA;2,95;Highly Eusocial;carrot
-Gary (1972);1972;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;mark recapture;580;557,00;NA;NA;NA;2,95;Highly Eusocial;onions
-Gary (1972);1972;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Realised;mark recapture;NA;6117,00;NA;NA;NA;2,95;Highly Eusocial;carrot
-Gary (1972);1972;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Realised;mark recapture;NA;4346,00;NA;NA;NA;2,95;Highly Eusocial;mixed
-Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Megachilidae;Osmia;Osmia_bicornis;Female;Max;Potential;homing;27;900,00;NA;NA;NA;3,04;Solitary;Return rate 90%
-Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Megachilidae;Osmia;Osmia_bicornis;Female;Median;Potential;homing;27;500,00;NA;NA;NA;3,04;Solitary;Return rate 50%
-Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Andrenidae;Andrena;Andrena_barbilabris;Female;Max;Potential;homing;36;530,00;NA;NA;NA;2,1;Solitary;Return rate 90%
-Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Andrenidae;Andrena;Andrena_barbilabris;Female;Median;Potential;homing;36;120,00;NA;NA;NA;2,1;Solitary;Return rate 50%
-Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Andrenidae;Andrena;Andrena_flavipes;Female;Max;Potential;homing;36;415,00;NA;NA;NA;2,2;Solitary;Return rate 90%
-Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Andrenidae;Andrena;Andrena_flavipes;Female;Median;Potential;homing;36;150,00;NA;NA;NA;2,2;Solitary;Return rate 50%
-Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Apidae;Eucera;Eucera_salicariae;Female;Max;Potential;homing;40;400,00;NA;NA;NA;2,1;Solitary;Return rate 90% - Data from Molitor 1936/37
-Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Apidae;Eucera;Eucera_salicariae;Female;Median;Potential;homing;40;185,00;NA;NA;NA;2,1;Solitary;Return rate 50% - Data from Molitor 1936/37
-Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Andrenidae;Andrena;Andrena_vaga;Female;Max;Potential;homing;42;510,00;NA;NA;NA;2,8;Solitary;Return rate 90%
-Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Andrenidae;Andrena;Andrena_vaga;Female;Median;Potential;homing;42;260,00;NA;NA;NA;2,8;Solitary;Return rate 50%
-Gathmann and Tscharntke (2002);1996;NA;NA;NA;Andrenidae;Andrena;Andrena_barbilabris;Female;Max;NA;NA;NA;300,00;NA;NA;NA;2,1;Solitary;Wesserling (1996)
-Gathmann and Tscharntke (2002);1996;Europe;Germany;NA;Andrenidae;Andrena;Andrena_barbilabris;Female;Max;NA;NA;NA;500,00;NA;NA;NA;2,1;Solitary;Witt (1992)
-Gathmann and Tscharntke (2002);1987;NA;NA;NA;Andrenidae;Andrena;Andrena_cineraria;Female;Max;Realised;associative;NA;300,00;NA;NA;NA;3;Solitary;Gebhardt and Rohr (1987) - Foraging distance
-Gathmann and Tscharntke (2002);1987;NA;NA;NA;Andrenidae;Andrena;Andrena_clarkella;Female;Max;Realised;associative;NA;300,00;NA;NA;NA;3,1;Solitary;Gebhardt and Rohr (1987) - Foraging distance
-Gathmann and Tscharntke (2002);1996;NA;NA;NA;Andrenidae;Andrena;Andrena_flavipes;Female;Max;NA;NA;NA;300,00;NA;NA;NA;2,2;Solitary;Wesserling (1996)
-Gathmann and Tscharntke (2002);1996;NA;NA;NA;Andrenidae;Andrena;Andrena_vaga;Female;Max;NA;NA;NA;300,00;NA;NA;NA;2,8;Solitary;Wesserling (1996)
-Gathmann and Tscharntke (2002);1996;NA;NA;NA;Colletidae;Colletes;Colletes_cunicularius;Female;Max;NA;NA;NA;400,00;NA;NA;NA;4;Solitary;Wesserling (1996)
-Gathmann and Tscharntke (2002);1996;NA;NA;NA;Megachilidae;Megachile;Megachile_lapponica;Female;Max;NA;NA;NA;600,00;NA;NA;NA;2,8;Solitary;Wesserling (1996)
-Gathmann and Tscharntke (2002);1982;NA;NA;NA;Megachilidae;Osmia;Osmia_maritima;NA;Max;NA;NA;NA;150,00;NA;NA;NA;2,9;Solitary;Haeseler (1982)
-Gathmann and Tscharntke (2002);1937;NA;NA;NA;Megachilidae;Osmia;Osmia_mustelina;Female;Max;NA;NA;NA;1000,00;NA;NA;NA;3,5;Solitary;Molitor (1937)
-Gathmann and Tscharntke (2002);2002;NA;NA;NA;Apidae;Xylocopa;Xylocopa_violacea;Female;Max;NA;NA;NA;1200,00;NA;NA;NA;7,8;Solitary;Molitor (1937)
-Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_flavifrons;Female;Mean;Realised;molecular;30;23,80;NA;10,10;NA;3,39;Primitively Eusocial;
-Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_balteatus;Female;Mean;Realised;molecular;15;85,40;NA;15,00;NA;3,7;Primitively Eusocial;
-Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_bifarius;Female;Mean;Realised;molecular;8;110,25;NA;41,70;NA;2,94;Primitively Eusocial;
-Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_sylvicola;Female;Mean;Realised;molecular;5;74,70;NA;56,30;NA;3,18;Primitively Eusocial;
-Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_sylvicola;Female;Max;Realised;molecular;5;340,50;NA;NA;NA;3,18;Primitively Eusocial;sister distance divided by 2
-Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_bifarius;Female;Max;Realised;molecular;8;270,50;NA;NA;NA;2,94;Primitively Eusocial;sister distance divided by 2
-Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_balteatus;Female;Max;Realised;molecular;15;270,50;NA;NA;NA;3,7;Primitively Eusocial;sister distance divided by 2
-Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_flavifrons;Female;Max;Realised;molecular;30;252,50;NA;NA;NA;3,39;Primitively Eusocial;sister distance divided by 2
-Goulson and Stout (2001);2001;Europe;UK;urban;Apidae;Bombus;Bombus_terrestris;Female;Max;Potential;homing;56;9580,00;NA;NA;NA;4,54;Primitively Eusocial;Return rate 90% - from publ. equation
-Goulson and Stout (2001);2001;Europe;UK;urban;Apidae;Bombus;Bombus_terrestris;Female;Mean;Potential;homing;56;1250,00;NA;NA;NA;4,54;Primitively Eusocial;Return rate 50% - from publ. equation
-Guedot et al. (2009);2009;North America;USA;Agriculture;Megachilidae;Osmia;Osmia_lignaria;Female;Mean;Potential;homing;30;1121,00;NA;60,00;NA;2,9;Solitary;Return rate 50%
-Guedot et al. (2009);2009;North America;USA;Agriculture;Megachilidae;Osmia;Osmia_lignaria;Female;Max;Potential;homing;30;1494,00;NA;108,00;NA;2,9;Solitary;Return rate 90%
-Hagen et al. (2011);2011;Europe;Germany;mixed rural;Apidae;Bombus;Bombus_ruderatus;Female;Max;Realised;tracking;1;1943,00;NA;NA;NA;5,58;Primitively Eusocial;
-Hagen et al. (2011);2011;Europe;Germany;mixed rural;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;tracking;4;2535,00;NA;NA;NA;4,54;Primitively Eusocial;
-Hagler et al. (2011);2011;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;mark recapture;991;864,90;919,00;29,19;NA;2,95;Highly Eusocial;2007
-Hagler et al. (2011);2011;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;mark recapture;614;738,10;732,00;29,54;NA;2,95;Highly Eusocial;2006
-Hagler et al. (2011);2011;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Realised;mark recapture;991;5983,00;NA;NA;NA;2,95;Highly Eusocial;2007
-Hembach (1993);1993;NA;NA;NA;Megachilidae;Hoplitis;Hoplitis_adunca;Female;Max;Realised;associative;NA;180,00;NA;NA;NA;2,46;Solitary;Foraging distance - german
-Herrmann (1999);1999;NA;NA;NA;Megachilidae;Chelostoma;Chelostoma_florisomne;Female;Max;Potential;homing;6;2000,00;NA;NA;NA;1,5;Solitary;Observed homing distance - German
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Osmia;Osmia_bicornis;Female;Mean;Realised;mark recapture;NA;121,00;44,60;NA;NA;3,04;Solitary;
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Chelostoma;Chelostoma_rapunculi;Female;Mean;Realised;mark recapture;NA;104,00;45,20;NA;NA;1,5;Solitary;
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Chelostoma;Chelostoma_florisomne;Female;Mean;Realised;mark recapture;NA;82,00;58,70;NA;NA;1,5;Solitary;
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Heriades;Heriades_truncorum;Female;Mean;Realised;mark recapture;NA;73,00;62,60;NA;NA;1,48;Solitary;
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Osmia;Osmia_cornuta;Female;Mean;Realised;mark recapture;NA;107,00;67,90;NA;NA;3,36;Solitary;
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Hoplitis;Hoplitis_adunca;Female;Mean;Realised;mark recapture;NA;112,00;77,30;NA;NA;2,46;Solitary;
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Osmia;Osmia_cornuta;Female;Mean;Realised;mark recapture;NA;106,00;107,50;NA;NA;3,36;Solitary;
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Chelostoma;Chelostoma_florisomne;Female;Max;Realised;mark recapture;NA;174,00;NA;NA;NA;1,5;Solitary;
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Chelostoma;Chelostoma_rapunculi;Female;Max;Realised;mark recapture;NA;178,00;NA;NA;NA;1,5;Solitary;
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Heriades;Heriades_truncorum;Female;Max;Realised;mark recapture;NA;298,00;NA;NA;NA;1,48;Solitary;
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Hoplitis;Hoplitis_adunca;Female;Max;Realised;mark recapture;NA;287,00;NA;NA;NA;2,46;Solitary;
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Osmia;Osmia_bicornis;Female;Max;Realised;mark recapture;NA;250,00;NA;NA;NA;3,04;Solitary;
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Osmia;Osmia_cornuta;Female;Max;Realised;mark recapture;NA;724,00;NA;NA;NA;3,36;Solitary;
-Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Osmia;Osmia_cornuta;Female;Max;Realised;mark recapture;NA;226,00;NA;NA;NA;3,36;Solitary;
-Jaffe et al. (2016);2016;South America;Brazil;Agriculture;Apidae;Trigona;Trigona_spinipes;Female;Max;Realised;molecular;6;4350,00;NA;NA;NA;1,8;Highly Eusocial;sister-pair divided by 2
-Jaffe et al. (2016);2016;South America;Brazil;Agriculture;Apidae;Trigona;Trigona_spinipes;Female;Mean;Realised;molecular;6;871,00;NA;NA;NA;1,8;Highly Eusocial;sister-pair divided by 2
-Janzen (1971);1971;Central America;Costa Rica;lowland rainforest;Apidae;Eufriesea;Eufriesea_surinamensis;Female;Typical;Potential;homing;24;20920,00;NA;3357,00;NA;5,6;Solitary;Return rate 50%
-Janzen (1971);1971;Central America;Costa Rica;lowland rainforest;Apidae;Eufriesea;Eufriesea_surinamensis;Female;Max;Potential;homing;24;31481,00;NA;7673,00;NA;5,6;Solitary;Return rate 90%
-Jha and Kremen (2013);2013;North America;USA;Seminatural;Apidae;Bombus;Bombus_vosnesenskii;Female;Max;Realised;molecular;60;2783,00;NA;NA;NA;3,64;Primitively Eusocial;
-Kaehler et al. (2021);2021;South America;Brazil;urban;Apidae;Tetragonisca;Tetragonisca_fiebrigi;Female;Max;Potential;feeder;NA;600,00;NA;NA;NA;1;Highly Eusocial;ITD from T. angustula
-Kapyla (1978);1978;NA;NA;NA;Megachilidae;Chelostoma;Chelostoma_florisomne;Female;Unclassifiable;Realised;mark recapture;NA;300,00;NA;NA;NA;1,5;Solitary;From Greenleaf et al. (2007)
-Kitamura (1969);1969;Asia;Japan;Agriculture;Megachilidae;Osmia;Osmia_cornifrons;Female;Max;Potential;homing;NA;800,00;NA;NA;NA;2,9;Solitary;Return rate 90% From Greenleaf et al. (2007) Table S1
-Kitamura (1969);1969;Asia;Japan;Agriculture;Megachilidae;Osmia;Osmia_cornifrons;Female;Typical;Potential;homing;NA;600,00;NA;NA;NA;2,9;Solitary;Return rate 50% From Greenleaf et al. (2007) Table S1
-Kitamura (1969);1954;Asia;Japan;Agriculture;Megachilidae;Osmia;Osmia_pedicornis;Female;Max;Potential;homing;NA;700,00;NA;NA;NA;3,3;Solitary;Observed homing distance - From Kawamura (1954)
-Kitamura (1969);1969;Asia;Japan;Agriculture;Megachilidae;Osmia;Osmia_pedicornis;Female;Max;Potential;homing;NA;500,00;NA;NA;NA;3,3;Solitary;Observed homing distance
-Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;184;1500,00;NA;NA;NA;4,41;Primitively Eusocial;Maximum - largest distance with sister pair
-Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Mean;Realised;molecular;184;449,00;NA;NA;NA;4,41;Primitively Eusocial;"""Minimum maximum"""
-Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pratorum;Female;Max;Realised;molecular;203;1500,00;NA;NA;NA;3,86;Primitively Eusocial;Maximum - largest distance with sister pair
-Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pratorum;Female;Mean;Realised;molecular;203;674,00;NA;NA;NA;3,86;Primitively Eusocial;"""Minimum maximum"""
-Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;203;1500,00;NA;NA;NA;4,54;Primitively Eusocial;Maximum - largest distance with sister pair
-Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Mean;Realised;molecular;203;758,00;NA;NA;NA;4,54;Primitively Eusocial;"""Minimum maximum"""
-Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;molecular;379;1250,00;NA;NA;NA;4,21;Primitively Eusocial;Maximum - largest distance with sister pair
-Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Mean;Realised;molecular;379;450,00;NA;NA;NA;4,21;Primitively Eusocial;"""Minimum maximum"""
+Darvill et al. (2004);2004;Europe;UK;agriculture woodland urban;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;97;3750;NA;NA;NA;4,54;Primitively Eusocial;Sister-pair at 7.5km - authors argue they forage at reduced distances - as above
+Darvill et al. (2004);2004;Europe;UK;agriculture woodland urban;Apidae;Bombus;Bombus_terrestris;Female;Mean;Realised;molecular;97;625;NA;NA;NA;4,54;Primitively Eusocial;
+Darvill et al. (2004);2004;Europe;UK;agriculture woodland urban;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;237;5000;NA;NA;NA;4,41;Primitively Eusocial;Sister-pair at 10km - max distance tested
+Darvill et al. (2004);2004;Europe;UK;agriculture woodland urban;Apidae;Bombus;Bombus_pascuorum;Female;Mean;Realised;molecular;237;312,5;NA;NA;NA;4,41;Primitively Eusocial;
+Desjardins and De Oliveir (2006);2006;North America;Canada;Agriculture;Apidae;Bombus;Bombus_impatiens;Female;Max;Realised;associative;NA;400;NA;NA;NA;3,38;Primitively Eusocial;
+Dhaliwal and Sharma (1973);1973;Asia;India;Agriculture;Apidae;Apis;Apis_cerana;Female;Max;Realised;associative;NA;1100;NA;NA;NA;2,34;Highly Eusocial;Barberry
+Dhaliwal and Sharma (1973);1973;Asia;India;Agriculture;Apidae;Apis;Apis_cerana;Female;Max;Realised;associative;NA;900;NA;NA;NA;2,34;Highly Eusocial;Cauliflower
+Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_cerana;Female;Max;Realised;waggle dance;NA;1900;400;NA;NA;2,34;Highly Eusocial;Max = mean maximum
+Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;NA;7900;900;NA;NA;2,95;Highly Eusocial;Max = mean maximum
+Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_florea;Female;Max;Realised;waggle dance;NA;11200;2500;NA;NA;2;Highly Eusocial;Max = mean maximum
+Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_dorsata;Female;Max;Realised;waggle dance;NA;12000;6100;NA;NA;3,1;Highly Eusocial;Max = mean maximum
+Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_cerana;Female;Mean;Realised;waggle dance;NA;195;NA;NA;NA;2,34;Highly Eusocial;50%
+Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_dorsata;Female;Mean;Realised;waggle dance;NA;863;NA;NA;NA;3,1;Highly Eusocial;50%
+Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_florea;Female;Mean;Realised;waggle dance;NA;268;NA;NA;NA;2;Highly Eusocial;Taken empirical data, not data from other sources (see additional references). Mean = 50%
+Dyer and Seeley (1991);1991;Asia;Thailand;Tropical rainforest;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1650;NA;NA;NA;2,95;Highly Eusocial;50%
+Esser (2005);2005;Europe;Germany;NA;Colletidae;Colletes;Colletes_daviesanus;Female;Max;Realised;mark recapture;74;2225;NA;NA;NA;3,76;Solitary;From Zurbuchen et al. (2010)
+Fabre (1914);1914;Europe;France;NA;Megachilidae;Megachile;Megachile_parietina;Female;NA;Potential;homing;NA;4000;NA;NA;NA;4,5;Solitary;Observed homing distance
+Fabre (1914);1914;Europe;France;NA;Megachilidae;Megachile;Megachile_sicula;Female;NA;Potential;homing;NA;4000;NA;NA;NA;4,3;Solitary;Observed homing distance
+Franzen et al. (2009);2009;Europe;Sweden;Mixed agriculture/wild;Andrenidae;Andrena;Andrena_hattorfiana;Female;Max;Realised;mark recapture;80;83;NA;NA;NA;4,26;Solitary;Smaland
+Franzen et al. (2009);2009;Europe;Sweden;Mixed agriculture/wild;Andrenidae;Andrena;Andrena_hattorfiana;Female;Median;Realised;mark recapture;80;52;NA;NA;NA;4,26;Solitary;Smaland
+Franzen et al. (2009);2009;Europe;Sweden;Mixed agriculture/wild;Andrenidae;Andrena;Andrena_hattorfiana;Female;Max;Realised;mark recapture;171;130;NA;NA;NA;4,26;Solitary;Arontorp
+Franzen et al. (2009);2009;Europe;Sweden;Mixed agriculture/wild;Andrenidae;Andrena;Andrena_hattorfiana;Female;Median;Realised;mark recapture;171;76;NA;NA;NA;4,26;Solitary;Arontorp
+Franzen et al. (2009);2009;Europe;Sweden;Mixed agriculture/wild;Andrenidae;Andrena;Andrena_hattorfiana;Female;Median;Realised;mark recapture;NA;131;NA;NA;NA;4,26;Solitary;between patch
+Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;50;846;NA;NA;235;2,95;Highly Eusocial;October
+Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;61;518;NA;NA;86;2,95;Highly Eusocial;April
+Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;95;685;NA;NA;96;2,95;Highly Eusocial;September
+Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;116;670;NA;NA;110;2,95;Highly Eusocial;June
+Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;166;589;NA;NA;64;2,95;Highly Eusocial;August
+Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;209;1229;NA;NA;175;2,95;Highly Eusocial;July
+Garbuzov et al. (2015);2015;Europe;UK;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;234;461;NA;NA;41;2,95;Highly Eusocial;May
+Gary (1972);1972;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;mark recapture;37;1186;NA;NA;NA;2,95;Highly Eusocial;morning glory
+Gary (1972);1972;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;mark recapture;59;705;NA;NA;NA;2,95;Highly Eusocial;yellow star thistle
+Gary (1972);1972;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;mark recapture;559;1663;NA;NA;NA;2,95;Highly Eusocial;carrot
+Gary (1972);1972;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;mark recapture;580;557;NA;NA;NA;2,95;Highly Eusocial;onions
+Gary (1972);1972;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Realised;mark recapture;NA;6117;NA;NA;NA;2,95;Highly Eusocial;carrot
+Gary (1972);1972;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Realised;mark recapture;NA;4346;NA;NA;NA;2,95;Highly Eusocial;mixed
+Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Megachilidae;Osmia;Osmia_bicornis;Female;Max;Potential;homing;27;900;NA;NA;NA;3,04;Solitary;Return rate 90%
+Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Megachilidae;Osmia;Osmia_bicornis;Female;Median;Potential;homing;27;500;NA;NA;NA;3,04;Solitary;Return rate 50%
+Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Andrenidae;Andrena;Andrena_barbilabris;Female;Max;Potential;homing;36;530;NA;NA;NA;2,1;Solitary;Return rate 90%
+Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Andrenidae;Andrena;Andrena_barbilabris;Female;Median;Potential;homing;36;120;NA;NA;NA;2,1;Solitary;Return rate 50%
+Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Andrenidae;Andrena;Andrena_flavipes;Female;Max;Potential;homing;36;415;NA;NA;NA;2,2;Solitary;Return rate 90%
+Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Andrenidae;Andrena;Andrena_flavipes;Female;Median;Potential;homing;36;150;NA;NA;NA;2,2;Solitary;Return rate 50%
+Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Apidae;Eucera;Eucera_salicariae;Female;Max;Potential;homing;40;400;NA;NA;NA;2,1;Solitary;Return rate 90% - Data from Molitor 1936/37
+Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Apidae;Eucera;Eucera_salicariae;Female;Median;Potential;homing;40;185;NA;NA;NA;2,1;Solitary;Return rate 50% - Data from Molitor 1936/37
+Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Andrenidae;Andrena;Andrena_vaga;Female;Max;Potential;homing;42;510;NA;NA;NA;2,8;Solitary;Return rate 90%
+Gathmann and Tscharntke (2002);1998;Europe;Germany;Agriculture;Andrenidae;Andrena;Andrena_vaga;Female;Median;Potential;homing;42;260;NA;NA;NA;2,8;Solitary;Return rate 50%
+Gathmann and Tscharntke (2002);1996;NA;NA;NA;Andrenidae;Andrena;Andrena_barbilabris;Female;Max;NA;NA;NA;300;NA;NA;NA;2,1;Solitary;Wesserling (1996)
+Gathmann and Tscharntke (2002);1996;Europe;Germany;NA;Andrenidae;Andrena;Andrena_barbilabris;Female;Max;NA;NA;NA;500;NA;NA;NA;2,1;Solitary;Witt (1992)
+Gathmann and Tscharntke (2002);1987;NA;NA;NA;Andrenidae;Andrena;Andrena_cineraria;Female;Max;Realised;associative;NA;300;NA;NA;NA;3;Solitary;Gebhardt and Rohr (1987) - Foraging distance
+Gathmann and Tscharntke (2002);1987;NA;NA;NA;Andrenidae;Andrena;Andrena_clarkella;Female;Max;Realised;associative;NA;300;NA;NA;NA;3,1;Solitary;Gebhardt and Rohr (1987) - Foraging distance
+Gathmann and Tscharntke (2002);1996;NA;NA;NA;Andrenidae;Andrena;Andrena_flavipes;Female;Max;NA;NA;NA;300;NA;NA;NA;2,2;Solitary;Wesserling (1996)
+Gathmann and Tscharntke (2002);1996;NA;NA;NA;Andrenidae;Andrena;Andrena_vaga;Female;Max;NA;NA;NA;300;NA;NA;NA;2,8;Solitary;Wesserling (1996)
+Gathmann and Tscharntke (2002);1996;NA;NA;NA;Colletidae;Colletes;Colletes_cunicularius;Female;Max;NA;NA;NA;400;NA;NA;NA;4;Solitary;Wesserling (1996)
+Gathmann and Tscharntke (2002);1996;NA;NA;NA;Megachilidae;Megachile;Megachile_lapponica;Female;Max;NA;NA;NA;600;NA;NA;NA;2,8;Solitary;Wesserling (1996)
+Gathmann and Tscharntke (2002);1982;NA;NA;NA;Megachilidae;Osmia;Osmia_maritima;NA;Max;NA;NA;NA;150;NA;NA;NA;2,9;Solitary;Haeseler (1982)
+Gathmann and Tscharntke (2002);1937;NA;NA;NA;Megachilidae;Osmia;Osmia_mustelina;Female;Max;NA;NA;NA;1000;NA;NA;NA;3,5;Solitary;Molitor (1937)
+Gathmann and Tscharntke (2002);2002;NA;NA;NA;Apidae;Xylocopa;Xylocopa_violacea;Female;Max;NA;NA;NA;1200;NA;NA;NA;7,8;Solitary;Molitor (1937)
+Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_flavifrons;Female;Mean;Realised;molecular;30;23,8;NA;10,1;NA;3,39;Primitively Eusocial;
+Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_balteatus;Female;Mean;Realised;molecular;15;85,4;NA;15;NA;3,7;Primitively Eusocial;
+Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_bifarius;Female;Mean;Realised;molecular;8;110,25;NA;41,7;NA;2,94;Primitively Eusocial;
+Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_sylvicola;Female;Mean;Realised;molecular;5;74,7;NA;56,3;NA;3,18;Primitively Eusocial;
+Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_sylvicola;Female;Max;Realised;molecular;5;340,5;NA;NA;NA;3,18;Primitively Eusocial;sister distance divided by 2
+Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_bifarius;Female;Max;Realised;molecular;8;270,5;NA;NA;NA;2,94;Primitively Eusocial;sister distance divided by 2
+Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_balteatus;Female;Max;Realised;molecular;15;270,5;NA;NA;NA;3,7;Primitively Eusocial;sister distance divided by 2
+Geib et al. (2015);2015;North America;USA;subalpine;Apidae;Bombus;Bombus_flavifrons;Female;Max;Realised;molecular;30;252,5;NA;NA;NA;3,39;Primitively Eusocial;sister distance divided by 2
+Goulson and Stout (2001);2001;Europe;UK;urban;Apidae;Bombus;Bombus_terrestris;Female;Max;Potential;homing;56;9580;NA;NA;NA;4,54;Primitively Eusocial;Return rate 90% - from publ. equation
+Goulson and Stout (2001);2001;Europe;UK;urban;Apidae;Bombus;Bombus_terrestris;Female;Mean;Potential;homing;56;1250;NA;NA;NA;4,54;Primitively Eusocial;Return rate 50% - from publ. equation
+Guedot et al. (2009);2009;North America;USA;Agriculture;Megachilidae;Osmia;Osmia_lignaria;Female;Mean;Potential;homing;30;1121;NA;60;NA;2,9;Solitary;Return rate 50%
+Guedot et al. (2009);2009;North America;USA;Agriculture;Megachilidae;Osmia;Osmia_lignaria;Female;Max;Potential;homing;30;1494;NA;108;NA;2,9;Solitary;Return rate 90%
+Hagen et al. (2011);2011;Europe;Germany;mixed rural;Apidae;Bombus;Bombus_ruderatus;Female;Max;Realised;tracking;1;1943;NA;NA;NA;5,58;Primitively Eusocial;
+Hagen et al. (2011);2011;Europe;Germany;mixed rural;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;tracking;4;2535;NA;NA;NA;4,54;Primitively Eusocial;
+Hagler et al. (2011);2011;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;mark recapture;991;864,9;919;29,19;NA;2,95;Highly Eusocial;2007
+Hagler et al. (2011);2011;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;mark recapture;614;738,1;732;29,54;NA;2,95;Highly Eusocial;2006
+Hagler et al. (2011);2011;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Realised;mark recapture;991;5983;NA;NA;NA;2,95;Highly Eusocial;2007
+Hembach (1993);1993;NA;NA;NA;Megachilidae;Hoplitis;Hoplitis_adunca;Female;Max;Realised;associative;NA;180;NA;NA;NA;2,46;Solitary;Foraging distance - german
+Herrmann (1999);1999;NA;NA;NA;Megachilidae;Chelostoma;Chelostoma_florisomne;Female;Max;Potential;homing;6;2000;NA;NA;NA;1,5;Solitary;Observed homing distance - German
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Osmia;Osmia_bicornis;Female;Mean;Realised;mark recapture;NA;121;44,6;NA;NA;3,04;Solitary;
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Chelostoma;Chelostoma_rapunculi;Female;Mean;Realised;mark recapture;NA;104;45,2;NA;NA;1,5;Solitary;
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Chelostoma;Chelostoma_florisomne;Female;Mean;Realised;mark recapture;NA;82;58,7;NA;NA;1,5;Solitary;
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Heriades;Heriades_truncorum;Female;Mean;Realised;mark recapture;NA;73;62,6;NA;NA;1,48;Solitary;
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Osmia;Osmia_cornuta;Female;Mean;Realised;mark recapture;NA;107;67,9;NA;NA;3,36;Solitary;
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Hoplitis;Hoplitis_adunca;Female;Mean;Realised;mark recapture;NA;112;77,3;NA;NA;2,46;Solitary;
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Osmia;Osmia_cornuta;Female;Mean;Realised;mark recapture;NA;106;107,5;NA;NA;3,36;Solitary;
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Chelostoma;Chelostoma_florisomne;Female;Max;Realised;mark recapture;NA;174;NA;NA;NA;1,5;Solitary;
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Chelostoma;Chelostoma_rapunculi;Female;Max;Realised;mark recapture;NA;178;NA;NA;NA;1,5;Solitary;
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Heriades;Heriades_truncorum;Female;Max;Realised;mark recapture;NA;298;NA;NA;NA;1,48;Solitary;
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Hoplitis;Hoplitis_adunca;Female;Max;Realised;mark recapture;NA;287;NA;NA;NA;2,46;Solitary;
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Osmia;Osmia_bicornis;Female;Max;Realised;mark recapture;NA;250;NA;NA;NA;3,04;Solitary;
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Osmia;Osmia_cornuta;Female;Max;Realised;mark recapture;NA;724;NA;NA;NA;3,36;Solitary;
+Hofmann et al. (2020);2020;Europe;Germany;urban;Megachilidae;Osmia;Osmia_cornuta;Female;Max;Realised;mark recapture;NA;226;NA;NA;NA;3,36;Solitary;
+Jaffe et al. (2016);2016;South America;Brazil;Agriculture;Apidae;Trigona;Trigona_spinipes;Female;Max;Realised;molecular;6;4350;NA;NA;NA;1,8;Highly Eusocial;sister-pair divided by 2
+Jaffe et al. (2016);2016;South America;Brazil;Agriculture;Apidae;Trigona;Trigona_spinipes;Female;Mean;Realised;molecular;6;871;NA;NA;NA;1,8;Highly Eusocial;sister-pair divided by 2
+Janzen (1971);1971;Central America;Costa Rica;lowland rainforest;Apidae;Eufriesea;Eufriesea_surinamensis;Female;Max;Potential;homing;24;23000;NA;NA;NA;5,6;Solitary;Observed homing distance
+Jha and Kremen (2013);2013;North America;USA;Seminatural;Apidae;Bombus;Bombus_vosnesenskii;Female;Max;Realised;molecular;60;2783;NA;NA;NA;3,64;Primitively Eusocial;
+Kaehler et al. (2021);2021;South America;Brazil;urban;Apidae;Tetragonisca;Tetragonisca_fiebrigi;Female;Max;Potential;feeder;NA;600;NA;NA;NA;1;Highly Eusocial;ITD from T. angustula
+Kapyla (1978);1978;NA;NA;NA;Megachilidae;Chelostoma;Chelostoma_florisomne;Female;Unclassifiable;Realised;mark recapture;NA;300;NA;NA;NA;1,5;Solitary;From Greenleaf et al. (2007)
+Kitamura (1969);1969;Asia;Japan;Agriculture;Megachilidae;Osmia;Osmia_cornifrons;Female;Max;Potential;homing;NA;800;NA;NA;NA;2,9;Solitary;Return rate 90% From Greenleaf et al. (2007) Table S1
+Kitamura (1969);1969;Asia;Japan;Agriculture;Megachilidae;Osmia;Osmia_cornifrons;Female;Typical;Potential;homing;NA;600;NA;NA;NA;2,9;Solitary;Return rate 50% From Greenleaf et al. (2007) Table S1
+Kitamura (1969);1954;Asia;Japan;Agriculture;Megachilidae;Osmia;Osmia_pedicornis;Female;Max;Potential;homing;NA;700;NA;NA;NA;3,3;Solitary;Observed homing distance - From Kawamura (1954)
+Kitamura (1969);1969;Asia;Japan;Agriculture;Megachilidae;Osmia;Osmia_pedicornis;Female;Max;Potential;homing;NA;500;NA;NA;NA;3,3;Solitary;Observed homing distance
+Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;184;1500;NA;NA;NA;4,41;Primitively Eusocial;Maximum - largest distance with sister pair
+Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Mean;Realised;molecular;184;449;NA;NA;NA;4,41;Primitively Eusocial;"""Minimum maximum"""
+Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pratorum;Female;Max;Realised;molecular;203;1500;NA;NA;NA;3,86;Primitively Eusocial;Maximum - largest distance with sister pair
+Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pratorum;Female;Mean;Realised;molecular;203;674;NA;NA;NA;3,86;Primitively Eusocial;"""Minimum maximum"""
+Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;203;1500;NA;NA;NA;4,54;Primitively Eusocial;Maximum - largest distance with sister pair
+Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Mean;Realised;molecular;203;758;NA;NA;NA;4,54;Primitively Eusocial;"""Minimum maximum"""
+Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;molecular;379;1250;NA;NA;NA;4,21;Primitively Eusocial;Maximum - largest distance with sister pair
+Knight et al. (2005);2005;Europe;UK;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Mean;Realised;molecular;379;450;NA;NA;NA;4,21;Primitively Eusocial;"""Minimum maximum"""
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_cerana;Female;Mean;Realised;waggle dance;123;94,57;68,69;6,19;NA;2,34;Highly Eusocial;
-Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_cerana;Female;Mean;Realised;waggle dance;110;100,70;74,87;7,14;NA;2,34;Highly Eusocial;
+Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_cerana;Female;Mean;Realised;waggle dance;110;100,7;74,87;7,14;NA;2,34;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_dorsata;Female;Mean;Realised;waggle dance;69;204,87;77,42;9,32;NA;3,1;Highly Eusocial;
-Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_florea;Female;Mean;Realised;waggle dance;136;137,70;155,25;13,31;NA;2;Highly Eusocial;
+Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_florea;Female;Mean;Realised;waggle dance;136;137,7;155,25;13,31;NA;2;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_cerana;Female;Mean;Realised;waggle dance;92;128,98;134,49;14,02;NA;2,34;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_dorsata;Female;Mean;Realised;waggle dance;60;240,96;160,82;20,76;NA;3,1;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_florea;Female;Mean;Realised;waggle dance;113;339,89;249,29;23,45;NA;2;Highly Eusocial;
-Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_dorsata;Female;Mean;Realised;waggle dance;109;315,10;249,74;23,92;NA;3,1;Highly Eusocial;
+Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_dorsata;Female;Mean;Realised;waggle dance;109;315,1;249,74;23,92;NA;3,1;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_cerana;Female;Mean;Realised;waggle dance;75;313,72;267,09;30,84;NA;2,34;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_florea;Female;Mean;Realised;waggle dance;83;180,06;401,43;44,06;NA;2;Highly Eusocial;
-Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_florea;Female;Mean;Realised;waggle dance;40;286,70;406,37;64,25;NA;2;Highly Eusocial;
+Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_florea;Female;Mean;Realised;waggle dance;40;286,7;406,37;64,25;NA;2;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_dorsata;Female;Mean;Realised;waggle dance;135;566,15;781,72;67,28;NA;3,1;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_florea;Female;Max;Realised;waggle dance;40;2113,43;NA;NA;NA;2;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_dorsata;Female;Max;Realised;waggle dance;60;792,63;NA;NA;NA;3,1;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_dorsata;Female;Max;Realised;waggle dance;69;388,34;NA;NA;NA;3,1;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_cerana;Female;Max;Realised;waggle dance;75;975,36;NA;NA;NA;2,34;Highly Eusocial;
-Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_florea;Female;Max;Realised;waggle dance;83;2566,50;NA;NA;NA;2;Highly Eusocial;
+Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_florea;Female;Max;Realised;waggle dance;83;2566,5;NA;NA;NA;2;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_cerana;Female;Max;Realised;waggle dance;92;755,81;NA;NA;NA;2,34;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_dorsata;Female;Max;Realised;waggle dance;109;1423,94;NA;NA;NA;3,1;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_cerana;Female;Max;Realised;waggle dance;110;430,84;NA;NA;NA;2,34;Highly Eusocial;
@@ -229,205 +228,199 @@ Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_florea;Female;Max;Real
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_cerana;Female;Max;Realised;waggle dance;123;296,65;NA;NA;NA;2,34;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_dorsata;Female;Max;Realised;waggle dance;135;2909,02;NA;NA;NA;3,1;Highly Eusocial;
 Kohl et al. (2020);2020;Asia;India;urban;Apidae;Apis;Apis_florea;Female;Max;Realised;waggle dance;136;870,37;NA;NA;NA;2;Highly Eusocial;
-Kreyer et al. (2004);2004;Europe;Germany;forest grassland;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;associative;NA;800,00;NA;NA;NA;4,41;Primitively Eusocial;
-Kreyer et al. (2004);2004;Europe;Germany;forest grassland;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;associative;NA;2200,00;NA;NA;NA;4,54;Primitively Eusocial;
-Kuhn-Neto et al. (2009);2009;South America;Brazil;Agriculture;Apidae;Melipona;Melipona_mandacaia;Female;Max;Potential;feeder;NA;2100,00;NA;NA;NA;2,9;Highly Eusocial;Table 1. Large foragers - Colony 1
-Kuhn-Neto et al. (2009);2009;South America;Brazil;Agriculture;Apidae;Melipona;Melipona_mandacaia;Female;Max;Potential;feeder;NA;1840,00;NA;NA;NA;2,9;Highly Eusocial;Table 1. Small foragers - Colony 2
-Kuhn-Neto et al. (2009);2009;South America;Brazil;Agriculture;Apidae;Melipona;Melipona_mandacaia;Female;Max;Potential;feeder;NA;1560,00;NA;NA;NA;2,9;Highly Eusocial;Table 1. Small foragers - Colony 3
-Kuhn-Neto et al. (2009);2009;South America;Brazil;Agriculture;Apidae;Melipona;Melipona_mandacaia;Female;Mean;Potential;feeder;NA;1000,00;NA;NA;NA;2,9;Highly Eusocial;Table 1. Large foragers - Colony 1
-Kuhn-Neto et al. (2009);2009;South America;Brazil;Agriculture;Apidae;Melipona;Melipona_mandacaia;Female;Mean;Potential;feeder;NA;600,00;NA;NA;NA;2,9;Highly Eusocial;Table 1. Small foragers - Colony 3
-Kuhn-Neto et al. (2009);2009;South America;Brazil;Agriculture;Apidae;Melipona;Melipona_mandacaia;Female;Mean;Potential;feeder;NA;500,00;NA;NA;NA;2,9;Highly Eusocial;Table 1. Small foragers - Colony 2
-Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Typical;Potential;homing;NA;362,50;NA;21,39;NA;1,15;Highly Eusocial;Return rate 50% - Colony1
+Kreyer et al. (2004);2004;Europe;Germany;forest grassland;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;associative;NA;800;NA;NA;NA;4,41;Primitively Eusocial;
+Kreyer et al. (2004);2004;Europe;Germany;forest grassland;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;associative;NA;2200;NA;NA;NA;4,54;Primitively Eusocial;
+Kuhn-Neto et al. (2009);2009;South America;Brazil;Agriculture;Apidae;Melipona;Melipona_mandacaia;Female;Max;Potential;feeder;NA;2100;NA;NA;NA;2,9;Highly Eusocial;Table 1. Large foragers - Colony 1
+Kuhn-Neto et al. (2009);2009;South America;Brazil;Agriculture;Apidae;Melipona;Melipona_mandacaia;Female;Max;Potential;feeder;NA;1840;NA;NA;NA;2,9;Highly Eusocial;Table 1. Small foragers - Colony 2
+Kuhn-Neto et al. (2009);2009;South America;Brazil;Agriculture;Apidae;Melipona;Melipona_mandacaia;Female;Max;Potential;feeder;NA;1560;NA;NA;NA;2,9;Highly Eusocial;Table 1. Small foragers - Colony 3
+Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Typical;Potential;homing;NA;362,5;NA;21,39;NA;1,15;Highly Eusocial;Return rate 50% - Colony1
 Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Typical;Potential;homing;NA;379,17;NA;53,33;NA;1,15;Highly Eusocial;Return rate 50% - Colony2
 Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Typical;Potential;homing;NA;340,83;NA;26,91;NA;1,15;Highly Eusocial;Return rate 50% - Colony3
-Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Typical;Potential;homing;NA;395,00;NA;30,66;NA;1,15;Highly Eusocial;Return rate 50% - Colony4
-Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Max;Potential;homing;NA;805,00;NA;64,34;NA;1,15;Highly Eusocial;Return rate 90% - Colony1
+Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Typical;Potential;homing;NA;395;NA;30,66;NA;1,15;Highly Eusocial;Return rate 50% - Colony4
+Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Max;Potential;homing;NA;805;NA;64,34;NA;1,15;Highly Eusocial;Return rate 90% - Colony1
 Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Max;Potential;homing;NA;890,83;NA;83,93;NA;1,15;Highly Eusocial;Return rate 90% - Colony2
-Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Max;Potential;homing;NA;749,17;NA;80,90;NA;1,15;Highly Eusocial;Return rate 90% - Colony3
+Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Max;Potential;homing;NA;749,17;NA;80,9;NA;1,15;Highly Eusocial;Return rate 90% - Colony3
 Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Max;Potential;homing;NA;915,83;NA;111,91;NA;1,15;Highly Eusocial;Return rate 90% - Colony4
 Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Max;Potential;feeder;NA;293,33;NA;26,12;NA;1,15;Highly Eusocial;Colony1
 Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Max;Potential;feeder;NA;349,44;NA;53,19;NA;1,15;Highly Eusocial;Colony2
 Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Max;Potential;feeder;NA;277,78;NA;29,42;NA;1,15;Highly Eusocial;Colony3
 Layek et al. (2021);2021;Asia;India;Mixed use;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Max;Potential;feeder;NA;358,89;NA;46,89;NA;1,15;Highly Eusocial;Colony4
-Linsley and McSwain (1942);1942;North America;USA;NA;Apidae;Anthophora;Anthophora_linsleyi;Female;Unclassifiable;Realised;associative;NA;1600,00;NA;NA;NA;3,6;Solitary;a factor which necessitated a flight of more than a mile from the nesting region
-Menke (1954);1954;NA;NA;NA;Halictidae;Nomia;Nomia_melanderi;Female;Unclassifiable;Realised;associative;NA;1600,00;NA;NA;NA;2,7;Solitary;From Greenleaf et al. (2007)
-Michener (1974);1974;NA;NA;NA;Apidae;Apis;Apis_cerana;Female;Max;Potential;feeder;NA;800,00;NA;NA;NA;2,34;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
-Michener (1974);1974;NA;NA;NA;Apidae;Apis;Apis_mellifera;Female;Max;Potential;feeder;NA;12000,00;NA;NA;NA;2,95;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
-Michener (1974);1974;NA;NA;NA;Apidae;Apis;Apis_mellifera;Female;Max;Potential;feeder;NA;2800,00;NA;NA;NA;2,95;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
-Michener (1974);1974;NA;NA;NA;Apidae;Apis;Apis_mellifera;Female;Max;Potential;feeder;NA;2500,00;NA;NA;NA;2,95;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
-Michener (1974);1974;NA;NA;NA;Apidae;Plebeia;Plebeia_mosquito;Female;Max;Potential;feeder;NA;500,00;NA;NA;NA;1;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
-Michener (1974);1974;NA;NA;NA;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Max;Potential;feeder;NA;100,00;NA;NA;NA;1,2;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
-Michener (1974);1974;NA;NA;NA;Apidae;Trigona;Trigona_amalthea;Female;Max;Potential;feeder;NA;1000,00;NA;NA;NA;2,3;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
-Michener (1974);1974;NA;NA;NA;Apidae;Trigona;Trigona_spinipes;Female;Max;Potential;feeder;NA;800,00;NA;NA;NA;1,8;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
-Mola et al. (2020);2020;North America;USA;montane;Apidae;Bombus;Bombus_vancouverensis;Female;Mean;Realised;molecular;39;95,80;103,00;16,49;NA;3,85;Primitively Eusocial;
-Mola et al. (2020);2020;North America;USA;montane;Apidae;Bombus;Bombus_vosnesenskii;Female;Mean;Realised;molecular;66;448,00;546,00;67,21;NA;3,64;Primitively Eusocial;
-Mola et al. (2020);2020;North America;USA;montane;Apidae;Bombus;Bombus_vancouverensis;Female;Max;Realised;molecular;39;726,00;NA;NA;NA;3,85;Primitively Eusocial;
-Mola et al. (2020);2020;North America;USA;montane;Apidae;Bombus;Bombus_vosnesenskii;Female;Max;Realised;molecular;66;3709,00;NA;NA;NA;3,64;Primitively Eusocial;
-Molitor (1937);1937;NA;NA;NA;Megachilidae;Hoplitis;Hoplitis_anthocopoides;Female;Max;Potential;homing;NA;150,00;NA;NA;NA;2,4;Solitary;Observed homing distance from Gathmann & Tcharntke (2002)
-Molitor (1937);1937;NA;NA;NA;Megachilidae;Rhodanthidium;Rhodanthidium_septemdentatum;Female;Max;Potential;homing;NA;1200,00;NA;NA;NA;3,28;Solitary;Observed homing distance from Zurbuchen et al. (2010)
-Munster-Swendsen (1968);1968;NA;NA;NA;Andrenidae;Panurgus;Panurgus_banksianus;Female;Max;Realised;associative;NA;250,00;NA;NA;NA;2,2;Solitary;
-Nagamitsu and Yamagishi (2009);2009;Asia;Japan;Mixed use;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;NA;782,00;NA;NA;NA;4,54;Primitively Eusocial;
-Nagamitsu and Yamagishi (2009);2009;Asia;Japan;Mixed use;Apidae;Bombus;Bombus_terrestris;Female;Typical;Realised;molecular;NA;264,50;NA;NA;NA;4,54;Primitively Eusocial;
-Nagamitsu et al. (2012);2012;Asia;Japan;Agriculture;Apidae;Bombus;Bombus_diversus;Female;Max;Realised;molecular;NA;723,00;NA;NA;NA;3,85;Primitively Eusocial;
-Nagamitsu et al. (2012);2012;Asia;Japan;Agriculture;Apidae;Bombus;Bombus_diversus;Female;Typical;Realised;molecular;NA;175,50;NA;NA;NA;3,85;Primitively Eusocial;
-Nagamitsu et al. (2012);2012;Asia;Japan;Agriculture;Apidae;Bombus;Bombus_hypocrita;Female;Max;Realised;molecular;NA;848,00;NA;NA;NA;5,4;Primitively Eusocial;
-Nagamitsu et al. (2012);2012;Asia;Japan;Agriculture;Apidae;Bombus;Bombus_hypocrita;Female;Typical;Realised;molecular;NA;293,00;NA;NA;NA;5,4;Primitively Eusocial;
-Neff and Danforth (1991);1991;North America;USA;woodland grassland;Andrenidae;Macrotera;Macrotera_texana;Female;Max;Realised;mark recapture;NA;190,00;NA;NA;NA;2,3;Solitary;Max - diameter of foraging range
+Linsley and McSwain (1942);1942;North America;USA;NA;Apidae;Anthophora;Anthophora_linsleyi;Female;Unclassifiable;Realised;associative;NA;1600;NA;NA;NA;3,6;Solitary;a factor which necessitated a flight of more than a mile from the nesting region
+Menke (1954);1954;NA;NA;NA;Halictidae;Nomia;Nomia_melanderi;Female;Unclassifiable;Realised;associative;NA;1600;NA;NA;NA;2,7;Solitary;From Greenleaf et al. (2007)
+Michener (1974);1974;NA;NA;NA;Apidae;Apis;Apis_cerana;Female;Max;Potential;feeder;NA;800;NA;NA;NA;2,34;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
+Michener (1974);1974;NA;NA;NA;Apidae;Apis;Apis_mellifera;Female;Max;Potential;feeder;NA;12000;NA;NA;NA;2,95;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
+Michener (1974);1974;NA;NA;NA;Apidae;Apis;Apis_mellifera;Female;Max;Potential;feeder;NA;2800;NA;NA;NA;2,95;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
+Michener (1974);1974;NA;NA;NA;Apidae;Apis;Apis_mellifera;Female;Max;Potential;feeder;NA;2500;NA;NA;NA;2,95;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
+Michener (1974);1974;NA;NA;NA;Apidae;Plebeia;Plebeia_mosquito;Female;Max;Potential;feeder;NA;500;NA;NA;NA;1;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
+Michener (1974);1974;NA;NA;NA;Apidae;Tetragonula;Tetragonula_iridipennis;Female;Max;Potential;feeder;NA;100;NA;NA;NA;1,2;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
+Michener (1974);1974;NA;NA;NA;Apidae;Trigona;Trigona_amalthea;Female;Max;Potential;feeder;NA;1000;NA;NA;NA;2,3;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
+Michener (1974);1974;NA;NA;NA;Apidae;Trigona;Trigona_spinipes;Female;Max;Potential;feeder;NA;800;NA;NA;NA;1,8;Highly Eusocial;From Greenleaf et al. (2007) - Table S2 - Foraging trips cease distance
+Mola et al. (2020);2020;North America;USA;montane;Apidae;Bombus;Bombus_vancouverensis;Female;Mean;Realised;molecular;39;95,8;103;16,49;NA;3,85;Primitively Eusocial;
+Mola et al. (2020);2020;North America;USA;montane;Apidae;Bombus;Bombus_vosnesenskii;Female;Mean;Realised;molecular;66;448;546;67,21;NA;3,64;Primitively Eusocial;
+Mola et al. (2020);2020;North America;USA;montane;Apidae;Bombus;Bombus_vancouverensis;Female;Max;Realised;molecular;39;726;NA;NA;NA;3,85;Primitively Eusocial;
+Mola et al. (2020);2020;North America;USA;montane;Apidae;Bombus;Bombus_vosnesenskii;Female;Max;Realised;molecular;66;3709;NA;NA;NA;3,64;Primitively Eusocial;
+Molitor (1937);1937;NA;NA;NA;Megachilidae;Hoplitis;Hoplitis_anthocopoides;Female;Max;Potential;homing;NA;150;NA;NA;NA;2,4;Solitary;Observed homing distance from Gathmann & Tcharntke (2002)
+Molitor (1937);1937;NA;NA;NA;Megachilidae;Rhodanthidium;Rhodanthidium_septemdentatum;Female;Max;Potential;homing;NA;1200;NA;NA;NA;3,28;Solitary;Observed homing distance from Zurbuchen et al. (2010)
+Munster-Swendsen (1968);1968;NA;NA;NA;Andrenidae;Panurgus;Panurgus_banksianus;Female;Max;Realised;associative;NA;250;NA;NA;NA;2,2;Solitary;
+Nagamitsu and Yamagishi (2009);2009;Asia;Japan;Mixed use;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;NA;782;NA;NA;NA;4,54;Primitively Eusocial;
+Nagamitsu and Yamagishi (2009);2009;Asia;Japan;Mixed use;Apidae;Bombus;Bombus_terrestris;Female;Typical;Realised;molecular;NA;264,5;NA;NA;NA;4,54;Primitively Eusocial;
+Nagamitsu et al. (2012);2012;Asia;Japan;Agriculture;Apidae;Bombus;Bombus_diversus;Female;Max;Realised;molecular;NA;723;NA;NA;NA;3,85;Primitively Eusocial;
+Nagamitsu et al. (2012);2012;Asia;Japan;Agriculture;Apidae;Bombus;Bombus_diversus;Female;Typical;Realised;molecular;NA;175,5;NA;NA;NA;3,85;Primitively Eusocial;
+Nagamitsu et al. (2012);2012;Asia;Japan;Agriculture;Apidae;Bombus;Bombus_hypocrita;Female;Max;Realised;molecular;NA;848;NA;NA;NA;5,4;Primitively Eusocial;
+Nagamitsu et al. (2012);2012;Asia;Japan;Agriculture;Apidae;Bombus;Bombus_hypocrita;Female;Typical;Realised;molecular;NA;293;NA;NA;NA;5,4;Primitively Eusocial;
+Neff and Danforth (1991);1991;North America;USA;woodland grassland;Andrenidae;Macrotera;Macrotera_texana;Female;Max;Realised;mark recapture;NA;190;NA;NA;NA;2,3;Solitary;Max - diameter of foraging range
 Nunes-Silva et al. (2020);2020;South America;Brazil;urban - forest;Apidae;Melipona;Melipona_fasciculata;Female;Typical;Potential;homing;315;2089,28;NA;228,27;NA;3,32;Highly Eusocial;Return rate 50% - Experiment 1
 Nunes-Silva et al. (2020);2020;South America;Brazil;urban - forest;Apidae;Melipona;Melipona_fasciculata;Female;Max;Potential;homing;315;5934,64;NA;968,42;NA;3,32;Highly Eusocial;Return rate 90% - Experiment 1
 Nunes-Silva et al. (2020);2020;South America;Brazil;urban - forest;Apidae;Melipona;Melipona_fasciculata;Female;Typical;Potential;homing;180;4819,52;NA;387,48;NA;3,32;Highly Eusocial;Return rate 50% - Experiment 2
 Nunes-Silva et al. (2020);2020;South America;Brazil;urban - forest;Apidae;Melipona;Melipona_fasciculata;Female;Max;Potential;homing;180;9736,04;NA;926,04;NA;3,32;Highly Eusocial;Return rate 90% - Experiment 2
-Osborne et al. (1999);1999;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Mean;Realised;tracking;30;201,00;NA;18,70;NA;4,54;Primitively Eusocial;Mean max - August
-Osborne et al. (1999);1999;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Mean;Realised;tracking;65;339,00;NA;26,20;NA;4,54;Primitively Eusocial;Mean max - June
-Osborne et al. (1999);1999;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;tracking;30;556,00;NA;NA;NA;4,54;Primitively Eusocial;Max range - August
-Osborne et al. (1999);1999;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;tracking;65;631,00;NA;NA;NA;4,54;Primitively Eusocial;Max range - June
-Osborne et al. (2008);2008;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;mark recapture;297;1625,00;NA;NA;NA;4,54;Primitively Eusocial;Max distance
+Osborne et al. (1999);1999;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Mean;Realised;tracking;30;201;NA;18,7;NA;4,54;Primitively Eusocial;Mean max - August
+Osborne et al. (1999);1999;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Mean;Realised;tracking;65;339;NA;26,2;NA;4,54;Primitively Eusocial;Mean max - June
+Osborne et al. (1999);1999;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;tracking;30;556;NA;NA;NA;4,54;Primitively Eusocial;Max range - August
+Osborne et al. (1999);1999;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;tracking;65;631;NA;NA;NA;4,54;Primitively Eusocial;Max range - June
+Osborne et al. (2008);2008;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;mark recapture;297;1625;NA;NA;NA;4,54;Primitively Eusocial;Max distance
 Osborne et al. (2013);2013;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Median;Realised;tracking;28;690,85;NA;NA;NA;4,54;Primitively Eusocial;3rd trip
 Osborne et al. (2013);2013;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Median;Realised;tracking;28;688,85;NA;NA;NA;4,54;Primitively Eusocial;2nd trip
 Osborne et al. (2013);2013;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Median;Realised;tracking;28;297,24;NA;NA;NA;4,54;Primitively Eusocial;1st trip
-Packer (1970);1970;NA;NA;NA;Megachilidae;Megachile;Megachile_rotundata;Female;Unclassifiable;Realised;associative;NA;1800,00;NA;NA;NA;2,4;Solitary;From Greenleaf et al. (2007)
-Packer (1970);1970;NA;NA;NA;Halictidae;Nomia;Nomia_melanderi;Female;Unclassifiable;Realised;associative;NA;7100,00;NA;NA;NA;2,7;Solitary;From Greenleaf et al. (2007)
-Packer (1970);1970;NA;NA;NA;Halictidae;Nomia;Nomia_melanderi;Female;Unclassifiable;Realised;associative;NA;1800,00;NA;NA;NA;2,7;Solitary;From Greenleaf et al. (2007)
-Packer (1970);1970;North America;USA;Agriculture;Megachilidae;Megachile;Megachile_rotundata;Female;Typical;Potential;homing;NA;400,00;NA;NA;NA;2,4;Solitary;Return rate 50% From Greenleaf et al. (2007) Table S1
-Packer (1970);1970;North America;USA;Agriculture;Megachilidae;Megachile;Megachile_rotundata;Female;Max;Potential;homing;NA;700,00;NA;NA;NA;2,4;Solitary;Return rate 90% From Greenleaf et al. (2007) Table S1
-Pahl et al. (2011);2011;Australia;Australia;mixed;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;5511,50;NA;567,91;NA;2,95;Highly Eusocial;Return rate 90% - North
+Packer (1970);1970;NA;NA;NA;Megachilidae;Megachile;Megachile_rotundata;Female;Unclassifiable;Realised;associative;NA;1800;NA;NA;NA;2,4;Solitary;From Greenleaf et al. (2007)
+Packer (1970);1970;NA;NA;NA;Halictidae;Nomia;Nomia_melanderi;Female;Unclassifiable;Realised;associative;NA;7100;NA;NA;NA;2,7;Solitary;From Greenleaf et al. (2007)
+Packer (1970);1970;NA;NA;NA;Halictidae;Nomia;Nomia_melanderi;Female;Unclassifiable;Realised;associative;NA;1800;NA;NA;NA;2,7;Solitary;From Greenleaf et al. (2007)
+Packer (1970);1970;North America;USA;Agriculture;Megachilidae;Megachile;Megachile_rotundata;Female;Typical;Potential;homing;NA;400;NA;NA;NA;2,4;Solitary;Return rate 50% From Greenleaf et al. (2007) Table S1
+Packer (1970);1970;North America;USA;Agriculture;Megachilidae;Megachile;Megachile_rotundata;Female;Max;Potential;homing;NA;700;NA;NA;NA;2,4;Solitary;Return rate 90% From Greenleaf et al. (2007) Table S1
+Pahl et al. (2011);2011;Australia;Australia;mixed;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;5511,5;NA;567,91;NA;2,95;Highly Eusocial;Return rate 90% - North
 Pahl et al. (2011);2011;Australia;Australia;mixed;Apidae;Apis;Apis_mellifera;Female;Typical;Potential;homing;NA;2626,22;NA;309,14;NA;2,95;Highly Eusocial;Return rate 50% - North
-Pahl et al. (2011);2011;Australia;Australia;mixed;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;5988,60;NA;634,13;NA;2,95;Highly Eusocial;Return rate 90% - South
+Pahl et al. (2011);2011;Australia;Australia;mixed;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;5988,6;NA;634,13;NA;2,95;Highly Eusocial;Return rate 90% - South
 Pahl et al. (2011);2011;Australia;Australia;mixed;Apidae;Apis;Apis_mellifera;Female;Typical;Potential;homing;NA;2602,93;NA;261,89;NA;2,95;Highly Eusocial;Return rate 50% - South
-Pahl et al. (2011);2011;Australia;Australia;mixed;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;9570,90;NA;687,78;NA;2,95;Highly Eusocial;Return rate 90% - East
+Pahl et al. (2011);2011;Australia;Australia;mixed;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;9570,9;NA;687,78;NA;2,95;Highly Eusocial;Return rate 90% - East
 Pahl et al. (2011);2011;Australia;Australia;mixed;Apidae;Apis;Apis_mellifera;Female;Typical;Potential;homing;NA;5261,24;NA;314,66;NA;2,95;Highly Eusocial;Return rate 50% - East
-Pahl et al. (2011);2011;Australia;Australia;mixed;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;5234,70;NA;588,00;NA;2,95;Highly Eusocial;Return rate 90% - West
+Pahl et al. (2011);2011;Australia;Australia;mixed;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;5234,7;NA;588;NA;2,95;Highly Eusocial;Return rate 90% - West
 Pahl et al. (2011);2011;Australia;Australia;mixed;Apidae;Apis;Apis_mellifera;Female;Typical;Potential;homing;NA;2718,78;NA;260,71;NA;2,95;Highly Eusocial;Return rate 50% - West
-Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Max;Realised;tracking;28;6040,00;NA;NA;NA;7,68;Solitary;Kaskazi many flowers
-Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Mean;Realised;tracking;28;2092,00;NA;NA;NA;7,68;Solitary;Kaskazi many flowers
-Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Max;Realised;tracking;31;5000,00;NA;NA;NA;7,68;Solitary;Kusi sunny
-Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Mean;Realised;tracking;31;887,00;NA;NA;NA;7,68;Solitary;Kusi sunny
-Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Max;Realised;tracking;34;2340,00;NA;NA;NA;7,68;Solitary;Kaskazi few flowers
-Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Mean;Realised;tracking;34;759,00;NA;NA;NA;7,68;Solitary;Kaskazi few flowers
-Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Max;Realised;tracking;41;1390,00;NA;NA;NA;7,68;Solitary;Kusi rainy
-Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Mean;Realised;tracking;41;585,00;NA;NA;NA;7,68;Solitary;Kusi rainy
-Rao and Strange (2012);2012;North America;USA;Agriculture;Apidae;Bombus;Bombus_vosnesenskii;Female;Mean;Realised;molecular;4;4790,00;NA;NA;NA;3,64;Primitively Eusocial;centroid
-Rao and Strange (2012);2012;North America;USA;Agriculture;Apidae;Bombus;Bombus_vosnesenskii;Female;Mean;Realised;molecular;4;2210,00;NA;NA;NA;3,64;Primitively Eusocial;centroid
-Rao and Strange (2012);2012;North America;USA;Agriculture;Apidae;Bombus;Bombus_vosnesenskii;Female;Max;Realised;molecular;NA;11570,00;NA;NA;NA;3,64;Primitively Eusocial;centroid
+Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Max;Realised;tracking;28;6040;NA;NA;NA;7,68;Solitary;Kaskazi many flowers
+Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Mean;Realised;tracking;28;2092;NA;NA;NA;7,68;Solitary;Kaskazi many flowers
+Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Max;Realised;tracking;31;5000;NA;NA;NA;7,68;Solitary;Kusi sunny
+Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Mean;Realised;tracking;31;887;NA;NA;NA;7,68;Solitary;Kusi sunny
+Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Max;Realised;tracking;34;2340;NA;NA;NA;7,68;Solitary;Kaskazi few flowers
+Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Mean;Realised;tracking;34;759;NA;NA;NA;7,68;Solitary;Kaskazi few flowers
+Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Max;Realised;tracking;41;1390;NA;NA;NA;7,68;Solitary;Kusi rainy
+Pasquet et al. (2008);2008;Africa;Kenya;Agriculture;Apidae;Xylocopa;Xylocopa_flavorufa;Female;Mean;Realised;tracking;41;585;NA;NA;NA;7,68;Solitary;Kusi rainy
+Rao and Strange (2012);2012;North America;USA;Agriculture;Apidae;Bombus;Bombus_vosnesenskii;Female;Mean;Realised;molecular;4;4790;NA;NA;NA;3,64;Primitively Eusocial;centroid
+Rao and Strange (2012);2012;North America;USA;Agriculture;Apidae;Bombus;Bombus_vosnesenskii;Female;Mean;Realised;molecular;4;2210;NA;NA;NA;3,64;Primitively Eusocial;centroid
+Rao and Strange (2012);2012;North America;USA;Agriculture;Apidae;Bombus;Bombus_vosnesenskii;Female;Max;Realised;molecular;NA;11570;NA;NA;NA;3,64;Primitively Eusocial;centroid
 Rao et al. (2019);2019;North America;USA;urban;Apidae;Bombus;Bombus_vosnesenskii;Female;Typical;Potential;homing;105;2121,85;NA;981,26;NA;3,64;Primitively Eusocial;Return rate 50% - East
 Rao et al. (2019);2019;North America;USA;urban;Apidae;Bombus;Bombus_vosnesenskii;Female;Max;Potential;homing;105;8399,47;NA;1299,73;NA;3,64;Primitively Eusocial;Return rate 90% - East
 Rao et al. (2019);2019;North America;USA;urban;Apidae;Bombus;Bombus_vosnesenskii;Female;Typical;Potential;homing;105;1147,35;NA;2648,33;NA;3,64;Primitively Eusocial;Return rate 50% - West
-Rao et al. (2019);2019;North America;USA;urban;Apidae;Bombus;Bombus_vosnesenskii;Female;Max;Potential;homing;105;17709,80;NA;4375,91;NA;3,64;Primitively Eusocial;Return rate 90% - West
-Rau (1929, 1931);1929;North America;USA;wooded hills/open fields;Apidae;Anthophora;Anthophora_abrupta;Female;Max;Potential;homing;NA;2300,00;NA;NA;NA;3,9;Solitary;Return rate 50% From Greenleaf et al. (2007) Table S1
-Rau (1929, 1931);1929;North America;USA;wooded hills/open fields;Apidae;Anthophora;Anthophora_abrupta;Female;Typical;Potential;homing;NA;500,00;NA;NA;NA;3,9;Solitary;Return rate 90% From Greenleaf et al. (2007) Table S1
-Rau (1929, 1931);1929;North America;USA;wooded hills/open fields;Apidae;Xylocopa;Xylocopa_virginica;Female;Max;Potential;homing;NA;13000,00;NA;NA;NA;5,6;Primitively Eusocial;Return rate 50% From Greenleaf et al. (2007) Table S1
-Rau (1929, 1931);1929;North America;USA;wooded hills/open fields;Apidae;Xylocopa;Xylocopa_virginica;Female;Typical;Potential;homing;NA;7500,00;NA;NA;NA;5,6;Primitively Eusocial;Return rate 90% From Greenleaf et al. (2007) Table S1
-Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Mean;Realised;molecular;271;536,00;NA;16,02;NA;4,21;Primitively Eusocial;
-Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Mean;Realised;molecular;123;337,00;NA;19,92;NA;4,41;Primitively Eusocial;
-Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_hortorum;Female;Mean;Realised;molecular;48;273,00;NA;20,15;NA;4,56;Primitively Eusocial;
-Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_ruderatus;Female;Mean;Realised;molecular;42;502,00;NA;33,71;NA;5,58;Primitively Eusocial;
-Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Mean;Realised;molecular;69;551,00;NA;39,83;NA;4,54;Primitively Eusocial;
-Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_ruderatus;Female;Max;Realised;molecular;42;2350,00;NA;NA;NA;5,58;Primitively Eusocial;
-Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_hortorum;Female;Max;Realised;molecular;48;810,00;NA;NA;NA;4,56;Primitively Eusocial;
-Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;69;2878,00;NA;NA;NA;4,54;Primitively Eusocial;
-Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;123;1808,00;NA;NA;NA;4,41;Primitively Eusocial;
-Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;molecular;271;2059,00;NA;NA;NA;4,21;Primitively Eusocial;
-Robertson (1966);1966;NA;NA;NA;Megachilidae;Megachile;Megachile_rotundata;Female;Unclassifiable;Realised;associative;NA;100,00;NA;NA;NA;2,4;Solitary;From Greenleaf et al. (2007)
+Rao et al. (2019);2019;North America;USA;urban;Apidae;Bombus;Bombus_vosnesenskii;Female;Max;Potential;homing;105;17709,8;NA;4375,91;NA;3,64;Primitively Eusocial;Return rate 90% - West
+Rau (1929, 1931);1929;North America;USA;wooded hills/open fields;Apidae;Anthophora;Anthophora_abrupta;Female;Max;Potential;homing;NA;2300;NA;NA;NA;3,9;Solitary;Return rate 50% From Greenleaf et al. (2007) Table S1
+Rau (1929, 1931);1929;North America;USA;wooded hills/open fields;Apidae;Anthophora;Anthophora_abrupta;Female;Typical;Potential;homing;NA;500;NA;NA;NA;3,9;Solitary;Return rate 90% From Greenleaf et al. (2007) Table S1
+Rau (1929, 1931);1929;North America;USA;wooded hills/open fields;Apidae;Xylocopa;Xylocopa_virginica;Female;Max;Potential;homing;NA;13000;NA;NA;NA;5,6;Primitively Eusocial;Return rate 50% From Greenleaf et al. (2007) Table S1
+Rau (1929, 1931);1929;North America;USA;wooded hills/open fields;Apidae;Xylocopa;Xylocopa_virginica;Female;Typical;Potential;homing;NA;7500;NA;NA;NA;5,6;Primitively Eusocial;Return rate 90% From Greenleaf et al. (2007) Table S1
+Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Mean;Realised;molecular;271;536;NA;16,02;NA;4,21;Primitively Eusocial;
+Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Mean;Realised;molecular;123;337;NA;19,92;NA;4,41;Primitively Eusocial;
+Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_hortorum;Female;Mean;Realised;molecular;48;273;NA;20,15;NA;4,56;Primitively Eusocial;
+Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_ruderatus;Female;Mean;Realised;molecular;42;502;NA;33,71;NA;5,58;Primitively Eusocial;
+Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Mean;Realised;molecular;69;551;NA;39,83;NA;4,54;Primitively Eusocial;
+Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_ruderatus;Female;Max;Realised;molecular;42;2350;NA;NA;NA;5,58;Primitively Eusocial;
+Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_hortorum;Female;Max;Realised;molecular;48;810;NA;NA;NA;4,56;Primitively Eusocial;
+Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;69;2878;NA;NA;NA;4,54;Primitively Eusocial;
+Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;123;1808;NA;NA;NA;4,41;Primitively Eusocial;
+Redhead et al. (2016);2016;Europe;UK;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;molecular;271;2059;NA;NA;NA;4,21;Primitively Eusocial;
+Robertson (1966);1966;NA;NA;NA;Megachilidae;Megachile;Megachile_rotundata;Female;Unclassifiable;Realised;associative;NA;100;NA;NA;NA;2,4;Solitary;From Greenleaf et al. (2007)
 Rodrigues and Ribeiro (2014);2014;South America;Brazil;natural - savanna;Apidae;Melipona;Melipona_mandacaia;Female;Typical;Potential;homing;600;489,32;NA;106,51;NA;2,9;Highly Eusocial;Return rate 50% - mixed group
 Rodrigues and Ribeiro (2014);2014;South America;Brazil;natural - savanna;Apidae;Melipona;Melipona_mandacaia;Female;Typical;Potential;homing;113;1323,89;NA;108,35;NA;2,9;Highly Eusocial;Return rate 50% - exp group
 Rodrigues and Ribeiro (2014);2014;South America;Brazil;natural - savanna;Apidae;Melipona;Melipona_mandacaia;Female;Max;Potential;homing;600;2029,92;NA;129,12;NA;2,9;Highly Eusocial;Return rate 90% - mixed group
 Rodrigues and Ribeiro (2014);2014;South America;Brazil;natural - savanna;Apidae;Melipona;Melipona_mandacaia;Female;Max;Potential;homing;113;2252,95;NA;177,14;NA;2,9;Highly Eusocial;Return rate 90% - exp group
-Roubik (1992);1992;NA;NA;NA;Apidae;Scaptotrigona;Scaptotrigona_luteipennis;Female;Unclassifiable;Realised;associative;NA;1300,00;NA;NA;NA;2;Highly Eusocial;From Greenleaf et al. (2007)
-Roubik and Aluja (1983);1983;Central America;Panama;forest;Apidae;Cephalotrigona;Cephalotrigona_capitata;Female;Max;Potential;homing;167;1547,00;NA;NA;NA;2,3;Highly Eusocial;Observed homing distance
-Roubik and Aluja (1983);1983;Central America;Panama;forest;Apidae;Melipona;Melipona_fasciata;Female;Max;Potential;homing;228;2085,00;NA;NA;NA;2,9;Highly Eusocial;Observed homing distance
-Rust (1990);1990;North America;USA;meadow;Megachilidae;Osmia;Osmia_lignaria;Female;Unclassifiable;Realised;associative;NA;600,00;NA;NA;NA;2,9;Solitary;From Greenleaf et al. (2007)
-Saville et al. (1997);1997;Europe;Norway;Agriculture;Apidae;Bombus;Bombus_lucorum;Female;Max;Realised;mark recapture;36;350,00;NA;NA;NA;4,12;Primitively Eusocial;
+Roubik (1992);1992;NA;NA;NA;Apidae;Scaptotrigona;Scaptotrigona_luteipennis;Female;Unclassifiable;Realised;associative;NA;1300;NA;NA;NA;2;Highly Eusocial;From Greenleaf et al. (2007)
+Roubik and Aluja (1983);1983;Central America;Panama;forest;Apidae;Cephalotrigona;Cephalotrigona_capitata;Female;Max;Potential;homing;167;1547;NA;NA;NA;2,3;Highly Eusocial;Observed homing distance
+Roubik and Aluja (1983);1983;Central America;Panama;forest;Apidae;Melipona;Melipona_fasciata;Female;Max;Potential;homing;228;2085;NA;NA;NA;2,9;Highly Eusocial;Observed homing distance
+Rust (1990);1990;North America;USA;meadow;Megachilidae;Osmia;Osmia_lignaria;Female;Unclassifiable;Realised;associative;NA;600;NA;NA;NA;2,9;Solitary;From Greenleaf et al. (2007)
+Saville et al. (1997);1997;Europe;Norway;Agriculture;Apidae;Bombus;Bombus_lucorum;Female;Max;Realised;mark recapture;36;350;NA;NA;NA;4,12;Primitively Eusocial;
 Schaffer and Wratten (1994);1994;Australasia;New Zealand;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Typical;Realised;mark recapture;8;82,45;10,76;3,81;NA;4,54;Primitively Eusocial;Fewer than 3% of the bees travelled further than 100m within the crop
-Schaffer and Wratten (1994);1994;Australasia;New Zealand;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;associative;NA;650,00;NA;NA;NA;4,54;Primitively Eusocial;Max distance seen on weeds before crop full-bloom
-Schmid-Egger et al. (1995);1995;NA;NA;NA;Colletidae;Colletes;Colletes_hederae;NA;Max;NA;NA;NA;400,00;NA;NA;NA;3,2;Solitary;German
-Schneider and Hall (1997);1997;Central America;Costa Rica;NA;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1041,00;38,00;NA;NA;2,95;Highly Eusocial;African - nectar
-Schneider and Hall (1997);1997;Central America;Costa Rica;NA;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1202,00;82,00;NA;NA;2,95;Highly Eusocial;Hybrids - nectar
-Schneider and Hall (1997);1997;Central America;Costa Rica;NA;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1085,00;143,00;NA;NA;2,95;Highly Eusocial;African - pollen
-Schneider and Hall (1997);1997;Central America;Costa Rica;NA;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1402,00;336,00;NA;NA;2,95;Highly Eusocial;Hybrids - pollen
+Schaffer and Wratten (1994);1994;Australasia;New Zealand;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;associative;NA;650;NA;NA;NA;4,54;Primitively Eusocial;Max distance seen on weeds before crop full-bloom
+Schmid-Egger et al. (1995);1995;NA;NA;NA;Colletidae;Colletes;Colletes_hederae;NA;Max;NA;NA;NA;400;NA;NA;NA;3,2;Solitary;German
+Schneider and Hall (1997);1997;Central America;Costa Rica;NA;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1041;38;NA;NA;2,95;Highly Eusocial;African - nectar
+Schneider and Hall (1997);1997;Central America;Costa Rica;NA;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1202;82;NA;NA;2,95;Highly Eusocial;Hybrids - nectar
+Schneider and Hall (1997);1997;Central America;Costa Rica;NA;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1085;143;NA;NA;2,95;Highly Eusocial;African - pollen
+Schneider and Hall (1997);1997;Central America;Costa Rica;NA;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1402;336;NA;NA;2,95;Highly Eusocial;Hybrids - pollen
 Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Typical;Potential;homing;150;1974,51;NA;153,85;NA;2,24;Highly Eusocial;Return rate 50% - Colony2
 Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Typical;Potential;homing;150;2056,53;NA;168,05;NA;2,24;Highly Eusocial;Return rate 50% - Colony1
-Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Typical;Potential;homing;150;2654,43;NA;194,20;NA;2,24;Highly Eusocial;Return rate 50% - Colony3
+Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Typical;Potential;homing;150;2654,43;NA;194,2;NA;2,24;Highly Eusocial;Return rate 50% - Colony3
 Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Max;Potential;homing;150;3652,33;NA;358,99;NA;2,24;Highly Eusocial;Return rate 90% - Colony2
-Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Max;Potential;homing;150;3901,41;NA;412,50;NA;2,24;Highly Eusocial;Return rate 90% - Colony1
+Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Max;Potential;homing;150;3901,41;NA;412,5;NA;2,24;Highly Eusocial;Return rate 90% - Colony1
 Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Max;Potential;homing;150;4394,19;NA;450,18;NA;2,24;Highly Eusocial;Return rate 90% - Colony3
-Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Max;Potential;feeder;NA;1160,00;NA;NA;NA;2,24;Highly Eusocial;Table 1. Colony 1
-Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Max;Potential;feeder;NA;1120,00;NA;NA;NA;2,24;Highly Eusocial;Table 1. Colony 2
-Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Max;Potential;feeder;NA;1080,00;NA;NA;NA;2,24;Highly Eusocial;Table 1. Colony 3
-Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Mean;Potential;feeder;NA;900,00;NA;NA;NA;2,24;Highly Eusocial;Table 1. Colony 1
-Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Mean;Potential;feeder;NA;940,00;NA;NA;NA;2,24;Highly Eusocial;Table 1. Colony 2
-Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Mean;Potential;feeder;NA;820,00;NA;NA;NA;2,24;Highly Eusocial;Table 1. Colony 3
-Smith et al. (2017);2017;Australia;Australia;natural - bushland with agriculture in distance;Apidae;Tetragonula;Tetragonula_carbonaria;Female;Max;Potential;homing;100;700,00;NA;NA;NA;1,23;Highly Eusocial;Return rate 90%
-Smith et al. (2017);2017;Australia;Australia;natural - bushland with agriculture in distance;Apidae;Tetragonula;Tetragonula_carbonaria;Female;Typical;Potential;homing;100;333,00;NA;NA;NA;1,23;Highly Eusocial;Return rate 50%
-Southwick and Buchmann (1995);1995;North America;USA;desert;Apidae;Apis;Apis_mellifera;Female;Typical;Potential;homing;NA;4300,00;NA;NA;NA;2,95;Highly Eusocial;Return rate 50% - publ. equation - Mountain site
-Southwick and Buchmann (1995);1995;North America;USA;desert;Apidae;Apis;Apis_mellifera;Female;Typical;Potential;homing;NA;630,00;NA;NA;NA;2,95;Highly Eusocial;Return rate 50% - publ. equation - Arizona site
-Southwick and Buchmann (1995);1995;North America;USA;desert;Apidae;Apis;Apis_mellifera;Female;Typical;Potential;homing;NA;730,00;NA;NA;NA;2,95;Highly Eusocial;Return rate 50% - publ. equation - New York site
-Southwick and Buchmann (1995);1995;North America;USA;desert;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;8300,00;NA;NA;NA;2,95;Highly Eusocial;Return rate 90% - publ. equation - Mountain site
-Southwick and Buchmann (1995);1995;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;3770,00;NA;NA;NA;2,95;Highly Eusocial;Return rate 90% - publ. equation - Arizona site
-Southwick and Buchmann (1995);1995;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;3430,00;NA;NA;NA;2,95;Highly Eusocial;Return rate 90% - publ. equation - New York site
-Steffan-Dewenter and Kuhn (2003);2003;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1518,20;51,30;NA;NA;2,95;Highly Eusocial;July
-Steffan-Dewenter and Kuhn (2003);2003;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1319,00;53,20;NA;NA;2,95;Highly Eusocial;May
-Steffan-Dewenter and Kuhn (2003);2003;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1786,00;96,60;NA;NA;2,95;Highly Eusocial;June
-Steffan-Dewenter and Kuhn (2003);2003;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;NA;10037,10;NA;NA;NA;2,95;Highly Eusocial;
-Tasei and Delaude (1984);1984;NA;NA;NA;Megachilidae;Megachile;Megachile_rotundata;Female;Max;Realised;associative;NA;100,00;NA;NA;NA;2,4;Solitary;French
-Tepedino (1983);1983;North America;USA;Agriculture;Megachilidae;Megachile;Megachile_rotundata;Female;Unclassifiable;Realised;associative;NA;500,00;NA;NA;NA;2,4;Solitary;From Greenleaf et al. (2007)
-Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Nannotrigona;Nannotrigona_perilampoides;Female;Max;Potential;feeder;NA;120,00;NA;NA;NA;1,4;Highly Eusocial;Fig 2
-Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Nannotrigona;Nannotrigona_perilampoides;Female;Max;Potential;homing;NA;523,00;NA;NA;NA;1,4;Highly Eusocial;Return rate 90% - publ. equation
-Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Nannotrigona;Nannotrigona_perilampoides;Female;Typical;Potential;homing;NA;123,00;NA;NA;NA;1,4;Highly Eusocial;Return rate 50% - publ. equation
-Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Partamona;Partamona_cupira;Female;Max;Potential;feeder;NA;520,00;NA;NA;NA;1,8;Highly Eusocial;Fig 2
-Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Partamona;Partamona_cupira;Female;Max;Potential;homing;NA;668,00;NA;NA;NA;1,8;Highly Eusocial;Return rate 90% - publ. equation
-Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Partamona;Partamona_cupira;Female;Typical;Potential;homing;NA;134,00;NA;NA;NA;1,8;Highly Eusocial;Return rate 50% - publ. equation
-Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Tetragonisca;Tetragonisca_angustula;Female;Max;Potential;feeder;NA;680,00;NA;NA;NA;1;Highly Eusocial;Fig 2
-Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Tetragonisca;Tetragonisca_angustula;Female;Max;Potential;homing;NA;656,00;NA;NA;NA;1;Highly Eusocial;Return rate 90% - publ. equation
-Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Trigona;Trigona_corvina;Female;Typical;Potential;homing;NA;227,00;NA;NA;NA;1,5;Highly Eusocial;Return rate 50% - publ. equation
-Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Trigona;Trigona_corvina;Female;Max;Potential;homing;NA;653,00;NA;NA;NA;1,5;Highly Eusocial;Return rate 90% - publ. equation
-Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Trigona;Trigona_corvina;Female;Max;Potential;feeder;NA;320,00;NA;NA;NA;1,5;Highly Eusocial;Fig 2
-Vansell and Todd (1946);1946;NA;NA;NA;Halictidae;Nomia;Nomia_melanderi;Female;Unclassifiable;Realised;associative;NA;2400,00;NA;NA;NA;2,7;Solitary;From Greenleaf et al. (2007)
+Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Max;Potential;feeder;NA;1160;NA;NA;NA;2,24;Highly Eusocial;Table 1. Colony 1
+Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Max;Potential;feeder;NA;1120;NA;NA;NA;2,24;Highly Eusocial;Table 1. Colony 2
+Silva et al. (2014);2014;South America;Brazil;natural - scrub shrub;Apidae;Melipona;Melipona_subnitida;Female;Max;Potential;feeder;NA;1080;NA;NA;NA;2,24;Highly Eusocial;Table 1. Colony 3
+Smith et al. (2017);2017;Australia;Australia;natural - bushland with agriculture in distance;Apidae;Tetragonula;Tetragonula_carbonaria;Female;Max;Potential;homing;100;700;NA;NA;NA;1,23;Highly Eusocial;Return rate 90%
+Smith et al. (2017);2017;Australia;Australia;natural - bushland with agriculture in distance;Apidae;Tetragonula;Tetragonula_carbonaria;Female;Typical;Potential;homing;100;333;NA;NA;NA;1,23;Highly Eusocial;Return rate 50%
+Southwick and Buchmann (1995);1995;North America;USA;desert;Apidae;Apis;Apis_mellifera;Female;Typical;Potential;homing;NA;4300;NA;NA;NA;2,95;Highly Eusocial;Return rate 50% - publ. equation - Mountain site
+Southwick and Buchmann (1995);1995;North America;USA;desert;Apidae;Apis;Apis_mellifera;Female;Typical;Potential;homing;NA;630;NA;NA;NA;2,95;Highly Eusocial;Return rate 50% - publ. equation - Arizona site
+Southwick and Buchmann (1995);1995;North America;USA;desert;Apidae;Apis;Apis_mellifera;Female;Typical;Potential;homing;NA;730;NA;NA;NA;2,95;Highly Eusocial;Return rate 50% - publ. equation - New York site
+Southwick and Buchmann (1995);1995;North America;USA;desert;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;8300;NA;NA;NA;2,95;Highly Eusocial;Return rate 90% - publ. equation - Mountain site
+Southwick and Buchmann (1995);1995;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;3770;NA;NA;NA;2,95;Highly Eusocial;Return rate 90% - publ. equation - Arizona site
+Southwick and Buchmann (1995);1995;North America;USA;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Potential;homing;NA;3430;NA;NA;NA;2,95;Highly Eusocial;Return rate 90% - publ. equation - New York site
+Steffan-Dewenter and Kuhn (2003);2003;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1518,2;51,3;NA;NA;2,95;Highly Eusocial;July
+Steffan-Dewenter and Kuhn (2003);2003;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1319;53,2;NA;NA;2,95;Highly Eusocial;May
+Steffan-Dewenter and Kuhn (2003);2003;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1786;96,6;NA;NA;2,95;Highly Eusocial;June
+Steffan-Dewenter and Kuhn (2003);2003;Europe;Germany;Agriculture;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;NA;10037,1;NA;NA;NA;2,95;Highly Eusocial;
+Tasei and Delaude (1984);1984;NA;NA;NA;Megachilidae;Megachile;Megachile_rotundata;Female;Max;Realised;associative;NA;100;NA;NA;NA;2,4;Solitary;French
+Tepedino (1983);1983;North America;USA;Agriculture;Megachilidae;Megachile;Megachile_rotundata;Female;Unclassifiable;Realised;associative;NA;500;NA;NA;NA;2,4;Solitary;From Greenleaf et al. (2007)
+Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Nannotrigona;Nannotrigona_perilampoides;Female;Max;Potential;feeder;NA;120;NA;NA;NA;1,4;Highly Eusocial;Fig 2
+Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Nannotrigona;Nannotrigona_perilampoides;Female;Max;Potential;homing;NA;523;NA;NA;NA;1,4;Highly Eusocial;Return rate 90% - publ. equation
+Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Nannotrigona;Nannotrigona_perilampoides;Female;Typical;Potential;homing;NA;123;NA;NA;NA;1,4;Highly Eusocial;Return rate 50% - publ. equation
+Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Partamona;Partamona_cupira;Female;Max;Potential;feeder;NA;520;NA;NA;NA;1,8;Highly Eusocial;Fig 2
+Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Partamona;Partamona_cupira;Female;Max;Potential;homing;NA;668;NA;NA;NA;1,8;Highly Eusocial;Return rate 90% - publ. equation
+Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Partamona;Partamona_cupira;Female;Typical;Potential;homing;NA;134;NA;NA;NA;1,8;Highly Eusocial;Return rate 50% - publ. equation
+Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Tetragonisca;Tetragonisca_angustula;Female;Max;Potential;feeder;NA;680;NA;NA;NA;1;Highly Eusocial;Fig 2
+Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Tetragonisca;Tetragonisca_angustula;Female;Max;Potential;homing;NA;656;NA;NA;NA;1;Highly Eusocial;Return rate 90% - publ. equation
+Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Trigona;Trigona_corvina;Female;Typical;Potential;homing;NA;227;NA;NA;NA;1,5;Highly Eusocial;Return rate 50% - publ. equation
+Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Trigona;Trigona_corvina;Female;Max;Potential;homing;NA;653;NA;NA;NA;1,5;Highly Eusocial;Return rate 90% - publ. equation
+Van Nieuwstadt and Iraheta (1996);1996;Central America;Costa Rica;savannah woodland;Apidae;Trigona;Trigona_corvina;Female;Max;Potential;feeder;NA;320;NA;NA;NA;1,5;Highly Eusocial;Fig 2
+Vansell and Todd (1946);1946;NA;NA;NA;Halictidae;Nomia;Nomia_melanderi;Female;Unclassifiable;Realised;associative;NA;2400;NA;NA;NA;2,7;Solitary;From Greenleaf et al. (2007)
 Vicens and Bosch (2000);2000;Europe;Spain;Agriculture;Megachilidae;Osmia;Osmia_cornuta;Female;Typical;Potential;homing;50;1945,43;NA;62,04;NA;3,36;Solitary;Return rate 50%
 Vicens and Bosch (2000);2000;Europe;Spain;Agriculture;Megachilidae;Osmia;Osmia_cornuta;Female;Max;Potential;homing;50;2214,08;NA;108,71;NA;3,36;Solitary;Return rate 90%
-Visscher and Seeley (1982);1982;North America;USA;forest;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;36;2260,00;1890,00;315,00;NA;2,95;Highly Eusocial;pooled est - has per day estimates also but not all days reported
-Visscher and Seeley (1982);1982;North America;USA;forest;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;NA;10100,00;NA;NA;NA;2,95;Highly Eusocial;
-von Frisch (1967);1967;NA;NA;NA;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;NA;13500,00;NA;NA;NA;2,95;Highly Eusocial;Foraging distance
+Visscher and Seeley (1982);1982;North America;USA;forest;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;36;2260;1890;315;NA;2,95;Highly Eusocial;pooled est - has per day estimates also but not all days reported
+Visscher and Seeley (1982);1982;North America;USA;forest;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;NA;10100;NA;NA;NA;2,95;Highly Eusocial;
+von Frisch (1967);1967;NA;NA;NA;Apidae;Apis;Apis_mellifera;Female;Max;Realised;waggle dance;NA;13500;NA;NA;NA;2,95;Highly Eusocial;Foraging distance
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;416,21;96,87;NA;NA;2,95;Highly Eusocial;CA2_4
-Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;404,60;102,84;NA;NA;2,95;Highly Eusocial;CA2_5
+Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;404,6;102,84;NA;NA;2,95;Highly Eusocial;CA2_5
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;505,99;114,96;NA;NA;2,95;Highly Eusocial;FL2_1
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;637,45;127,11;NA;NA;2,95;Highly Eusocial;FL1_2
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;794,51;133,16;NA;NA;2,95;Highly Eusocial;FL1_1
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;803,32;139,27;NA;NA;2,95;Highly Eusocial;FL2_2
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;700,63;151,39;NA;NA;2,95;Highly Eusocial;CA2_3
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;643,95;157,42;NA;NA;2,95;Highly Eusocial;FL1_3
-Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1094,63;175,60;NA;NA;2,95;Highly Eusocial;FL2_3
+Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1094,63;175,6;NA;NA;2,95;Highly Eusocial;FL2_3
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;529,19;175,67;NA;NA;2,95;Highly Eusocial;FL1_4
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;724,02;193,74;NA;NA;2,95;Highly Eusocial;CA2_1
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;861,63;199,86;NA;NA;2,95;Highly Eusocial;CA1_3
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;970,31;266,46;NA;NA;2,95;Highly Eusocial;CA1_2
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1377,19;284,63;NA;NA;2,95;Highly Eusocial;CA1_4
-Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;804,10;290,85;NA;NA;2,95;Highly Eusocial;FL2_4
+Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;804,1;290,85;NA;NA;2,95;Highly Eusocial;FL2_4
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;609,29;321,06;NA;NA;2,95;Highly Eusocial;CA2_2
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;866,84;327,08;NA;NA;2,95;Highly Eusocial;CA1_1
 Waddington et al. (1994);1994;North America;USA;urban;Apidae;Apis;Apis_mellifera;Female;Mean;Realised;waggle dance;NA;1450,44;333,16;NA;NA;2,95;Highly Eusocial;CA1_5
-Walther-Hellwig and Frankl (2000);2000;Europe;Germany;Agriculture;Apidae;Bombus;Bombus_muscorum;Female;Max;Realised;mark recapture;13;500,00;NA;NA;NA;3,1;Primitively Eusocial;Foraging distance
-Walther-Hellwig and Frankl (2000);2000;Europe;Germany;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;mark recapture;13;1750,00;NA;NA;NA;4,54;Primitively Eusocial;Foraging distance
-Walther-Hellwig and Frankl (2000);2000;Europe;Germany;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;mark recapture;22;1500,00;NA;NA;NA;4,21;Primitively Eusocial;Foraging distance
-Westphal et al. (2006);2006;Europe;Germany;mixed agriculture semi-natural;Apidae;Bombus;Bombus_pratorum;Female;Max;Realised;associative;52;250,00;NA;NA;NA;3,86;Primitively Eusocial;
-Westphal et al. (2006);2006;Europe;Germany;mixed agriculture semi-natural;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;associative;242;1000,00;NA;NA;NA;4,41;Primitively Eusocial;
-Westphal et al. (2006);2006;Europe;Germany;mixed agriculture semi-natural;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;associative;1155;2750,00;NA;NA;NA;4,21;Primitively Eusocial;
-Westphal et al. (2006);2006;Europe;Germany;mixed agriculture semi-natural;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;associative;1874;3000,00;NA;NA;NA;4,54;Primitively Eusocial;
-Wille (1976);1976;NA;NA;NA;Apidae;Melipona;Melipona_fuligonosa;Female;Max;Potential;homing;NA;2000,00;NA;NA;NA;1,5;Highly Eusocial;Observed homing distance - Spanish - listed as M. flavipennis
-Wille (1976);1976;NA;NA;NA;Apidae;Trigona;Trigona_amalthea;Female;NA;NA;NA;NA;800,00;NA;NA;NA;2,3;Highly Eusocial;From Kerr 1959
-Wille (1976);1976;NA;NA;NA;Apidae;Trigona;Trigona_corvina;Female;NA;NA;NA;NA;600,00;NA;NA;NA;1,5;Highly Eusocial;From Kerr 1959
-Wille and Orozco (1970);1984;Central America;Costa Rica;pasture/rainforest;Halictidae;Lasioglossum;Lasioglossum_umbripenne;Female;Max;Potential;homing;NA;200,00;NA;NA;NA;1,2;Primitively Eusocial;Return rate 90% From Greenleaf et al. (2007) Table S1
-Wille and Orozco (1970);1984;Central America;Costa Rica;pasture/rainforest;Halictidae;Lasioglossum;Lasioglossum_umbripenne;Female;Typical;Potential;homing;NA;100,00;NA;NA;NA;1,2;Primitively Eusocial;Return rate 50% From Greenleaf et al. (2007) Table S1
-Wolf and Moritz (2008);2008;Europe;Germany;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Mean;Realised;mark recapture;126;267,20;180,30;16,06;NA;4,54;Primitively Eusocial;
-Wolf and Moritz (2008);2008;Europe;Germany;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;mark recapture;126;800,00;NA;NA;NA;4,54;Primitively Eusocial;
-Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_hortorum;Female;Max;Realised;molecular;NA;1415,00;NA;NA;NA;4,56;Primitively Eusocial;ELS
-Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_hortorum;Female;Max;Realised;molecular;NA;282,00;NA;NA;NA;4,56;Primitively Eusocial;HLS
-Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;molecular;NA;746,00;NA;NA;NA;4,21;Primitively Eusocial;HLS
-Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;molecular;NA;484,00;NA;NA;NA;4,21;Primitively Eusocial;ELS
-Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;NA;377,00;NA;NA;NA;4,41;Primitively Eusocial;HLS
-Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;NA;313,00;NA;NA;NA;4,41;Primitively Eusocial;ELS
-Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;NA;1196,00;NA;NA;NA;4,54;Primitively Eusocial;ELS
-Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;NA;709,00;NA;NA;NA;4,54;Primitively Eusocial;HLS
-Zurbuchen (2010a);2010;Europe;Switzerland;Agriculture;Megachilidae;Chelostoma;Chelostoma_rapunculi;Female;Max;Realised;associative;35;1275,00;NA;NA;NA;1,5;Solitary;Foraging distance
-Zurbuchen (2010a);2010;Europe;Switzerland;Agriculture;Megachilidae;Hoplitis;Hoplitis_adunca;Female;Max;Realised;associative;39;1400,00;NA;NA;NA;2,46;Solitary;Foraging distance
-Zurbuchen (2010a);2010;Europe;Switzerland;Agriculture;Colletidae;Hylaeus;Hylaeus_punctulatissimus;Female;Max;Realised;associative;85;1100,00;NA;NA;NA;1,47;Solitary;Foraging distance
-Zurbuchen (2010b);2010;Europe;Switzerland;Agriculture;Megachilidae;Chelostoma;Chelostoma_florisomne;Female;Max;Realised;mark recapture;18;650,00;NA;NA;NA;1,5;Solitary;Foraging distance
+Walther-Hellwig and Frankl (2000);2000;Europe;Germany;Agriculture;Apidae;Bombus;Bombus_muscorum;Female;Max;Realised;mark recapture;13;500;NA;NA;NA;3,1;Primitively Eusocial;Foraging distance
+Walther-Hellwig and Frankl (2000);2000;Europe;Germany;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;mark recapture;13;1750;NA;NA;NA;4,54;Primitively Eusocial;Foraging distance
+Walther-Hellwig and Frankl (2000);2000;Europe;Germany;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;mark recapture;22;1500;NA;NA;NA;4,21;Primitively Eusocial;Foraging distance
+Westphal et al. (2006);2006;Europe;Germany;mixed agriculture semi-natural;Apidae;Bombus;Bombus_pratorum;Female;Max;Realised;associative;52;250;NA;NA;NA;3,86;Primitively Eusocial;
+Westphal et al. (2006);2006;Europe;Germany;mixed agriculture semi-natural;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;associative;242;1000;NA;NA;NA;4,41;Primitively Eusocial;
+Westphal et al. (2006);2006;Europe;Germany;mixed agriculture semi-natural;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;associative;1155;2750;NA;NA;NA;4,21;Primitively Eusocial;
+Westphal et al. (2006);2006;Europe;Germany;mixed agriculture semi-natural;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;associative;1874;3000;NA;NA;NA;4,54;Primitively Eusocial;
+Wille (1976);1976;NA;NA;NA;Apidae;Melipona;Melipona_fuligonosa;Female;Max;Potential;homing;NA;2000;NA;NA;NA;1,5;Highly Eusocial;Observed homing distance - Spanish - listed as M. flavipennis
+Wille (1976);1976;NA;NA;NA;Apidae;Trigona;Trigona_amalthea;Female;NA;NA;NA;NA;800;NA;NA;NA;2,3;Highly Eusocial;From Kerr 1959
+Wille (1976);1976;NA;NA;NA;Apidae;Trigona;Trigona_corvina;Female;NA;NA;NA;NA;600;NA;NA;NA;1,5;Highly Eusocial;From Kerr 1959
+Wille and Orozco (1970);1984;Central America;Costa Rica;pasture/rainforest;Halictidae;Lasioglossum;Lasioglossum_umbripenne;Female;Max;Potential;homing;NA;200;NA;NA;NA;1,2;Primitively Eusocial;Return rate 90% From Greenleaf et al. (2007) Table S1
+Wille and Orozco (1970);1984;Central America;Costa Rica;pasture/rainforest;Halictidae;Lasioglossum;Lasioglossum_umbripenne;Female;Typical;Potential;homing;NA;100;NA;NA;NA;1,2;Primitively Eusocial;Return rate 50% From Greenleaf et al. (2007) Table S1
+Wolf and Moritz (2008);2008;Europe;Germany;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Mean;Realised;mark recapture;126;267,2;180,3;16,06;NA;4,54;Primitively Eusocial;
+Wolf and Moritz (2008);2008;Europe;Germany;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;mark recapture;126;800;NA;NA;NA;4,54;Primitively Eusocial;
+Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_hortorum;Female;Max;Realised;molecular;NA;1415;NA;NA;NA;4,56;Primitively Eusocial;ELS
+Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_hortorum;Female;Max;Realised;molecular;NA;282;NA;NA;NA;4,56;Primitively Eusocial;HLS
+Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;molecular;NA;746;NA;NA;NA;4,21;Primitively Eusocial;HLS
+Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_lapidarius;Female;Max;Realised;molecular;NA;484;NA;NA;NA;4,21;Primitively Eusocial;ELS
+Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;NA;377;NA;NA;NA;4,41;Primitively Eusocial;HLS
+Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_pascuorum;Female;Max;Realised;molecular;NA;313;NA;NA;NA;4,41;Primitively Eusocial;ELS
+Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;NA;1196;NA;NA;NA;4,54;Primitively Eusocial;ELS
+Wood (2015);2015;Europe;UK;Agriculture;Apidae;Bombus;Bombus_terrestris;Female;Max;Realised;molecular;NA;709;NA;NA;NA;4,54;Primitively Eusocial;HLS
+Zurbuchen (2010a);2010;Europe;Switzerland;Agriculture;Megachilidae;Chelostoma;Chelostoma_rapunculi;Female;Max;Realised;associative;35;1275;NA;NA;NA;1,5;Solitary;Foraging distance
+Zurbuchen (2010a);2010;Europe;Switzerland;Agriculture;Megachilidae;Hoplitis;Hoplitis_adunca;Female;Max;Realised;associative;39;1400;NA;NA;NA;2,46;Solitary;Foraging distance
+Zurbuchen (2010a);2010;Europe;Switzerland;Agriculture;Colletidae;Hylaeus;Hylaeus_punctulatissimus;Female;Max;Realised;associative;85;1100;NA;NA;NA;1,47;Solitary;Foraging distance
+Zurbuchen (2010b);2010;Europe;Switzerland;Agriculture;Megachilidae;Chelostoma;Chelostoma_florisomne;Female;Max;Realised;mark recapture;18;650;NA;NA;NA;1,5;Solitary;Foraging distance
