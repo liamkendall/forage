@@ -400,7 +400,7 @@ ggsave(sp.max.plots,file="plots/Figure S4B.jpg",
        units = "mm",
        dpi=600)
 
-ggsave(sp.max.plots,file="plots/Figure S3B.pdf",
+ggsave(sp.max.plots,file="plots/Figure S4B.pdf",
        device = cairo_pdf, 
        width = 210, 
        height = 297, 

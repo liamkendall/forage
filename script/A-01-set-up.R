@@ -88,7 +88,8 @@ forage.spp <- forage.traits %>%
          Family=family,
          Species=species)
 
-forage.spp.bm <- bodysize2(forage.spp,type="sex",taxa="bee")
+forage.spp.bm <- bodysize2(forage.spp,
+                           type="sex",taxa="bee")
 
 forage.traits.bm <- forage.traits %>% 
   left_join(forage.spp.bm %>% 

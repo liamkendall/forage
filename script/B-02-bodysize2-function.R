@@ -148,20 +148,13 @@ bodysize2=function(x,taxa,type) {
       mod=hov_IT
     }
   }
-  #More tests can be implemented e.g. warn depreciated columns (e.g. if Family is provided with type Phylo, explain that it will be depreciated)
   ##OUTPUT
-  out <- predict(object=mod,
-                 newdata=x,
-                 re_formula=NA,
-                 transform=exp,
-                 probs = c(0.05, 0.95))[,1]
-  
-  out2 <- predict(object=mod,
+  out <- exp(predict(object=mod,
                  newdata=x,
                  re_formula=NA,
                  #transform=exp,
-                 probs = c(0.05, 0.95))[,1]
+                 probs = c(0.05, 0.95))[,1])
  # colnames(out)=c("Est.Weight")
-  out3<-data.frame(x,wgt=out,lg.wgt=out2)
-  out3
+  out2<-data.frame(x,wgt=out)
+  out2
 }

@@ -22,7 +22,7 @@ example.preds.1 <- data.frame(species=c("Apis_mellifera","Apis_mellifera",
                                              "Max-Potential","Max-Realised","Typ-Potential","Typ-Realised"),
                               publication=c(NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA),
                               metric=c(NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA),
-                              wgt10=c(1.4))
+                              wgt10=log10(23))
 
 #bodysize(x=data.frame(IT=2.9), taxa="bee", type="IT")
 
@@ -74,7 +74,12 @@ mean.3.qi <- all.3.qi %>% filter(!range.4%in%c("Max-Potential","Max-Realised"))
 (max.1.qi[2,3]-max.3.qi[2,3])/max.3.qi[2,3]
 (max.1.qi[1,3]-max.3.qi[1,3])/max.3.qi[1,3]
 
+max.1.qi[2,3]-max.3.qi[2,3]
 max.1.qi[2,5]-max.3.qi[2,5]
+
+max.1.qi[1:2,]
+max.2.qi[1:2,]
+max.3.qi[1:2,]
 
 #difference between funct and physio - depending on random structure
 
@@ -93,6 +98,7 @@ max.1.qi[2,5]-max.3.qi[2,5]
 (mean.1.qi[6,3]-mean.1.qi[5,3])/mean.1.qi[5,3]
 (mean.2.qi[6,3]-mean.2.qi[5,3])/mean.2.qi[5,3]
 (mean.3.qi[6,3]-mean.3.qi[5,3])/mean.3.qi[5,3]
+
 #max range
 #highyl eusocial
 (max.1.qi[2,3]-max.1.qi[1,3])/max.1.qi[1,3]
@@ -110,13 +116,12 @@ max.1.qi[2,5]-max.3.qi[2,5]
 (max.3.qi[6,3]-max.3.qi[5,3])/max.3.qi[5,3]
 
 #physio diffgerences
+
 #HE vs. PE
 #potential
 range((max.1.qi[1,3]-max.1.qi[3,3])/max.1.qi[3,3],
       (max.2.qi[1,3]-max.2.qi[3,3])/max.2.qi[3,3],
       (max.3.qi[1,3]-max.3.qi[3,3])/max.3.qi[3,3])
-
-
 
 #realized 
 range((max.1.qi[2,3]-max.1.qi[4,3])/max.1.qi[4,3],
@@ -124,7 +129,6 @@ range((max.1.qi[2,3]-max.1.qi[4,3])/max.1.qi[4,3],
       (max.3.qi[2,3]-max.3.qi[4,3])/max.3.qi[4,3])
 
 #raw distance difference - wo species effects
-
 
 #potential PE
 (c(as.numeric(mean.3.qi[1,3]-mean.3.qi[3,3]),
@@ -146,13 +150,9 @@ mean(c(as.numeric(max.3.qi[3,3]-max.3.qi[5,3]),
 mean(c(as.numeric(max.3.qi[4,3]-max.3.qi[6,3]),
        as.numeric(mean.3.qi[4,3]-mean.3.qi[6,3])))
 
-max.3.qi[2,3]-max.3.qi[4,3]
-mean.3.qi[2,3]-mean.3.qi[4,3]
-
-#realized SO
-max.3.qi[2,3]-max.3.qi[6,3]
-mean.3.qi[2,3]-mean.3.qi[6,3]
-
+##in text example
+(max.3.qi[2,3]-max.3.qi[4,3])/max.3.qi[4,3]
+(max.3.qi[2,3]-max.3.qi[6,3])/max.3.qi[6,3]
 
 #HE vs. SO
 #potential
