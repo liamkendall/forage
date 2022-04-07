@@ -52,7 +52,7 @@ pp_check(all_social_bm_mod)
 r2(all_IT_bm_mod)
 r2(all_social_bm_mod)
 
-#save model objectsa
+#save model objects
 save(all_IT_bm_mod,
      file="model_outputs/all_IT_bm_mod.rdata",
      compress="xz")

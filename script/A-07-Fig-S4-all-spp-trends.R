@@ -103,8 +103,9 @@ typ.all.sp.p <- ggplot(species.values.typ.p,
                        aes(y=reorder(species,wgt10),
                             col=model.set.p))+
   #coord_cartesian(xlim=c(0,16),clip="off")+
-  scale_x_log10(breaks=c(0.01,0.1,1,10,100),
+  scale_x_log10(breaks=c(0.001,0.01,0.1,1,10),
                 labels = function(x) format(x, scientific = FALSE))+
+  coord_cartesian(xlim=c(0.01,16))+
   geom_errorbarh(aes(xmin=.lower,
                      xmax=.upper,
                      col=model.set.p),
@@ -173,7 +174,9 @@ typ.all.sp.r <- ggplot(species.values.typ%>%
     inherit.aes = T,
     position = pd,
     height=0.1)+
-  scale_x_log10(breaks=c(0.001,0.01,0.1,1,10))+
+  scale_x_log10(breaks=c(0.001,0.01,0.1,1,10),
+                labels = function(x) format(x, scientific = FALSE))+
+  coord_cartesian(xlim=c(0.01,16))+
   geom_jitter(data=forage.traits.bm%>%
                 #filter(range.type%in%"Typical")%>%
                 filter(range.4%in%"Typ-Realised"),
@@ -254,7 +257,9 @@ max.all.sp.p <- ggplot(species.values.max2,aes(y=reorder(species,wgt10),
     position = pd,
     height=0.1)+
   #coord_cartesian(xlim=c(0,23))+
-  scale_x_log10()+
+  scale_x_log10(breaks=c(0.001,0.01,0.1,1,10),
+                labels = function(x) format(x, scientific = FALSE))+
+  coord_cartesian(xlim=c(0.01,35))+
   geom_jitter(data=forage.traits.bm%>%
                filter(range.4%in%"Max-Potential"),
              aes(x=dist.km,
@@ -320,7 +325,10 @@ max.all.sp.r <- ggplot(species.values.max%>%
     position = pd,
     height=0.1)+
   #coord_cartesian(xlim=c(0,100))+
-  scale_x_log10()+
+  
+  scale_x_log10(breaks=c(0.001,0.01,0.1,1,10),
+                labels = function(x) format(x, scientific = FALSE))+
+  coord_cartesian(xlim=c(0.01,35))+
   geom_jitter(data=forage.traits.bm%>%
                #filter(range.type%in%"Maximum")%>%
                 filter(range.4%in%"Max-Realised"),
