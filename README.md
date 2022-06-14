@@ -2,7 +2,7 @@ This is the code and data from the article:
 
 **Title** 
 
-"Sociality and body size determine the potential and realized foraging ranges of bees"
+"The potential and realized foraging movements of bees are differentially determined by body size and sociality"
 
 **Authors** 
 
